@@ -1,4 +1,4 @@
 latamStartups
 =============
 
-Directory of Latam Startups
+Database of Latam Startups
