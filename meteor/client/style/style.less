@@ -1,0 +1,184 @@
+// Import Vendors
+// mrt add less-bootstrap-3
+@import "../../packages/bootstrap3-less/lib/less/bootstrap.import.less";
+// mrt add less-fontawesome-4
+//@import "../../packages/font-awesome-4-less/lib/less/core.import.less";
+
+// Vendor Variables
+@import "variables_bootstrap.import.less";
+@import "variables_fontawesome.import.less";
+
+
+@import url(http://fonts.googleapis.com/css?family=Dosis:500);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+
+/*	################################################################
+	1. GENERAL STRUCTURES
+################################################################# */
+	* { 
+		margin: 0;
+		padding: 0px;
+	} 
+
+body {
+	//default char color
+	color: #474242;
+	font-family: 'Dosis', sans-serif;
+	}
+
+p { 
+	padding: 0; 
+	margin-bottom: 12px; 
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size:12px;
+	line-height: 24px;
+	color: #384452; 
+	margin-top: 10px; 
+}
+
+img {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.icon{
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.name{
+	color:@orange;
+}
+a { 
+	color:@orange;
+	padding: 0;
+	margin: 0;
+}
+a:hover,
+a:focus {
+  color:#ff4526;
+  text-decoration: underline;
+}
+
+.centered {
+	text-align: center
+}
+
+.tag:hover{
+	color: @orange
+}
+
+
+/*	################################################################
+	BOOTSTRAP MODIFICATIONS & TWEAKS
+################################################################# */
+.navbar {
+	padding-top: 5px;
+	margin-bottom: 0px;
+}
+
+.navbar-header{
+	color:@orange;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color:@orange;
+}
+
+
+.navbar-default {
+	border-color: transparent;
+}
+
+.dropdown-menu {
+	background: @gray-lighter;
+}
+
+.dropdown-menu > li > a {
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.dropdown-menu > li > a:hover {
+	font-weight: 700;
+	font-size: 12px;
+	color:@orange;
+}
+
+
+
+
+/*	################################################################
+	SITE WRAPS
+################################################################# */
+
+.wrap{
+	padding-top: 100px;
+}
+
+#headerwrap {
+	position:absolute; 
+	background-color: @gray-lighter;
+	padding-top: 100px;
+	min-height:100%;
+	min-width:100%;
+	//padding-bottom: 180px;
+	text-align: center;
+}
+
+#definition {
+	background-color: @orange;
+	color:white;
+	text-align: center;
+}
+
+#explanation {
+	background-color: white;
+	text-align: center;
+}
+
+#headerwrap h3, h5 {
+	font-weight: 400;
+}
+
+#headerwrap h1 {
+	margin-bottom: 25px;
+}
+
+#headerwrap .img-responsive {
+	margin: 0 auto;
+}
+
+
+/* Footer */
+#footerwrap {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background: @gray;
+}
+
+#footerwrap p {
+	color: #bfc9d3;
+}
+
+#footerwrap h4 {
+	color: white;
+}
+
+#footerwrap i {
+	font-size: 30px;
+	color: #bfc9d3;
+	padding-right: 25px;
+}
+
+#footerwrap i:hover {
+	color: #00b3fe
+}
+
+

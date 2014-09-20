@@ -1,0 +1,55 @@
+<template name="navigation">
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="row">
+    <div class=" col-md-10 col-md-offset-1">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        {{#if currentUser}}
+        <a href="{{pathFor 'welcome'}}"><img class="btn img-responsive" width="100" src="takLogo.png"></a>
+        <span class="hidden-xs">Personas que impulsan Startups </span>
+        {{else}}
+        <a href="{{pathFor 'welcome'}}"><img class="btn img-responsive" width="100" src="takLogo.png"></a>
+        <span class="hidden-xs">Personas que impulsan Startups </span>
+        {{/if}}
+
+      </div>
+      <div class="navbar-collapse h navbar-right">
+        <ul class="nav navbar-nav">
+          <li><a href="{{pathFor 'startups'}}">STARTUPS</a></li>
+          <li><a href="{{pathFor 'people'}}">PERSONAS</a></li>
+          <li><a href="{{pathFor 'impulses'}}">COLABORA</a></li>
+          <li><a href="{{pathFor 'companies'}}">ORGANIZACIONES</a></li>
+          <!--<li>{{>loginButtons}}</li>-->
+          {{#each thisUser currentUser.person_id}}
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="btn img-responsive" width="60" src="{{picture}}"><b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{pathFor 'profile'}}">{{name}} </a></li>
+              {{#if experience}}
+              <li class="divider"></li>
+              {{#each experience}}
+                    {{#each company company_id}}
+                      <li><a href="{{pathFor 'profile'}}">{{name}}</a></li>
+                    {{/each}}
+              {{/each}}
+              {{/if}}
+              <li class="divider"></li>
+              <li><a href="#" class="tryLogout">SALIR</a></li>
+            </ul>
+          </li>
+          {{else}}
+          <li><a href="{{pathFor 'newUserForm'}}">UNIRME</a></li>
+          <li><a href="{{pathFor 'loginForm'}}">INGRESAR</a></li>
+          {{/each}}
+        </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+  </template>

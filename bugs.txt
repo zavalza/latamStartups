@@ -1,0 +1,1 @@
+* Plugin de selección de fechas no funciona siempre

@@ -1,0 +1,89 @@
+<template name="people">
+<div class="wrap row">
+	<div class="col-md-3">
+		<form name="roles" role="form" class="form-inline col-md-6 col-xs-10 col-md-offset-3 col-xs-offset-1">
+			<div class="form-group">
+				<h4><b>Roles</b></h4>
+				{{#each roleOption}}
+				<label>
+					{{name}}
+					<input class="form-control" type="checkbox" id="roles" value="{{_id}}">
+				</label>
+				{{/each}}
+			</div>
+		</form>
+		<div class="row">
+			<div class="col-md-6 col-xs-5 col-md-offset-3 col-xs-offset-1">
+			<h4><b>Habilidades</b></h4>
+			<div class="row">
+			<div class="input-group">
+			<input type="text" class="form-control dropdown-toggle" id="Skill" placeholder="Añadir habilidad" data-toggle="dropdown">
+			<ul class="dropdown-menu" style="display: none;" id="SkillOptions">
+			    {{#each skillOptions}}
+			    <a href="#"><li style=" display: none;" class="Skill" id="{{_id}}">{{name}}</li></a>
+			    {{/each}}
+			  </ul>
+			 </div>
+			{{#each filters}}
+                {{#each skill this}}
+                <div class="input-group">
+                  <input type="text" class="form-control " id="skill" value="{{name}}" disabled>
+                  <span class="input-group-btn">
+                  <button id="{{_id}}" name="Skill" class="btn btn-danger pullFilter" type="button">x</button>
+                  </span>
+                </div>
+                {{/each}}
+             {{/each}}
+			 </div>
+			</div>
+			 <br/>
+			 <div class="col-md-6 col-xs-5 col-md-offset-3 col-xs-offset-1">
+			 <h4><b>Ubicación</b></h4>
+			<div class="row">
+			<div class="input-group">
+			<input type="text" class="form-control dropdown-toggle" id="City" placeholder="Añadir Ubicación" data-toggle="dropdown">
+			<ul class="dropdown-menu" style="display: none;" id="CityOptions">
+			    {{#each cityOption}}
+			    <a href="#"><li style=" display: none;" class="City" id="{{_id}}">{{name}}</li></a>
+			    {{/each}}
+			  </ul>
+			 </div>
+
+			{{#each filters}}
+                {{#each city this}}
+                <div class="input-group">
+                  <input type="text" class="form-control " id="city" value="{{name}}" disabled>
+                  <span class="input-group-btn">
+                  <button id="{{_id}}" name="City" class="btn btn-danger pullFilter" type="button">x</button>
+                  </span>
+                </div>
+                {{/each}}
+             {{/each}}
+			 </div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-8 col-md-offset-0 col-xs-10 col-xs-offset-1">
+		{{#each person}}
+		<div class="row center-block">
+			<div class="col-md-2 col-xs-3">
+				<a style="height: 100px;" href="{{pathFor 'profile'}}"><img class="img-circle img-responsive" width="80" height="80" src="{{picture}}"></a>
+			</div>
+			<div class="col-md-7 col-xs-9">
+				<a href="{{pathFor 'profile'}}"><h6>{{name}}</h6></a>
+				{{#if experience}}
+				{{#each miniCV experience}}
+				{{string}} {{#each company company_id}}<a href="{{pathFor 'profile'}}">@{{name}}</a>{{/each}};
+				{{/each}}
+				{{else}}
+				{{#each tags tag_ids}}
+				{{name}};
+				{{/each}}
+				{{/if}}
+			</div>
+		</div>
+		<br/>
+		{{/each}}
+	</div>
+</div>
+</template>

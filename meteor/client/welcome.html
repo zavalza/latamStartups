@@ -1,0 +1,88 @@
+<template name="welcome">
+{{>headerwrap}}
+</template>
+<template name="headerwrap">
+<div id="headerwrap">
+	<div class="container">
+		<div class="row">
+		
+				<!--<h3>Explora el ecosistema emprendedor latino</h3>-->
+				<h1>Donde las startups encuentran <a href="{{pathValue}}"> {{takValue}}</a></h1>
+				<!--el equipo genera la innovacion
+				team makes innovation
+				el cambio se genera con
+				cada idea necesita un-->
+				<!--<h5>Crea contactos que te ayuden a cumplir tu sueño</h5>-->
+		</div>
+		<br/>
+		<div class="row">
+			<a class="btn btn-lg btn-default" href="{{pathFor 'newUserForm'}}">Unirme</a>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2 col-xs-6">
+				<h1>{{peopleAmount}}</h1>
+				<a href="{{pathFor 'people'}}"><h3>Personas</h3></a>
+				
+			</div>
+			<div class="col-md-4 col-xs-6">
+				<h1>{{startupsAmount}}</h1>
+				<a href="{{pathFor 'startups'}}"><h3>Startups</h3></a>
+				
+			</div>
+		</div>
+		<br/>
+		<br/>
+		<div id="explanation" class="row">
+			<div class="col-md-8 col-md-offset-2">
+			<h1 class="name">¿Qué es una startup?</h1>
+				<h3>Es un proyecto diseñado para crecer rápidamente, que busca un negocio replicable y escalable.</h3>
+				<h4>No importa si tienes solo una idea, Tak te acompaña desde tu nacimiento.</h4>
+				<!--<h3>Las Startups son nuestra razón de ser, son proyectos diseñados para crecer rápidamente. Buscan un negocio replicable y escalable.</h3>-->
+		</div>
+		</div>
+		<br/>
+		<!--
+			<div id="definition" class="row">
+			<div class="col-md-6 col-md-offset-3">
+			<h1>¿Qué es una Startup?</h1>
+				<h3>Las Startups son nuestra razón de ser, son proyectos diseñados para crecer rápidamente. Buscan un negocio replicable y escalable.</h3>
+		</div>
+	</div>-->
+	</div>
+	</div><!-- /headerwrap -->
+	</template>
+<template name="footer">
+<!--show this menu in top navbar when mobil -->
+<div class="hidden-xs" id="footerwrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-md-offset-1">
+				<h4>Acerca de Tak</h4>
+				<div class="hline-w"></div>
+				<p>Reunimos una comunidad con perfiles distintos que logran proyectos más exitosos. (Fase Beta) </p>
+			</div>
+			<div class="col-md-3 col-md-offset-1">
+				<!--<h4>Redes Sociales</h4>
+				<div class="hline-w"></div>
+				<p>
+				<a href="#"><i class="fa fa-dribbble"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-tumblr"></i></a>
+				</p>-->
+			</div>
+			<div class="col-md-3 col-md-offset-1">
+				<h4>Contacto</h4>
+				<div class="hline-w"></div>
+				<p>
+				hola@tak.mx<br/>
+				Monterrey, N.L.<br/>
+				México.<br/>
+				</p>
+			</div>
+			
+			</div><!--/row -->
+			</div><!--/container -->
+			</div><!--/footerwrap -->
+			</template>

@@ -1,0 +1,101 @@
+<template name="locationInput">
+<div class="input-group">
+  <input type="text" class="form-control dropdown-toggle" id="City" placeholder="Nueva ciudad" data-toggle="dropdown">
+  <span class="input-group-btn">
+  <button name="City" class="btn btn-info saveTag" type="button">+</button>
+  </span>
+  <ul class="dropdown-menu" style="display: none;" id="CityOptions">
+    {{#each cityOptions}}
+    <a href="#"><li style="display: none;" class="City list-group-item" id="{{name}}" name="{{_id}}">{{name}}</li></a>
+    {{/each}}
+  </ul>
+</div>
+</template>
+<template name="marketInput">
+<div class="input-group">
+  <input type="text" class="form-control dropdown-toggle" id="Market" placeholder="Nuevo mercado" data-toggle="dropdown">
+  <span class="input-group-btn">
+  <button name="Market" class="btn btn-info saveTag" type="button">+</button>
+  </span>
+  <ul class="dropdown-menu" style="display: none;" id="MarketOptions">
+    {{#each marketOptions}}
+    <a href="#"><li style="display: none;" class="Market list-group-item" id="{{name}}" name="{{_id}}">{{name}}</li></a>
+    {{/each}}
+  </ul>
+</div>
+</template>
+<template name="portafolioInput">
+<div class="input-group">
+  <input type="url" class="form-control " id="newLink" placeholder="Nuevo Enlace">
+  <span class="input-group-btn">
+  <button class="btn btn-info addLink" type="button">+</button>
+  </span>
+</div>
+</template>
+<template name="skillsInput">
+<div class="input-group">
+  <input type="text" class="form-control dropdown-toggle" id="Skill" placeholder="Nueva habilidad" data-toggle="dropdown">
+  <span class="input-group-btn">
+  <button name="Skill" class="btn btn-info saveTag" type="button">+</button>
+  </span>
+  <ul class="dropdown-menu" style="display: none;" id="SkillOptions">
+    {{#each skillOptions}}
+    <a href="#"><li style=" display: none;" class="Skill" id="{{name}}" name="{{_id}}">{{name}}</li></a>
+    {{/each}}
+  </ul>
+</div>
+</template>
+<template name="collegesInput">
+<div class="input-group">
+  <input type="text" class="form-control dropdown-toggle" id="College" placeholder="Nueva Universidad" data-toggle="dropdown">
+  <span class="input-group-btn">
+  <button name="College" class="btn btn-info saveTag" type="button">+</button>
+  </span>
+  <ul class="dropdown-menu" style="display: none;" id="CollegeOptions">
+    {{#each collegeOptions}}
+    <a href="#"><li style=" display: none;" class="College" id="{{name}}" name="{{_id}}">{{name}}</li></a>
+    {{/each}}
+  </ul>
+</div>
+</template>
+<template name="rolesInput">
+<div class="input-group">
+  <input type="text" class="form-control dropdown-toggle" id="Role" placeholder="Nuevo Rol" data-toggle="dropdown">
+  <span class="input-group-btn">
+  <button name="Role" class="btn btn-info saveTag" type="button">+</button>
+  </span>
+  <ul class="dropdown-menu" style="display: none;" id="RoleOptions">
+    {{#each roleOptions}}
+    <a href="#"><li style=" display: none;" class="Role" id="{{name}}" name="{{_id}}">{{name}}</li></a>
+    {{/each}}
+  </ul>
+</div>
+</template>
+<template name="experienceInput">
+<div class="row">
+  <div class="col-md-3 col-xs-10">
+    <select id="Experience">
+      <option value="">Tipo de experiencia</option>
+      <option value="Fundador">Fundador</option>
+      <option value="Miembro del equipo">Miembro del equipo</option>
+      <option value="Inversionista">Inversionista</option>
+      <option value="Asesor">Asesor</option>
+      <option value="Miembro del consejo">Miembro del consejo</option>
+    </select>
+  </div>
+  <div class="col-md-4 col-xs-10">
+    <div class="input-group">
+      <input type="text" class="form-control dropdown-toggle" id="Company" placeholder="Compañía/Startup" data-toggle="dropdown">
+      <span class="input-group-btn">
+      <button name="Company" class="btn btn-warning addExperience" type="button">Añadir</button>
+      </span>
+      <ul class="dropdown-menu" style="display: none;" id="CompanyOptions">
+        {{#each companyOptions}}
+        <a href="#"><li style=" display: none;" class="Company" id="{{name}}" name="{{_id}}">{{name}}</li></a>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
+<br/>
+</template>

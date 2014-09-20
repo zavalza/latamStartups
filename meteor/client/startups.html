@@ -1,0 +1,94 @@
+<template name="startups">
+	<div class="wrap row">
+		<div class="col-md-3">
+			<form name="stage" role="form" class="form-inline col-md-6 col-xs-10 col-md-offset-3 col-xs-offset-1">
+			<div class="form-group">
+				<h4><b>Etapa Alcanzada</b></h4>
+				{{#each companyStageOption}}
+				<label>
+					{{name}}
+					<input class="form-control" type="checkbox" id="stages" value="{{_id}}">
+				</label>
+				{{/each}}
+			</div>
+			</form>
+			<div class="row">
+			<div class="col-md-6 col-xs-6 col-md-offset-3 col-xs-offset-3">
+			<h4><b>Ubicación</b></h4>
+			<div class="row">
+			<input type="text" class="form-control dropdown-toggle" id="City" placeholder="Añadir Ubicación" data-toggle="dropdown">
+			<ul class="dropdown-menu" style="display: none;" id="CityOptions">
+			    {{#each cityOption}}
+			    <a href="#"><li style=" display: none;" class="City" id="{{_id}}">{{name}}</li></a>
+			    {{/each}}
+			  </ul>
+
+			{{#each filters}}
+                {{#each city this}}
+                <div class="input-group">
+                  <input type="text" class="form-control " id="city" value="{{name}}" disabled>
+                  <span class="input-group-btn">
+                  <button id="{{_id}}" name="City" class="btn btn-danger pullFilter" type="button">x</button>
+                  </span>
+                </div>
+                {{/each}}
+             {{/each}}
+			 </div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-xs-6 col-md-offset-3 col-xs-offset-3">
+			<h4><b>Mercado</b></h4>
+			<div class="row">
+			<input type="text" class="form-control dropdown-toggle" id="Market" placeholder="Añadir Mercado" data-toggle="dropdown">
+			<ul class="dropdown-menu" style="display: none;" id="MarketOptions">
+			    {{#each marketOption}}
+			    <a href="#"><li style=" display: none;" class="Market" id="{{_id}}">{{name}}</li></a>
+			    {{/each}}
+			  </ul>
+
+			{{#each filters}}
+                {{#each market this}}
+                <div class="input-group">
+                  <input type="text" class="form-control " id="city" value="{{name}}" disabled>
+                  <span class="input-group-btn">
+                  <button id="{{_id}}" name="City" class="btn btn-danger pullFilter" type="button">x</button>
+                  </span>
+                </div>
+                {{/each}}
+             {{/each}}
+			 </div>
+			</div>
+		</div>
+		</div>
+		<div class="col-md-8 col-md-offset-0 col-xs-10 col-xs-offset-1">
+			{{#each company}}
+				<div class="row center-block">
+					<div class="col-md-2 col-xs-3">
+						<a href="{{pathFor 'profile'}}">
+				 		{{#each image logo}}
+	                		<img class="img-responsive" width="100" src="{{url}}">
+	                	{{else}}
+	               			<img class="img-responsive" width="100" src="companyLogo.png">
+	                	{{/each}}
+	                	</a>
+        			</div>
+					<div class="col-md-7 col-xs-9">
+						<div class="row">
+						<h5><a href="{{pathFor 'profile'}}">{{name}}</a>
+						</h5>
+						<h5>{{highConcept}}</h5>
+						</div>
+						{{#each cities tag_ids}}
+							<div id="{{_id}}" style="font-size: 10px;" class="btn tag btn-xs">{{name}}</div>
+						{{/each}}
+						{{#each markets tag_ids}}
+							<div id="{{_id}}" style="font-size: 10px;" class="btn tag btn-xs">{{name}}</div>
+						{{/each}}
+					</div>
+		 		</div>
+		 		<br/>
+			{{/each}}
+		</div>
+	</div>
+</template>

@@ -1,0 +1,99 @@
+<template name="userProfile">
+<div class="wrap">
+  <div class="row">
+    <div class="col-md-8 col-xs-10 col-md-offset-2 col-xs-offset-1">
+      <div class="row well">
+        <div class="col-md-2">
+          <img class="img-circle img-responsive" height="80" width="80" src="{{picture}}">
+        </div>
+        <div class="col-md-9" >
+          <h2 class="name">{{name}}</h2>
+          <div class="row">
+            {{#each role tag_ids}}
+            <div class="btn tag btn-xs">{{name}}</div>
+            {{/each}}
+            {{#each city tag_ids}}
+            <div class="btn tag btn-xs">{{name}}</div>
+            {{/each}}
+          </div>
+          <div class="row">
+          {{#if canEdit}}
+          <a href="{{pathFor 'editProfile'}}"><button class="btn btn-info" type="button">Editar</button></a>
+          {{/if}}
+          {{#if hasNoUser}}
+          <a href="#"><button class="btn btn-warning claimProfile" type="button">Soy yo</button></a>
+          {{/if}}
+            {{#if email}}
+                <a href="mailto:{{email}}"><img  width="30" class="img-responsive pull-right icon" src="emailIcon.png"></a>
+              {{/if}}
+            {{#if twitter_url}}
+              <a href="{{twitter_url}}"><img width="30" class="img-responsive pull-right icon" src="twitterIcon.png"></a>
+            {{/if}}
+            {{#if linkedin_url}}
+              <a href="{{linkedin_url}}"><img width="30" class="img-responsive pull-right icon" src="linkedinIcon.png"></a>
+            {{/if}}
+            {{#if facebook_url}}
+              <a href="{{facebook_url}}"><img width="30" class="img-responsive pull-right icon" src="fbIcon.png"></a>
+            {{/if}}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        {{#if experience}}
+        <div class="col-md-8 col-xs-12 well" >
+          <h3>Experiencia</h3>
+          <div class="row">
+            {{#each experience}}
+            <div class="col-md-4 col-xs-6">
+              <div class="thumbnail">
+                {{#each company company_id}}
+                <a href="{{pathFor 'profile'}}">
+                  {{#each image logo}}
+                  <img src="{{url}}" class="img-responsive" style="height:70px;" >
+                  {{else}}
+                  <img src="companyLogo.png" class="img-responsive" style="height:70px;">
+                  {{/each}}
+                </a>
+                <a href="{{pathFor 'profile'}}"><h4 class="text-center">{{name}}</h4></a>
+                {{/each}}
+                <h5 class="text-center">{{type}}</h5>
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+         {{/if}}
+         {{#if skill tag_ids}}
+        <div class="col-md-3 col-md-offset-1 col-xs-12 well" >
+          <h3>Habilidades</h3>
+          <div class="row">
+            {{#each skill tag_ids}}
+            <div class="btn tag btn-xs">{{name}}</div>
+            {{/each}}
+          </div>
+          <!--
+          <div class="row" style="color: blue">
+            {{#if github_url}}
+            <div class="row pull-center">
+              <a href="{{github_url}}">{{github_url}}</a>
+            </div>
+            {{/if}}
+            {{#if behance_url}}
+            <div class="row pull-center">
+              <a href="{{behance_url}}">{{behance_url}}</a>
+            </div>
+            {{/if}}
+            {{#if personal_url}}
+            <div class="row pull-center">
+              <a href="{{personal_url}}">{{personal_url}}</a>
+            </div>
+            {{/if}}
+          </div>
+        -->
+        </div>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</div>
+</template>

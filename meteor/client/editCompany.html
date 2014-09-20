@@ -1,0 +1,276 @@
+<template name="editCompany">
+<div class="wrap">
+  <div class="panel panel-primary col-md-8 col-md-offset-2">
+    {{#each company}}
+    <a href="{{pathFor 'profile'}}" class="btn btn-success pull-right">Hecho</a>
+    <div class="panel-heading">
+      <h3 class="panel-title text-center">Editar Compañía</h3>
+    </div>
+    <div class="panel-body">
+      <form class="form col-md-10 col-md-offset-1 " name="editCompany">
+        <div class="form-group">
+          <div class="row">
+            <h4>Logo</h4>
+          </div>
+          <div class="row">
+            <div class="col-md-2 col-xs-4">
+              {{#each image logo}}
+              <a href="#">
+                <span class="badge pull-right deleteLogo">x</span>
+                <img src="{{url}}">
+              </a>
+              {{else}}
+              <a href="#">
+                <span class="badge pull-right">Default</span>
+                <img src="companyLogo.png">
+              </a>
+              {{/each}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-xs-4">
+              <input type="file" id="logo"><br>
+            </div>
+          </div>
+          <div class="row">
+            <h4>Información Básica</h4>
+          </div>
+          <div class="row">
+            <div class="col-md-8 ">
+              <input type="text" class="form-control " id="name" placeholder="Nombre" value="{{name}}">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <input type="text" class="form-control col-md-5 " id="highConcept" placeholder="Describe tu compañía en menos de 10 palabras" value="{{highConcept}}">
+            </div>
+            <div class="col-md-8">
+              {{>marketInput}}
+              {{#each tag_ids}}
+              {{#each market this}}
+                <div class="input-group">
+                  <input type="text" class="form-control " id="market" value="{{name}}" disabled>
+                  <span class="input-group-btn">
+                  <button name="Market" class="btn btn-danger pullCompanyTag" type="button">x</button>
+                  </span>
+                </div>
+              {{/each}}
+              {{/each}}
+            </div>
+            <div class="col-md-8">
+              {{>locationInput}}
+              {{#each tag_ids}}
+                {{#each city this}}
+                <div class="input-group">
+                  <input type="text" class="form-control " id="city" value="{{name}}" disabled>
+                  <span class="input-group-btn">
+                  <button name="City" class="btn btn-danger pullCompanyTag" type="button">x</button>
+                  </span>
+                </div>
+                {{/each}}
+              {{/each}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-xs-10">
+              <label>Tipo de empresa:</label>
+              <select id="type">
+                <option value="">Selecciona</option>
+                {{#each typeOfCompanyOptions}}
+                {{#if selected}}
+                <option id="{{_id}}" value="{{name}}" selected>{{name}}</option>
+                {{else}}
+                <option id="{{_id}}" value="{{name}}">{{name}}</option>
+                {{/if}}
+                {{/each}}
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-xs-10">
+              <label>Etapa alcanzada:</label>
+              <select id="stage">
+                <option value="">Selecciona</option>
+                {{#each companyStageOptions}}
+                {{#if selected}}
+                <option value="{{_id}}" selected>{{name}}</option>
+                {{else}}
+                <option value="{{_id}}">{{name}}</option>
+                {{/if}}
+                {{/each}}
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <input type="text" class="form-control col-md-5 " id="company_url" placeholder="Sitio web" value="{{company_url}}">
+            </div>
+          </div>
+          <div class="row">
+            <h4>Redes Sociales</h4>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-xs-10">
+              <input type="text" class="form-control col-md-5 " id="fb_url" placeholder="Facebook" value="{{fb_url}}">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-xs-10">
+              <input type="text" class="form-control col-md-5 " id="twitter_url" placeholder="Twitter" value="{{twitter_url}}">
+            </div>
+          </div>
+          <div class="row">
+            <h4>Video</h4>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-xs-6">
+              {{#if isYoutube video_url}}
+              {{#each videoCode video_url}}
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" width="420" height="315" src="//www.youtube.com/embed/{{this}}" frameborder="0" allowfullscreen></iframe>
+              </div>
+              {{/each}}
+              {{/if}}
+              {{#if isVimeo video_url}}
+              {{#each videoCode video_url}}
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="//player.vimeo.com/video/{{this}}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
+              {{/each}}
+              {{/if}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-xs-10">
+              <input type="text" class="form-control col-md-5 " id="video_url" placeholder="Liga a Video" value="{{video_url}}">
+              De Vimeo o Youtube. En Youtube selecciona compartir y pega la liga aquí, de lo contrario no se aceptará el formato.
+            </div>
+          </div>
+          <div class="row">
+            <h4>Imágenes / Screenshots</h4>
+          </div>
+          <div class="row">
+            {{#each image screenshots}}
+            <div class="col-md-4 col-xs-10">
+              <a href="#">
+                <span class="badge pull-right deleteScreenshot">x</span>
+                <img src="{{url}}">
+              </a>
+              {{name}}
+            </div>
+            {{/each}}
+          </div>
+          <div class="row">
+            <input type="file" id="image" name="image">
+          </div>
+          <div class="row">
+            <h4>Descripción</h4>
+          </div>
+          <div class="row">
+            <textarea class="form-control" rows="5" id="description" placeholder="Tu pitch: ¿Qué es lo que haces? ¿Qué problema resuelves?" value="{{description}}"></textarea>
+          </div>
+          <h4>Equipo</h4>
+          <div class="row">
+            {{#each team}}
+            {{>member}}
+            {{/each}}
+          </div>
+          <div class="row">
+            {{>addMember}}
+          </div>
+          <div class="row">
+            <h4>Prensa/Noticias</h4>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-10">
+            <div class="input-group">
+            <input type="url" class="form-control " id="newLink" placeholder="Nuevo Enlace">
+            <span class="input-group-btn">
+            <button class="btn btn-info addArticle" type="button">+</button>
+            </span>
+          </div>
+          {{#each article_urls}}
+            <div class="input-group">
+              <input type="text" class="form-control " id="link" value="{{this}}" disabled>
+              <span class="input-group-btn">
+              <button name="Link" class="btn btn-danger deleteArticle" type="button">x</button>
+              </span>
+            </div>
+          {{/each}}
+        </div>
+        </div>
+
+          <div class="row">
+            <ul class="pager">
+              <li><a href="{{pathFor 'profile'}}">Hecho</a></li>
+            </ul>
+          </div>
+        </div>
+      </form>
+    </div>
+       {{/each}}
+  </div>
+</div>
+</template>
+<template name="member">
+<ul class="list-group">
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-md-6 col-xs-12">
+        {{type}} -
+        {{#each user user_id}}
+        {{profile.firstName}} {{profile.lastName}}
+        {{/each}}
+        {{#each person person_id}}
+        {{name}}
+        {{/each}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-xs-10">
+        <input type="text" class="form-control " id="title" placeholder="Nombre del Puesto" value="{{title}}">
+      </div>
+      <div class="col-md-3 col-xs-10" >
+        <div class="input-group date">
+          <input type="text" id="startedAt" class="form-control" placeholder="Inicio" value="{{startedAt}}"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+        </div>
+      </div>
+      <div class="col-md-3 col-xs-10" >
+        <div class="input-group date">
+          <input type="text" id="endedAt" class="form-control" placeholder="Fin" value="{{endedAt}}"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+        </div>
+      </div>
+      <div class="col-md-2 col-xs-10" >
+        <button type="button" class="btn btn-danger deleteExperience">Eliminar</button>
+      </div>
+    </div>
+  </li>
+</ul>
+</template>
+<template name="addMember">
+<div class="row">
+  <div class="col-md-3 col-xs-6">
+    <select id="Experience">
+      <option value="">Tipo de experiencia</option>
+      <option value="Fundador">Fundador</option>
+      <option value="Miembro del equipo">Miembro del equipo</option>
+      <option value="Inversionista">Inversionista</option>
+      <option value="Asesor">Asesor</option>
+      <option value="Miembro del consejo">Miembro del consejo</option>
+    </select>
+  </div>
+  <div class="col-md-6 col-xs-10">
+    <div class="input-group">
+      <input type="text" class="form-control dropdown-toggle" id="User" placeholder="Nombre" data-toggle="dropdown">
+      <span class="input-group-btn">
+      <button name="User" class="btn btn-warning addMember" type="button">Añadir Miembro</button>
+      </span>
+      <ul class="dropdown-menu" style="display: none;" id="UserOptions">
+        {{#each userOptions}}
+        <a href="#"><li style="display: none;" class="User" id="{{_id}}">{{name}}</li></a>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
+</template>

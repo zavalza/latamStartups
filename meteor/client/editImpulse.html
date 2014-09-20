@@ -1,0 +1,94 @@
+<template name="editImpulse">
+<div class="wrap">
+  <div class="panel panel-default col-md-8 col-md-offset-2">
+    <div class="panel-heading">
+      <h3 class="panel-title text-center">Configurar Impulso</h3>
+    </div>
+    <div class="panel-body">
+      {{#if canEdit currentUser.person_id}}
+      {{#each currentImpulse}}
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h4>Un impulso es cualquier trabajo que otra persona pueda hacer por tu empresa. Aquí puedes buscar co-fundadores, empleados o un apoyo temporal.</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 col-xs-10">
+          <div class="row">
+            <h4>Título</h4>
+            <input type="text" class="form-control " id="title" placeholder="Título" value="{{title}}">
+          </div>
+          <div class="row">
+            <h4>Descripción</h4>
+          </div>
+          <div class="row">
+            <textarea class="form-control" rows="5" id="description" placeholder="¿En qué consiste el apoyo qué esperas?" value="{{description}}"></textarea>
+          </div>
+          <div class="row">
+            <h4>Perfil que necesito</h4>
+          </div>
+          <div class="row">
+            <div class="input-group">
+              <input type="text" class="form-control dropdown-toggle" id="Tag" placeholder="Introduce un nuevo Tag" data-toggle="dropdown">
+              <ul class="dropdown-menu" style="display: none;" id="TagOptions">
+                {{#each tagOptions}}
+                <a href="#"><li style="display: none;" class="Tag" id="{{_id}}">{{name}}</li></a>
+                {{/each}}
+              </ul>
+            </div>
+            {{#each selectedTags}}
+            {{#each tag this}}
+            <div class="input-group">
+              <input type="text" class="form-control " id="tag" value="{{name}}" disabled>
+              <span class="input-group-btn">
+              <button id="{{_id}}" name="Tag" class="btn btn-danger pullTag" type="button">x</button>
+              </span>
+            </div>
+            {{/each}}
+            {{/each}}
+          </div>
+          <div class="row">
+            <h4>Tipo de Impulso</h4>
+            <select id="impulseType">
+              <option name="impulseType" value="">Selecciona</option>
+              {{#each impulseTypeOptions}}
+              <option name="impulseType" value="{{_id}}">{{name}}</option>
+              {{/each}}
+            </select>
+          </div>
+          <div class="row">
+            <h4>¿Permites trabajo remoto?</h4>
+            <div class="form-group">
+              <label class="radio">
+                <input class="form-control" type="radio" id="remote" name="remote" value="true">Sí<br/>
+              </label>
+              <label class="radio">
+                <input class="form-control" type="radio" id="remote" name="remote" value="false">No <br/>
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <h4>¿Qué darás a cambio?</h4>
+            <div class="form-group">
+              {{#each rewardTypeOptions}}
+              <div class="col-md-6">
+                <label>
+                  {{name}}
+                  <input class="form-control" type="checkbox" id="{{_id}}" name="reward" value="{{name}}">
+                </label>
+              </div>
+              {{/each}}
+            </div>
+          </div>
+          <div class="row">
+            <a class="btn btn-lg btn-success saveImpulse" href="#">Salvar</a>
+            <a class="btn btn-lg btn-danger" href="{{pathFor 'startups'}}">Cancelar</a>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+      {{/if}}
+    </div>
+  </div>
+</div>
+</template>
