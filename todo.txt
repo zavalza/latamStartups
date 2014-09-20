@@ -1,0 +1,4 @@
+*Mostrar cuando fue la última actualización de la información
+*Hacer un perfil de admin que pueda dar de alta Startups.
+*Tener términos para el uso de los datos
+*Modificar el editProfile y el editCompany para que sean más intuitivos y bonitos.
