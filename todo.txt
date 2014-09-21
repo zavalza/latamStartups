@@ -1,4 +1,22 @@
+==Exclusivos de latamStartups==
 *Mostrar cuando fue la última actualización de la información
 *Hacer un perfil de admin que pueda dar de alta Startups.
 *Tener términos para el uso de los datos
+*Acercarse a inversionistas o incubadoras para ver qué valor ven en los datos: Naranya Ventures, Alta Ventures, Ventura City Incubadoras
+*Acercarse a blogs como StartupMexico o PulsoSocial para ver si quieren colaborar
+*Dar la opción de registrar a un boletin de mailchimp
+
+===En común con Tak==
+*Poner pestaña de inicio
 *Modificar el editProfile y el editCompany para que sean más intuitivos y bonitos.
+*Collapse del móvil que se cierre en automático
+*Hacer más intuitiva la parte de experiencia
+*Sugerir Startups/Proyectos por habilidades
+*Indicar en qué periodo será la colaboración
+*Boton añadir y diseño que sean constates
+*Boton '+' que habrá las opciones de tag
+*Dar de alta tag en búsqueda de perfiles
+*Hacer más claro el busca tu perfil
+*Añadir miembro no se entiende
+*Al seleccionar tags, puede haber de distinto tipo y mismo nombre
+
