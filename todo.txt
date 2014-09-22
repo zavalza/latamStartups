@@ -1,4 +1,5 @@
 ==Exclusivos de latamStartups==
+*Dar de alta apps en Facebook y en Linkedin
 *Mostrar cuando fue la última actualización de la información
 *Hacer un perfil de admin que pueda dar de alta Startups.
 *Tener términos para el uso de los datos
@@ -7,13 +8,12 @@
 *Dar la opción de registrar a un boletin de mailchimp
 
 ===En común con Tak==
-*Poner pestaña de inicio
-*Modificar el editProfile y el editCompany para que sean más intuitivos y bonitos.
-*Collapse del móvil que se cierre en automático
+*Poner pestaña de inicio (En Latam no)
+*Modificar el editProfile y el editCompany para que sean más intuitivos y bonitos. (En latam ya)
+*Collapse del móvil que se cierre en automático (En ambos ya)
 *Hacer más intuitiva la parte de experiencia
 *Sugerir Startups/Proyectos por habilidades
 *Indicar en qué periodo será la colaboración
-*Boton añadir y diseño que sean constates
 *Boton '+' que habrá las opciones de tag
 *Dar de alta tag en búsqueda de perfiles
 *Hacer más claro el busca tu perfil

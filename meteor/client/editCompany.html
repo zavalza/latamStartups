@@ -1,6 +1,6 @@
 <template name="editCompany">
 <div class="wrap">
-  <div class="panel panel-primary col-md-8 col-md-offset-2">
+  <div class="panel panel-default col-md-8 col-md-offset-2">
     {{#each company}}
     <a href="{{pathFor 'profile'}}" class="btn btn-success pull-right">Hecho</a>
     <div class="panel-heading">
@@ -10,7 +10,7 @@
       <form class="form col-md-10 col-md-offset-1 " name="editCompany">
         <div class="form-group">
           <div class="row">
-            <h4>Logo</h4>
+            <h4 class="name">Logo</h4>
           </div>
           <div class="row">
             <div class="col-md-2 col-xs-4">
@@ -33,18 +33,21 @@
             </div>
           </div>
           <div class="row">
-            <h4>Información Básica</h4>
+            <h4 class="name">Información Básica</h4>
           </div>
           <div class="row">
             <div class="col-md-8 ">
+              <label>Nombre</label>
               <input type="text" class="form-control " id="name" placeholder="Nombre" value="{{name}}">
             </div>
           </div>
           <div class="row">
             <div class="col-md-8">
+              <label>Eslogan - Descripción en menos de 10 palabras</label>
               <input type="text" class="form-control col-md-5 " id="highConcept" placeholder="Describe tu compañía en menos de 10 palabras" value="{{highConcept}}">
             </div>
             <div class="col-md-8">
+              <label>Mercados</label>
               {{>marketInput}}
               {{#each tag_ids}}
               {{#each market this}}
@@ -58,6 +61,7 @@
               {{/each}}
             </div>
             <div class="col-md-8">
+              <label>Ubicación</label>
               {{>locationInput}}
               {{#each tag_ids}}
                 {{#each city this}}
@@ -102,25 +106,28 @@
             </div>
           </div>
           <div class="row">
+            <h4 class="name">Redes</h4>
+          </div>
+          <div class="row">
             <div class="col-md-8">
+              <label>Sitio web</label>
               <input type="text" class="form-control col-md-5 " id="company_url" placeholder="Sitio web" value="{{company_url}}">
             </div>
           </div>
           <div class="row">
-            <h4>Redes Sociales</h4>
-          </div>
-          <div class="row">
             <div class="col-md-8 col-xs-10">
+              <label>Liga completa a Facebook</label>
               <input type="text" class="form-control col-md-5 " id="fb_url" placeholder="Facebook" value="{{fb_url}}">
             </div>
           </div>
           <div class="row">
             <div class="col-md-8 col-xs-10">
+              <label>Liga completa a Twitter</label>
               <input type="text" class="form-control col-md-5 " id="twitter_url" placeholder="Twitter" value="{{twitter_url}}">
             </div>
           </div>
           <div class="row">
-            <h4>Video</h4>
+            <h4 class="name">Video</h4>
           </div>
           <div class="row">
             <div class="col-md-8 col-xs-6">
@@ -147,7 +154,7 @@
             </div>
           </div>
           <div class="row">
-            <h4>Imágenes / Screenshots</h4>
+            <h4 class="name">Imágenes / Screenshots</h4>
           </div>
           <div class="row">
             {{#each image screenshots}}
@@ -164,12 +171,13 @@
             <input type="file" id="image" name="image">
           </div>
           <div class="row">
-            <h4>Descripción</h4>
+            <h4 class="name">Descripción</h4>
           </div>
           <div class="row">
+            <label>Describe tu Compañía</label>
             <textarea class="form-control" rows="5" id="description" placeholder="Tu pitch: ¿Qué es lo que haces? ¿Qué problema resuelves?" value="{{description}}"></textarea>
           </div>
-          <h4>Equipo</h4>
+          <h4 class="name">Equipo</h4>
           <div class="row">
             {{#each team}}
             {{>member}}
@@ -179,7 +187,7 @@
             {{>addMember}}
           </div>
           <div class="row">
-            <h4>Prensa/Noticias</h4>
+            <h4 class="name">Prensa/Noticias</h4>
           </div>
           <div class="row">
             <div class="col-md-6 col-xs-10">
@@ -263,7 +271,7 @@
     <div class="input-group">
       <input type="text" class="form-control dropdown-toggle" id="User" placeholder="Nombre" data-toggle="dropdown">
       <span class="input-group-btn">
-      <button name="User" class="btn btn-warning addMember" type="button">Añadir Miembro</button>
+      <button name="User" class="btn btn-info addMember" type="button">Añadir Miembro</button>
       </span>
       <ul class="dropdown-menu" style="display: none;" id="UserOptions">
         {{#each userOptions}}

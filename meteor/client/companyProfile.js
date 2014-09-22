@@ -1,3 +1,7 @@
+Template.companyProfile.rendered = function()
+{
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
+}
 
 Template.profileThumbnail.rendered = function()
 {
