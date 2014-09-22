@@ -9,7 +9,7 @@
 
   Meteor.publish('peopleToShow', function(filtersArray){
     if(filtersArray != null && filtersArray.length == 0)
-      return People.find({user_id:{$ne:null}});
+      return People.find();
     else
       return People.find({tag_ids:{$all:filtersArray}});
   });
@@ -20,6 +20,9 @@
   });
   Meteor.publish('allRegistredPeople', function(){
     return People.find({user_id:{$ne:null}});
+  });
+  Meteor.publish('allPeople', function(){
+    return People.find({});
   });
 
   Meteor.publish('personUrl', function(urlToFind){

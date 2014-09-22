@@ -146,9 +146,9 @@ Template.people.helpers({
 	person: function()
         {
            if (Session.get('filters').length == 0)
-            return People.find ({user_id:{$ne:null}});
+            return People.find({});
            else
-            return People.find({user_id:{$ne:null}, tag_ids:{$all:Session.get('filters')}});
+            return People.find({tag_ids:{$all:Session.get('filters')}});
         },
     company: function(companyId)
         {

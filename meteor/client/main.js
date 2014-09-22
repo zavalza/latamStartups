@@ -13,6 +13,7 @@ Session.set('selectedTags',[]);
 Session.set('keyControl',-1);
 Session.set('screenshotToShow',"");
 Meteor.subscribe("allCompanies");
+Meteor.subscribe("allPeople");
 Meteor.subscribe("allImpulses");
 Meteor.subscribe("allTags");
 Meteor.subscribe("allImages");

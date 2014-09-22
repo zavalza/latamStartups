@@ -9,8 +9,7 @@ Template.headerwrap.pathValue = function()
 }
 
   Template.headerwrap.peopleAmount = function(){
-  	Meteor.subscribe("allUserProfiles");
-    return Meteor.users.find({}).count();
+    return People.find({}).count();
   }
 
   Template.headerwrap.startupsAmount = function(){
