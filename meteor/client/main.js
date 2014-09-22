@@ -1,7 +1,7 @@
 Meteor.startup(function () {
 //Redirect www to ROOT URL in meteor
 if(window.location.hostname.search('www') != -1)
-  window.location.assign("http://tak.mx");
+  window.location.assign("http://latamstartups.org");
 Session.set('currentCompanyId',"");
 Session.set('counterValue', 0);
 Session.set('userToShow',"");
