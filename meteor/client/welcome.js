@@ -17,3 +17,13 @@ Template.headerwrap.pathValue = function()
     //maybe just type=startup
     return Companies.find({types:'Startup',isPublic:true}).count();
   }
+
+  Template.newStartups.newStartup = function()
+  {
+      return Companies.find({types:'Startup',isPublic:true},{limit:3})
+    }
+
+  Template.trendingStartups.trendingStartup = function()
+  {
+      return Companies.find({types:'Startup',isPublic:true},{limit:3})
+    }

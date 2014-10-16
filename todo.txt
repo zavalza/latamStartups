@@ -8,9 +8,7 @@
 
 ===En común con Tak==
 *Dar de alta tags para encontrar en google usando extension instalada
-*Poner pestaña de inicio (En Latam no)
 *Modificar el editProfile y el editCompany para que sean más intuitivos y bonitos. (En latam ya)
-*Collapse del móvil que se cierre en automático (En ambos ya)
 *Hacer más intuitiva la parte de experiencia
 *Sugerir Startups/Proyectos por habilidades
 *Indicar en qué periodo será la colaboración
