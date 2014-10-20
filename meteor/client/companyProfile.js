@@ -10,7 +10,7 @@ Template.companyProfile.rendered = function()
         person_id = null;
 
       var recordDoc = {
-                  company_id: Session.get('currentCompanyId'),
+                  profile_id: Session.get('currentCompanyId'),
                   date:dateString,
                   views:[person_id],
                   timestamp: new Date(),
@@ -58,7 +58,26 @@ Template.companyProfile.events({
     //alert(this._id);
     Meteor.call('giveInterest', evt.target.id, Meteor.user().person_id);
     alert('Tu información se ha enviado, espera a que te contacten');
+  },
+
+  'click .companyLink': function(evt, tmpl)
+  {
+    var date = new Date();
+    var dateString = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate();
+     if(Meteor.user())
+        person_id = Meteor.user().person_id;
+      else
+        person_id = null;
+
+      var recordDoc = {
+                  profile_id: Session.get('currentCompanyId'),
+                  date:dateString,
+                  clicks:[person_id],
+                  timestamp: new Date(),
+         }  
+     Meteor.call('addClick', recordDoc);
   }
+
 });
 
 

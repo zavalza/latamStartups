@@ -240,7 +240,7 @@
 
       addView: function(doc){
         //console.log('view');
-        var recordDoc= Records.findOne({company_id: doc.company_id, date: doc.date});
+        var recordDoc= Records.findOne({profile_id: doc.profile_id, date: doc.date});
         if(recordDoc != null)
         {
           recordId = recordDoc._id;
@@ -254,7 +254,29 @@
           recordId = Records.insert(doc);
           console.log('new record has id ' +recordId);
         }
-        Companies.update({_id:doc.company_id},{$inc:{views:1}});
+        //Si hacemos otro metodo para poder habilitar personas tmb?
+        Companies.update({_id:doc.profile_id},{$inc:{views:1}});
+      },
+
+      addClick: function(doc){
+        //console.log('view');
+        var recordDoc= Records.findOne({profile_id: doc.profile_id, date: doc.date});
+        if(recordDoc != null)
+        {//Por ahora todos deben caer en este caso
+
+          recordId = recordDoc._id;
+          console.log('record already exist in '+recordId);
+          //posible metodo para verificar cuantos views permitiremos de cada uno, hasta de null
+          Records.update({_id:recordId},{$push:{clicks:doc.clicks[0]}});
+
+        }
+        else
+        {
+          recordId = Records.insert(doc);
+          console.log('new record has id ' +recordId);
+        }
+        //Si hacemos otro metodo para poder habilitar personas tmb?
+        Companies.update({_id:doc.profile_id},{$inc:{clicks:1}});
       },
 
       deleteLink: function(personId, link){

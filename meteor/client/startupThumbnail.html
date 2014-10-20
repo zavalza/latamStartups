@@ -48,7 +48,11 @@
 <div class="col-md-6">
 	<span title="Salidas a sitios oficiales">
 	<img class="img-responsive" width="50" style="height: 50px; display:inline;" src="clickIcon.png">
-	25
+	{{#if clicks}}
+		{{clicks}}
+	{{else}}
+		0
+	{{/if}}
 	</span>
 </div>
 </div>

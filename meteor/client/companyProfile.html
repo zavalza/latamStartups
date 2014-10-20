@@ -29,14 +29,14 @@
             <a href="{{pathFor 'editCompany'}}"><button class="btn btn-info" type="button">Editar</button></a>
             {{/if}}
             {{#if twitter_url}}
-            <a href="{{twitter_url}}"><img class="img-responsive pull-right icon" width="30" src="twitterIcon.png"></a>
+            <a target="_newtab" href="{{twitter_url}}"><img class="img-responsive pull-right icon companyLink" width="30" src="twitterIcon.png"></a>
             {{/if}}
             {{#if fb_url}}
-            <a href="{{fb_url}}"><img class="img-responsive pull-right icon" width="30" src="fbIcon.png"></a>
+            <a target="_newtab" href="{{fb_url}}"><img class="img-responsive pull-right icon companyLink" width="30" src="fbIcon.png"></a>
             {{/if}}
             {{#if company_url}}
             {{#each externalLink company_url}}
-            <a class="pull-right" href="{{this}}">{{this}}</a>
+            <a target="_newtab" class="pull-right companyLink" href="{{this}}">{{this}}</a>
             {{/each}}
             {{/if}}
           </div>
