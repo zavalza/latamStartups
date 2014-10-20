@@ -20,10 +20,21 @@ Template.headerwrap.pathValue = function()
 
   Template.newStartups.newStartup = function()
   {
-      return Companies.find({types:'Startup',isPublic:true},{limit:3})
+      return Companies.find({types:'Startup',isPublic:true},{sort: {timestamp: -1},limit:3})
     }
 
   Template.trendingStartups.trendingStartup = function()
   {
       return Companies.find({types:'Startup',isPublic:true},{limit:3})
     }
+
+  Template.peopleInCommunity.newUser = function()
+  {
+    Meteor.subscribe('last3Users');
+    return Meteor.users.find({},{sort: {createdAt: -1}, limit:3});
+  }
+
+  Template.peopleInCommunity.person = function (personId)
+  {
+    return People.find({_id:personId});
+  }

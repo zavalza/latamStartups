@@ -54,6 +54,12 @@
     //limitar campos a los que sean públicos para seguridad
   });
 
+  Meteor.publish("last3Users", function () {
+  //console.log("publishing user with id: " +userId);
+    return Meteor.users.find({},{createdAt:1, person_id:1},{sort: {createdAt: -1}, limit:3});
+    //limitar campos a los que sean públicos para seguridad
+  });
+
    Meteor.publish("person", function (personId) {
     return People.find({_id: personId});
     //Todos los campos deberían ser públicos
