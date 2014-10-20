@@ -32,10 +32,26 @@
 	</div>
 </div>
 	</span>
-	<p>
+	<div class="row">
+		<div class="col-md-6">
+			<span title="Vistas del perfil">
 	<img class="img-responsive" width="50" style="height: 50px; display:inline;" src="viewIcon.png">
+	{{#if views}}
+		{{views}}
+	{{else}}
+		0
+	{{/if}}
+
+</span>
+
+</div>
+<div class="col-md-6">
+	<span title="Salidas a sitios oficiales">
+	<img class="img-responsive" width="50" style="height: 50px; display:inline;" src="clickIcon.png">
 	25
-</p>
+	</span>
+</div>
+</div>
 </div>
 
 </template>

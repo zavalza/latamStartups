@@ -1,5 +1,6 @@
 //MongoDB
 Impulses = new Meteor.Collection("impulses");
+Records = new Meteor.Collection('records');
 Companies = new Meteor.Collection("companies");
 People =  new Meteor.Collection("people");
 Tags = new Meteor.Collection("tags");
@@ -66,8 +67,9 @@ Router.map(function() {
     waitOn: function()
     { 
       Session.set('screenshotToShow', null);
+      Session.set("currentCompanyId", null);
       Session.set("url", this.params.url);
-      return Meteor.subscribe('personUrl', this.params.url);
+      return Meteor.subscribe('allCompanies');
     }
     });
 });

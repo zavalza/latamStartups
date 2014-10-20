@@ -2,7 +2,8 @@ Meteor.startup(function () {
 //Redirect www to ROOT URL in meteor
 if(window.location.hostname.search('www') != -1)
   window.location.assign("http://latamstartups.org");
-Session.set('currentCompanyId',"");
+Session.set('currentCompanyId',null);
+Session.set("url", null);
 Session.set('counterValue', 0);
 Session.set('userToShow',"");
 Session.set('typeToShow',"");

@@ -1,7 +1,28 @@
 Template.companyProfile.rendered = function()
 {
   document.body.scrollTop = document.documentElement.scrollTop = 0;
+  var date = new Date();
+  var dateString = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate();
+    setTimeout(function() { //wait for user data
+      if(Meteor.user())
+        person_id = Meteor.user().person_id;
+      else
+        person_id = null;
+
+      var recordDoc = {
+                  company_id: Session.get('currentCompanyId'),
+                  date:dateString,
+                  views:[person_id],
+                  timestamp: new Date(),
+         }  
+     Meteor.call('addView', recordDoc);
+
+      ;},700);
+
+  
+  //alert(date.getDate()+' '+date.getMonth()+' ' +date.getFullYear());  
 }
+
 
 Template.profileThumbnail.rendered = function()
 {
