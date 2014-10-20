@@ -10,8 +10,17 @@ Template.navigation.events({
               }
             });
         return false
-      }
+      },
+
+  'click .closeNew': function(evt, tmpl){
+    Session.set('openNew', false);
+  }
   });
+
+Template.navigation.openNew = function()
+{
+  return Session.get('openNew');
+}
 
 Template.navigation.helpers ({
 
@@ -24,5 +33,10 @@ Template.navigation.helpers ({
    company: function(companyId)
         {
           return Companies.find({_id:companyId});
-        }
+        },
+
+  unpublicCompany: function(personId)
+  {
+    return Companies.find({'team':{$elemMatch:{'person_id': personId}},'isPublic':false});
+  }
 });

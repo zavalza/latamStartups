@@ -45,5 +45,14 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
+    <div id="explanation" class="row news">
+      {{#if openNew}}
+      {{#each unpublicCompany currentUser.person_id}}
+      <h4>El perfil de <a href="{{pathFor 'profile'}}"> {{name}} </a> todavía no es público, complétalo y espera a que lo revisemos para que aparezca a los demás usuarios
+      <span class="btn badge closeNew">x</span>
+      </h4>
+      {{/each}}
+      {{/if}}
+    </div>
   </div>
   </template>
