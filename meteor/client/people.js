@@ -146,7 +146,7 @@ Template.people.helpers({
 	person: function()
         {
            if (Session.get('filters').length == 0)
-            return People.find({});
+            return People.find({user_id:{$ne:null}});
            else
             return People.find({tag_ids:{$all:Session.get('filters')}});
         },
