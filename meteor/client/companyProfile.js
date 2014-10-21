@@ -1,6 +1,9 @@
 Template.companyProfile.rendered = function()
 {
   document.body.scrollTop = document.documentElement.scrollTop = 0;
+  var views = Session.get('views');
+  if(views.indexOf(Session.get('currentCompanyId')) == -1) //If it has not already see it on this session
+  {
   var date = new Date();
   var dateString = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate();
     setTimeout(function() { //wait for user data
@@ -16,9 +19,11 @@ Template.companyProfile.rendered = function()
                   timestamp: new Date(),
          }  
      Meteor.call('addView', recordDoc);
-
       ;},700);
-
+    
+    views.push(Session.get('currentCompanyId'));
+     Session.set('views', views);
+  }
   
   //alert(date.getDate()+' '+date.getMonth()+' ' +date.getFullYear());  
 }

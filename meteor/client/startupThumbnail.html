@@ -1,26 +1,18 @@
 <template name="startupThumbnail">
 <div class="thumbnail">
 
-		{{#if screenshots}}
-		<a href="{{pathFor 'profile'}}">
-			{{#each image screenshotToShow}}
-			<img class="img-responsive" width="200" style="height: 150px;" src="{{url}}">
-			{{/each}}
-		</a>
-		{{else}}
-
-			{{#if logo}}
+		{{#if logo}}
 				
 				<a href="{{pathFor 'profile'}}">
 					{{#each image logo}}
 					<img class="img-responsive" width="150" style="height: 150px;" src="{{url}}">
 					{{/each}}
 				</a>
-			{{else}}
+		{{else}}
 			<a href="{{pathFor 'profile'}}">
 				<img class="img-responsive" width="150" style="height: 150px;" src="companyLogo.png">
 			</a>
-			{{/if}}
+			
 		{{/if}}
 	<span class="thumbText " style="display:inline-block;">
 		<h4 class="text-center"><a  href="{{pathFor 'profile'}}"><b>{{name}}</b></a>

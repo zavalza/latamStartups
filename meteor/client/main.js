@@ -10,6 +10,7 @@ Session.set('typeToShow',"");
 Session.set('claimProfile', false);
 Session.set('waiting', false);
 Session.set('openNew', true);
+Session.set('views',[]);
 Session.set('filters',[]);
 Session.set('selectedTags',[]);
 Session.set('keyControl',-1);
