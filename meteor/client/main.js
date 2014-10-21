@@ -21,24 +21,60 @@ Meteor.subscribe("allImpulses");
 Meteor.subscribe("allTags");
 Meteor.subscribe("allImages");
 Meteor.subscribe("userData");
+
+SEO.config({
+        title: 'LatamStartups | Conoce startups de Latinoamérica día a día',
+        meta: {
+          'description': 'LatamStartups es el lugar donde personas y startups se conocen día a día'
+        }
+      });
+
+SeoCollection.insert(
+    {
+            route_name: 'startups',
+            title: 'LatamStartups | Startups en Latinoamérica',
+            meta: {
+                'description': 'LatamStartups es el lugar donde personas y startups se conocen día a día'
+            },
+            og: {
+                'title': 'Startups en Latinoamérica'
+            }
+    }
+);
+
+SeoCollection.insert(
+    {
+            route_name: 'people',
+            title: 'LatamStartups | Comunidad startupera en Latinoamérica',
+            meta: {
+                'description': 'LatamStartups es el lugar donde personas y startups se conocen día a día'
+            },
+            og: {
+                'title': 'Comunidad startupera en Latinoamérica'
+            }
+    }
+);
+
+SeoCollection.insert(
+    {
+            route_name: 'companies',
+            title: 'LatamStartups | Organizaciones que apoyan startups en Latinoamérica',
+            meta: {
+                'description': 'LatamStartups es el lugar donde personas y startups se conocen día a día'
+            },
+            og: {
+                'title': 'Organizaciones para startups en Latinoamérica'
+            }
+    }
+);
+
 });
 
 Deps.autorun(function () {
   Meteor.subscribe("peopleToShow", Session.get('filters'));
 });
 
-Meteor.setInterval( function(){
-    var pathValues=["personas", "colabora","organizaciones"];
-    var takValues=["talento", "equipo", "impulso"];
-    var counter = Session.get('counterValue');
-    Session.set('takValue', takValues[counter]);
-    Session.set('pathValue', pathValues[counter]);
-    counter +=1;
-    if(counter==3)
-      counter =0;
-    Session.set("counterValue", counter);
-    //alert(addthis_config.pubid)
- }, 4000 );
+
 
 Template.profile.helpers({
 	user: function()

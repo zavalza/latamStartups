@@ -70,6 +70,40 @@ Router.map(function() {
       Session.set("currentCompanyId", null);
       Session.set("url", this.params.url);
       return Meteor.subscribe('allCompanies');
+    },
+    data: function() {
+      var profile;
+      profile = People.findOne({
+        url: this.params.url
+      });
+      if(profile == null)
+      {
+        profile = Companies.findOne({
+        url: this.params.url
+      });
+      }
+      return {
+        profile: profile
+      };
+    },
+    onAfterAction: function() {
+      var profile;
+      // The SEO object is only available on the client.
+      // Return if you define your routes on the server, too.
+      if (!Meteor.isClient) {
+        return;
+      }
+      profile = this.data().profile;
+      SEO.set({
+        title: profile.name + ' | LatamStartups',
+        meta: {
+          'description': profile.description
+        },
+        og: {
+          'title': profile.name,
+          'description': profile.description
+        }
+      });
     }
     });
 });
