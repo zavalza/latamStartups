@@ -25,19 +25,32 @@ Meteor.subscribe("userData");
 SEO.config({
         title: 'LatamStartups | Conoce startups de Latinoamérica día a día',
         meta: {
-          'description': 'LatamStartups es el lugar donde personas y startups se conocen día a día'
-        }
-      });
-/*Run this code just one time, then comment. Otherwise we will have many seo documents
+          'description': 'LatamStartups tiene la información más actualizada sobre startups de Latinoamérica. Déscubrelas y contacta a los fundadores que te interesen.'
+        },
+         og:{
+          'image':'http://latamstartups.org/latam.png',
+        },
+        auto: {
+          twitter: true,
+          og: true,
+          set: ['description', 'url', 'title']
+        },
+       
+      }); 
+//Run this code just one time, then comment. Otherwise we will have many seo documents
 SeoCollection.insert(
     {
             route_name: 'startups',
             title: 'LatamStartups | Startups en Latinoamérica',
             meta: {
-                'description': 'LatamStartups es el lugar donde personas y startups se conocen día a día'
+                'description': 'Estos son los proyectos más innovadores que hemos encontrado en Latinoamérica.'
             },
+
             og: {
-                'title': 'Startups en Latinoamérica'
+                'title': 'LatamStartups | Startups en Latinoamérica',
+                'description': 'Estos son los proyectos más innovadores que hemos encontrado en Latinoamérica. Conócelos.',
+                'image':'http://latamstartups.org/latam.png',
+                'url':'http://latamstartups.org/startups'
             }
     }
 );
@@ -47,10 +60,13 @@ SeoCollection.insert(
             route_name: 'people',
             title: 'LatamStartups | Comunidad startupera en Latinoamérica',
             meta: {
-                'description': 'LatamStartups es el lugar donde personas y startups se conocen día a día'
+                'description': 'Estas son las personas trabajando en construir la siguiente gran startup en Latinoamérica. Contáctalas.'
             },
             og: {
-                'title': 'Comunidad startupera en Latinoamérica'
+                'title': 'LatamStartups | Comunidad startupera en Latinoamérica',
+                'description': 'Estas son las personas trabajando en construir la siguiente gran startup en Latinoamérica. Contáctalas.',
+                'image':'http://latamstartups.org/latam.png',
+                'url':'http://latamstartups.org/personas'
             }
     }
 );
@@ -59,14 +75,17 @@ SeoCollection.insert(
     {
             route_name: 'companies',
             title: 'LatamStartups | Organizaciones que apoyan startups en Latinoamérica',
-            meta: {
-                'description': 'LatamStartups es el lugar donde personas y startups se conocen día a día'
+            meta: { 
+                'description': 'Estas son las organizaciones que te pueden apoyar si tienes una Startup en Latinoamérica. Conócelas.'
             },
             og: {
-                'title': 'Organizaciones para startups en Latinoamérica'
+                'title': 'LatamStartups |  Organizaciones que apoyan startups en Latinoamérica',
+                'description': 'Estas son las organizaciones que te pueden apoyar si tienes una Startup en Latinoamérica. Conócelas.',
+                'image':'http://latamstartups.org/latam.png',
+                'url':'http://latamstartups.org/organizaciones'
             }
     }
-);*/
+);
 
 });
 
