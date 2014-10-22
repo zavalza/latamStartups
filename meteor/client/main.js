@@ -28,7 +28,7 @@ SEO.config({
           'description': 'LatamStartups es el lugar donde personas y startups se conocen día a día'
         }
       });
-
+/*Run this code just one time, then comment. Otherwise we will have many seo documents
 SeoCollection.insert(
     {
             route_name: 'startups',
@@ -66,7 +66,7 @@ SeoCollection.insert(
                 'title': 'Organizaciones para startups en Latinoamérica'
             }
     }
-);
+);*/
 
 });
 

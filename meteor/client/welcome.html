@@ -9,20 +9,21 @@
 {{>trendingStartups}}
 {{>moreStartups}}
 {{>newsletter}}
-{{>why}}
 {{/if}}
 </template>
 <template name="headerwrap">
-<div id="why" class="wrap">
+<div id="why" style ="background-image:url(wallpaper.png); min-height: 34em;" class="wrap">
 	<div class="row">
-		<h1>Donde personas y startups se conocen día a día</h1>
+		<div style="background:white" class="col-md-4 col-md-offset-2">
+		<h1 class="name"><b>Conoce startups de Latinoamérica día a día</b></h1>
+		</div>
 	</div>
 	<br/>
 	<div class="row">
-		<a class="btn btn-lg btn-default" href="{{pathFor 'newUserForm'}}">Unirme</a>
+		<div style="background:orange" class="col-md-4 col-md-offset-2">
+		<h3 style="color:white">Creemos que estos proyectos son la esperanza de innovación en Latinoamérica y nos esforzamos porque alcancen a más personas y logren un mayor impacto.</h3>
+		</div>
 	</div>
-	<br/>
-	<br/>
 </div>
 </template>
 <template name="footer">
@@ -76,20 +77,21 @@
 <template name="newsletter">
 <div id="definition" class="row">
 	<br/>
-	<div class="col-md-6 col-md-offset-3">
-		<div class="row block-center">
-
+	<div class="col-md-5 col-md-offset-2">
+		<h2 style="color:white;">Recibe las startups más destacadas de Latinoamérica en nuestro boletín</h2>
+	</div>
+	<div class="col-md-3">
+		<div class="row">
 	<!-- Begin MailChimp Signup Form -->
 	<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 	<style type="text/css">
-		#mc_embed_signup{background:#fff; color:#427506; clear:left; font:14px Helvetica,Arial,sans-serif; }
+		#mc_embed_signup{background:#fff; color:#13988a; clear:left; font:14px Helvetica,Arial,sans-serif; }
 		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 		We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 	</style>
-	<div id="mc_embed_signup">
+	<div  id="mc_embed_signup">
 		<form action="//tak.us9.list-manage.com/subscribe/post?u=b684681ee9158ae251187e80d&amp;id=abff8b62a4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate>
 			<div id="mc_embed_signup_scroll">
-				<label for="mce-EMAIL">Recibe las startups más destacadas de Latinoamérica en nuestro boletín</label>
 				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Correo Electrónico" required>
 				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 				<div style="position: absolute; left: -5000px;"><input type="text" name="b_b684681ee9158ae251187e80d_abff8b62a4" tabindex="-1" value=""></div>
@@ -126,8 +128,7 @@
 <div id="why" class="wrap">
 <div id="explanation" class="row">
 	<div class="col-md-8 col-md-offset-2">
-		<br/>
-		<h2 class="name text-center">Startups ganando popularidad</h2>
+		<h2 class="name text-center">Startups recomedadas hoy </h2>
 		{{#each trendingStartup}}
 		<div class="col-md-4">
 			{{>startupThumbnail}}
@@ -140,7 +141,7 @@
 <template name="moreStartups">
 <div class="row">
 	<div class="col-md-4 col-md-offset-4">
-		<div class="row">
+		<div class="row text-center">
 		<a class="btn btn-lg btn-default" href="{{pathFor 'startups'}}">Más startups</a>
 		<a class="btn btn-lg btn-inverse" href="{{pathFor 'newUserForm'}}">Añadir tu startup</a>
 		</div>
