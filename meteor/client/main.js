@@ -25,7 +25,7 @@ Meteor.subscribe("userData");
 SEO.config({
         title: 'LatamStartups | Conoce startups de Latinoamérica día a día',
         meta: {
-          'description': 'LatamStartups tiene la información más actualizada sobre startups de Latinoamérica. Déscubrelas y contacta a los fundadores que te interesen.'
+          'description': 'LatamStartups tiene la información más actualizada sobre startups de Latinoamérica. Déscubrelas.'
         },
          og:{
           'image':'http://latamstartups.org/latam.png',

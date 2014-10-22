@@ -69,10 +69,13 @@ Router.map(function() {
       Session.set('screenshotToShow', null);
       Session.set("currentCompanyId", null);
       Session.set("url", this.params.url);
-      return Meteor.subscribe('allCompanies');
+      Meteor.subscribe('allCompanies')
+      return Meteor.subscribe('personUrl', this.params.url);
     },
     data: function() {
-      var profile;
+      var profile = null;
+      var image = null;
+     
       profile = People.findOne({
         url: this.params.url
       });
@@ -81,9 +84,14 @@ Router.map(function() {
         profile = Companies.findOne({
         url: this.params.url
       });
+        image = Images.findOne({
+          _id:profile.logo
+        })
       }
+
       return {
-        profile: profile
+        profile: profile,
+        image : image
       };
     },
     onAfterAction: function() {
@@ -94,6 +102,19 @@ Router.map(function() {
         return;
       }
       profile = this.data().profile;
+      image = this.data().image;
+      var imageUrl;
+      if(image == null)
+      {
+        imageUrl = profile.picture; 
+      }
+      else
+      {
+        imageUrl = "http://latamstartups.org"+image.url;
+      }
+
+      //alert(profile.name);
+      //
       SEO.set({
         title: profile.name + ' | LatamStartups',
         meta: {
@@ -101,7 +122,9 @@ Router.map(function() {
         },
         og: {
           'title': profile.name,
-          'description': profile.description
+          'description': profile.description,
+          'image': imageUrl,
+          'url': "http://latamstartups.org/"+profile.url
         }
       });
     }
