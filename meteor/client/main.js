@@ -1,6 +1,6 @@
 Meteor.startup(function () {
 //Redirect www to ROOT URL in meteor
-if(window.location.hostname.search('www') != -1)
+if((window.location.href.indexOf("luckyorange.com") == -1) && (window.location.hostname.search('www') != -1))
   window.location.assign("http://latamstartups.org");
 Session.set('currentCompanyId',null);
 Session.set("url", null);
