@@ -25,7 +25,7 @@ Meteor.subscribe("userData");
 SEO.config({
         title: 'LatamStartups | Conoce startups de Latinoamérica día a día',
         meta: {
-          'description': 'LatamStartups tiene la información más actualizada sobre startups de Latinoamérica. Déscubrelas.'
+          'description': 'Estos son los proyectos más innovadores que hemos encontrado en Latinoamérica. Déscubrelos.'
         },
          og:{
           'image':'http://latamstartups.org/latam.png',
@@ -38,22 +38,6 @@ SEO.config({
        
       }); 
 //Run this code just one time, then comment. Otherwise we will have many seo documents
-SeoCollection.insert(
-    {
-            route_name: 'startups',
-            title: 'LatamStartups | Startups en Latinoamérica',
-            meta: {
-                'description': 'Estos son los proyectos más innovadores que hemos encontrado en Latinoamérica.'
-            },
-
-            og: {
-                'title': 'LatamStartups | Startups en Latinoamérica',
-                'description': 'Estos son los proyectos más innovadores que hemos encontrado en Latinoamérica. Conócelos.',
-                'image':'http://latamstartups.org/latam.png',
-                'url':'http://latamstartups.org/startups'
-            }
-    }
-);
 
 SeoCollection.insert(
     {

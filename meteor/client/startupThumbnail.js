@@ -11,7 +11,7 @@ Template.startupThumbnail.rendered = function()
         }
     });
   $('.thumbText').each(function(){
-        $(this).css('height',maxHeight+2);
+        $(this).css('height',maxHeight);
     });
 }
 
