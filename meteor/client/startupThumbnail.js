@@ -52,6 +52,20 @@ Template.startupThumbnail.helpers({
     {
          return Tags.find({_id:{$in:tagsArray}, type:'Market'});
     },
+      externalLink: function(url)
+        {
+          var ret=[]
+          if(url.search('http') != -1)
+            {
+              ret.push(url)
+            }
+          else
+          {
+            ret.push("http://"+url);
+          }
+
+           return ret;
+        },
 
 })
 

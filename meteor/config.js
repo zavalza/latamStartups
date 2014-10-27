@@ -17,6 +17,16 @@ Images = new FS.Collection("images", {
 });
 
 //Iron Router configuration, specify which templates are loaded under which path
+//It is better to use the global Iron Router configuration to specify a notFoundTemplate, a layoutTemplate and the loadingTemplate rather than doing this in a route itself:
+
+Router.configure({
+  //layoutTemplate: 'layout',
+  //notFoundTemplate: 'notFound',
+  loadingTemplate: 'loading'
+});
+
+Router.onBeforeAction('loading');
+
 Router.map(function() {
   this.route('welcome', {path: '/'});
   this.route('loginForm', {path: '/entrar'});
