@@ -94,14 +94,10 @@ Router.map(function() {
         profile = Companies.findOne({
         url: this.params.url
       });
-        image = Images.findOne({
-          _id:profile.logo
-        })
       }
 
       return {
         profile: profile,
-        image : image
       };
     },
     onAfterAction: function() {
@@ -112,7 +108,9 @@ Router.map(function() {
         return;
       }
       profile = this.data().profile;
-      image = this.data().image;
+      var image = Images.findOne({
+          _id:profile.logo
+        })
       var imageUrl;
       if(image == null)
       {
@@ -120,18 +118,17 @@ Router.map(function() {
       }
       else
       {
-        imageUrl = "http://latamstartups.org"+image.url;
+        imageUrl = "http://latamstartups.org/cfs/files/images/"+image._id+"/"+image.original.name;
       }
 
       //alert(profile.name);
-      //
-      SEO.set({
+        SEO.set({
         title: profile.name + ' | LatamStartups',
-        meta: {
+        meta:{
           'description': profile.description
         },
         og: {
-          'title': profile.name,
+          'title': profile.name + ' | LatamStartups',
           'description': profile.description,
           'image': imageUrl,
           'url': "http://latamstartups.org/"+profile.url
