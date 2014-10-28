@@ -25,7 +25,7 @@ Template.headerwrap.pathValue = function()
 
   Template.trendingStartups.trendingStartup = function()
   {    //Use views for sorting just today, then change to score
-      return Companies.find({types:'Startup',isPublic:true},{sort:{views: -1},limit:3})
+      return Companies.find({types:'Startup',isPublic:true},{sort:{clicks: -1},limit:3})
     }
 
   Template.peopleInCommunity.newUser = function()
