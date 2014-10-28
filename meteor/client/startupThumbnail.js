@@ -15,6 +15,27 @@ Template.startupThumbnail.rendered = function()
     });
 }
 
+Template.startupThumbnail.events({
+
+  'click .companyLink': function(evt, tmpl)
+  {
+    var date = new Date();
+    var dateString = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate();
+     if(Meteor.user())
+        person_id = Meteor.user().person_id;
+      else
+        person_id = null;
+
+      var recordDoc = {
+                  profile_id: this._id,
+                  date:dateString,
+                  clicks:[person_id],
+                  timestamp: new Date(),
+         }  
+     Meteor.call('addClick', recordDoc);
+  }
+})
+
 Template.startupThumbnail.helpers({
 
     person:function(personId)
@@ -54,17 +75,14 @@ Template.startupThumbnail.helpers({
     },
       externalLink: function(url)
         {
-          var ret=[]
           if(url.search('http') != -1)
             {
-              ret.push(url)
+              return url;
             }
           else
           {
-            ret.push("http://"+url);
+            return "http://"+url ;
           }
-
-           return ret;
         },
 
 })
