@@ -148,9 +148,15 @@
 <!--height:120px;-->
 <span class="cvText" style="display:inline-block;">
 <h6 class="text-center"><a href="{{pathFor 'profile'}}">{{name}}</a></h6>
-{{#each miniCV experience}}
-{{string}}{{#each company company_id}}<a href="{{pathFor 'profile'}}"> @{{name}};</a>{{/each}}
-{{/each}}
+{{#if experience}}
+        {{#each miniCV experience}}
+        {{string}} {{#each company company_id}}<a href="{{pathFor 'profile'}}">@{{name}}</a>{{/each}};
+        {{/each}}
+  {{else}}
+  {{#each tags tag_ids}}
+  {{name}};
+  {{/each}}
+  {{/if}}
 </span>
 </div>
 </template>

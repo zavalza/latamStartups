@@ -64,7 +64,12 @@
 		</div>
 	</div>
 	<div class="col-md-8 col-md-offset-0 col-xs-10 col-xs-offset-1">
+		<br/>
 		{{#each person}}
+			<div class="col-md-4 col-xs-6">
+		{{>profileThumbnail}}
+</div>
+		<!--
 		<div class="row center-block">
 			<div class="col-md-2 col-xs-3">
 				<a style="height: 100px;" href="{{pathFor 'profile'}}"><img class="img-circle img-responsive" width="80" height="80" src="{{picture}}"></a>
@@ -82,7 +87,8 @@
 				{{/if}}
 			</div>
 		</div>
-		<br/>
+		<br/>-->
+
 		{{/each}}
 	</div>
 </div>

@@ -106,6 +106,11 @@ Template.profileThumbnail.helpers({
             return Companies.find({_id:companyId}); 
         },
 
+      tags: function(tagIds)
+        {
+          return Tags.find({_id:{$in:tagIds}},{limit:3});
+        },
+
     miniCV: function(experience)
   {
     var CV = [];
