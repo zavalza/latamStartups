@@ -62,7 +62,14 @@
 		</div>
 		</div>
 		<div class="col-md-8 col-md-offset-0 col-xs-10 col-xs-offset-1">
+		<!--	
+		<br/>
 			{{#each company}}
+			<div class="col-md-4 col-xs-6">
+			{{>startupThumbnail}}
+		</div>
+		-->
+		{{#each company}}
 				<div class="row center-block">
 					<div class="col-md-2 col-xs-3">
 						<a href="{{pathFor 'profile'}}">
