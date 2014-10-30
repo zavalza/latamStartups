@@ -25,7 +25,8 @@ Template.headerwrap.pathValue = function()
 
   Template.trendingStartups.trendingStartup = function()
   {    //Use views for sorting just today, then change to score
-      return Companies.find({types:'Startup',isPublic:true},{sort:{clicks: -1},limit:3})
+      //printoo, blooders, 3dfactory
+      return Companies.find({_id:{$in:["FWS4sBY789wbPq9v5","rH4ixpeLxd5DHSnsF","G2y6xzKjH2aFH3pJm"]},types:'Startup',isPublic:true},{sort:{clicks: -1},limit:3})
     }
 
   Template.peopleInCommunity.newUser = function()
