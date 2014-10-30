@@ -20,6 +20,7 @@ Template.newUserForm.events({
               {
                 document.getElementById(targetId+'Options').style.display='inline';
                 options[i].style.display = 'list-item';
+                //matches.push(options[i]);
               }
               
           else
@@ -33,8 +34,44 @@ Template.newUserForm.events({
           document.getElementById(targetId+'Options').style.display='none';
           options[i].style.display = 'none';
         }
-          
       }
+
+      /*
+      var key =evt.keyCode;
+      //alert(key);
+      var selection = Session.get('keyControl');
+
+      switch(key){
+        case 40: //Down
+          if(selection+1 < matches.length) 
+            selection = selection+1;
+        break;
+        case 38: //Up
+          if(selection-1 >= 0)
+          selection = selection -1;
+        break;
+        case 13: //Return
+            tmpl.find('#'+targetId).value = "";
+            tmpl.find('#'+targetId).blur();
+            document.getElementById(targetId+'Options').style.display='none';
+        break;
+        default:
+          selection = -1;
+        break;
+      }
+
+      for(var j=0; j < matches.length; j++)
+      {
+        if(j==selection)
+          matches[j].className =targetId+' list-group-item active';
+        else
+          matches[j].className = targetId+' list-group-item';
+      }
+      matches = [];
+      //Session.set('keyControl', 0);
+      Session.set('keyControl', selection);
+      //alert(selection);*/
+
     },
 
     'click .tryFacebookLogin': function(evt, tmpl){
@@ -96,5 +133,10 @@ Template.newUserForm.helpers({
     {
       Meteor.subscribe('people');
     return People.find({});
-    }
+    },
+
+  company: function(companyId)
+        {
+            return Companies.find({_id:companyId}); 
+        },
 })
