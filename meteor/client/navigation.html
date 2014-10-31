@@ -27,10 +27,10 @@
       </div>
       <div class="navbar-collapse collapse h navbar-right">
         <ul class="nav navbar-nav">
+
           <li><a href="{{pathFor 'startups'}}">STARTUPS</a></li>
           <li><a href="{{pathFor 'people'}}">PERSONAS</a></li>
           <li><a href="{{pathFor 'companies'}}">ORGANIZACIONES</a></li>
-          <li><a href="{{pathFor 'newUserForm'}}">TENGO UNA STARTUP</a></li>
           <!--<li>{{>loginButtons}}</li>-->
           {{#each thisUser currentUser.person_id}}
           <li class="dropdown">
@@ -50,6 +50,7 @@
             </ul>
           </li>
           {{else}}
+          <li><a href="{{pathFor 'newUserForm'}}">QUIERO APARECER</a></li>
           <li><a href="{{pathFor 'loginForm'}}">INGRESAR</a></li>
           {{/each}}
         </ul>
