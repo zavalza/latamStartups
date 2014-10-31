@@ -125,9 +125,9 @@
   company: function()
   {
         if (Session.get('filters').length == 0)
-            return Companies.find({types:'Startup', isPublic:true});
+            return Companies.find({types:'Startup', isPublic:true},{sort: {timestamp: 1}});
            else
-            return Companies.find({types:'Startup', isPublic:true, tag_ids:{$all:Session.get('filters')}});
+            return Companies.find({types:'Startup', isPublic:true, tag_ids:{$all:Session.get('filters')}},{sort: {timestamp: 1}});
   },
 
   cities: function(tagsArray)
