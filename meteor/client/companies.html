@@ -1,6 +1,6 @@
 <template name="companies">
 	<div class="wrap row">
-		<div class="col-md-3">
+		<div class="col-xs-3" style="position:fixed;">
 			<form name="roles" role="form" class="form-inline col-md-6 col-xs-10 col-md-offset-3 col-xs-offset-1">
 			<div class="form-group">
 				<h4><b>Tipo</b></h4>
@@ -13,7 +13,7 @@
 			</div>
 			</form>
 			<div class="row">
-			<div class="col-md-6 col-xs-6 col-md-offset-3 col-xs-offset-3">
+			<div class="col-md-6 col-xs-9 col-md-offset-3 col-xs-offset-3">
 			<h4><b>Ubicación</b></h4>
 			<div class="row">
 			<input type="text" class="form-control dropdown-toggle" id="City" placeholder="Añadir Ubicación" data-toggle="dropdown">
@@ -37,7 +37,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-6 col-xs-6 col-md-offset-3 col-xs-offset-3">
+			<div class="col-md-6 col-xs-9 col-md-offset-3 col-xs-offset-3">
 			<h4><b>Mercado</b></h4>
 			<div class="row">
 			<input type="text" class="form-control dropdown-toggle" id="Market" placeholder="Añadir Mercado" data-toggle="dropdown">
@@ -61,7 +61,15 @@
 			</div>
 		</div>
 		</div>
-		<div class="col-md-8 col-md-offset-0 col-xs-10 col-xs-offset-1">
+		<div class="col-xs-8 col-xs-offset-3">
+				
+		<br/>
+			{{#each company}}
+			<div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1">
+			{{>startupThumbnail}}
+		</div>
+		{{/each}}
+			<!--
 			{{#each company}}
 				<div class="row center-block">
 					<div class="col-md-2 col-xs-3">
@@ -89,6 +97,7 @@
 		 		</div>
 		 		<br/>
 			{{/each}}
+		-->
 		</div>
 	</div>
 </template>
