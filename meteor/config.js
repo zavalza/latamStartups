@@ -22,7 +22,8 @@ Images = new FS.Collection("images", {
 Router.configure({
   //layoutTemplate: 'layout',
   //notFoundTemplate: 'notFound',
-  loadingTemplate: 'loading'
+  loadingTemplate: 'loading',
+  trackPageView: true
 });
 
 Router.onBeforeAction('loading');
