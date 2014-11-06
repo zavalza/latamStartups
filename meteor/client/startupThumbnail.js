@@ -71,7 +71,7 @@ Template.startupThumbnail.helpers({
     },
   markets: function(tagsArray)
     {
-         return Tags.find({_id:{$in:tagsArray}, type:'Market'});
+         return Tags.find({_id:{$in:tagsArray}, type:'Market'},{limit:4});
     },
       externalLink: function(url)
         {
