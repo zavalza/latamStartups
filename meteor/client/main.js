@@ -22,6 +22,13 @@ Meteor.subscribe("allTags");
 Meteor.subscribe("allImages");
 Meteor.subscribe("userData");
 
+ Blog.config(
+  {
+
+    blogIndexTemplate: 'myBlogIndexTemplate', 
+    blogShowTemplate: 'myShowBlogTemplate' 
+  });
+
 SEO.config({
         title: 'LatamStartups | Conoce startups de Latinoamérica día a día',
         meta: {
