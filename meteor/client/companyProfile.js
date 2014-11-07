@@ -4,6 +4,7 @@ Template.companyProfile.rendered = function()
   var date = new Date();
   var dateString = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate();
     setTimeout(function() { //wait for user data
+      ga("send", "event", 'views', 'open', 'companyProfile', 1);
        var views = Session.get('views');
       if(views.indexOf(Session.get('currentCompanyId')) == -1) //If it has not already see it on this session
       {
@@ -66,8 +67,16 @@ Template.companyProfile.events({
     alert('Tu información se ha enviado, espera a que te contacten');
   },
 
+
   'click .companyLink': function(evt, tmpl)
   {
+    if(evt.target.id=='twitter')
+      ga("send", "event", 'external_link', 'click', 'twitterUrl', 1);
+    if(evt.target.id=='facebook')
+      ga("send", "event", 'external_link', 'click', 'facebookUrl', 1);
+    if(evt.target.id=='companyUrl')
+      ga("send", "event", 'external_link', 'click', 'companyUrl', 1);
+
     var date = new Date();
     var dateString = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate();
      if(Meteor.user())

@@ -1,3 +1,11 @@
+Template.userProfile.rendered = function()
+{
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
+   setTimeout(function() { //wait for user data
+      ga("send", "event", 'views', 'open', 'userProfile', 1);
+    },700);
+}
+
 Template.userProfile.helpers({
       user: function(personId)
         {
