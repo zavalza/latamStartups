@@ -348,6 +348,7 @@
 
       },
 
+
       deleteExperience: function(personId, companyId){
          People.update({_id: personId},
              {$pull: {'experience':{'company_id':companyId}}});
@@ -355,6 +356,14 @@
              {$pull: {'team':{'person_id':personId}}});
       },
 
+       addNewCompany: function(companyDoc){
+        console.log("Creating a new company")
+        //Validar nombre no repetido?
+        var companyId = Companies.insert(companyDoc);
+        var url = Meteor.call('generateUrl', companyDoc.name);
+        Companies.update({_id: companyId},{$set:{'url': url}});
+        return url
+      },
       getCompanyId: function(companyUrl){
           var companyDoc = Companies.findOne({url: companyUrl});
           if(companyDoc)

@@ -358,9 +358,9 @@ else
       //return true;
     },
     
-    /*'click .pullCompanyTag' : function(evt, tmpl){
+    'click .pullCompanyTag' : function(evt, tmpl){
        Meteor.call('pullCompanyTag', Session.get('url'), this._id);
-    }*/
+    }
   });
 
   Template.addMember.events({

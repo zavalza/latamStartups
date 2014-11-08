@@ -31,6 +31,12 @@
           <li><a href="{{pathFor 'startups'}}">STARTUPS</a></li>
           <li><a href="{{pathFor 'people'}}">PERSONAS</a></li>
           <li><a href="{{pathFor 'companies'}}">ORGANIZACIONES</a></li>
+           {{#if isAdmin currentUser.person_id}}
+           {{#if openAdmin}}
+           <li> <input type="text" class="form-control " id="Company" placeholder="Nombre de compañía"><a class="btn btn-lg btn-default addNewCompany" href="#">Añadir</a></li>
+           {{/if}}
+          <li><a href="#" class="addInfo">AÑADIR COMPAÑIA</a></li>
+          {{/if}}
           <!--<li>{{>loginButtons}}</li>-->
           {{#each thisUser currentUser.person_id}}
           <li class="dropdown">
@@ -45,6 +51,7 @@
                     {{/each}}
               {{/each}}
               {{/if}}
+
               <li class="divider"></li>
               <li><a href="#" class="tryLogout">SALIR</a></li>
             </ul>
