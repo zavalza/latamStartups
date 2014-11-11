@@ -1,0 +1,65 @@
+<template name="newCompany">
+<div class="wrap">
+  <div class="panel panel-default col-md-8 col-md-offset-2">
+    <a href="#" class="btn btn-success pull-right save">Enviar</a>
+    <div class="panel-heading">
+      <h3 class="panel-title text-center">Añade una startup que debamos conocer</h3>
+    </div>
+    <div class="panel-body">
+      <form class="form col-md-10 col-md-offset-1 " name="editCompany">
+        <div class="form-group">
+          <div class="row">
+            <h4 class="name">Logo</h4>
+          </div>
+          <div class="row">
+            <div class="col-md-2 col-xs-4">
+              {{#each image logo}}
+              <a href="#">
+                <span class="badge pull-right deleteLogo">x</span>
+                <img src="{{url}}">
+              </a>
+              {{else}}
+              <a href="#">
+                <span class="badge pull-right">Default</span>
+                <img src="companyLogo.png">
+              </a>
+              {{/each}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-xs-4">
+              <input type="file" id="logo"><br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 ">
+              <label>Nombre</label>
+              <input type="text" class="form-control " id="name" placeholder="Nombre">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <label>Eslogan - Descripción en menos de 10 palabras</label>
+              <input type="text" class="form-control col-md-5 " id="highConcept" placeholder="Describe la compañía en menos de 10 palabras">
+            </div>
+          </div>
+         
+          <div class="row">
+            <div class="col-md-8">
+              <label>Sitio web</label>
+              <input type="text" class="form-control col-md-5 " id="company_url" placeholder="Sitio web">
+            </div>
+          </div>
+
+          <div class="row">
+            <ul class="pager">
+               <a class="btn btn-lg btn-danger cancel">Cancelar</a>
+              <a class="btn btn-lg btn-default save">Enviar</a>
+            </ul>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</template>

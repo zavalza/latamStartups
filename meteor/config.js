@@ -72,6 +72,7 @@ Router.map(function() {
     return Meteor.subscribe('allRegistredPeople')},
   });
   this.route('editCompany', {path: '/editarCompania'});
+  this.route('newCompany', {path: '/nueva'});
   this.route('editProfile', {path: '/editarPerfil'});
   this.route('profile', 
     {path: '/:url',
