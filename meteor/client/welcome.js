@@ -25,8 +25,8 @@ Template.headerwrap.pathValue = function()
 
   Template.trendingStartups.trendingStartup = function()
   {    //Use views for sorting just today, then change to score
-      //aventones, printoo, codeando mexico
-      return Companies.find({_id:{$in:["R92PH7JNuC5NzzHuZ","FWS4sBY789wbPq9v5","qbXohsvnBD2RvJjCQ"]},types:'Startup',isPublic:true},{sort:{clicks: -1},limit:3})
+      //bebe2go, playbusiness, tarefa
+      return Companies.find({_id:{$in:["tRKAKMjxcYvn9KyeE","CtFW3XrbC5qxjBk6E","Sb6SDe8MXNNsYXhcM"]},types:'Startup',isPublic:true},{sort:{clicks: -1},limit:3})
     }
 
   Template.peopleInCommunity.newUser = function()
