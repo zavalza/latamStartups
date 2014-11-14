@@ -29,14 +29,14 @@
         <ul class="nav navbar-nav">
 
           <li><a href="{{pathFor 'startups'}}">STARTUPS</a></li>
-          <li><a href="{{pathFor 'people'}}">PERSONAS</a></li>
-          <li><a href="{{pathFor 'companies'}}">ORGANIZACIONES</a></li>
+          <li><a href="{{pathFor 'people'}}">COMUNIDAD</a></li>
+          <!--<li><a href="{{pathFor 'companies'}}">ORGANIZACIONES</a></li>-->
           <li><a href="/blog">BLOG</a></li>
-           {{#if isAdmin currentUser.person_id}}
+           {{#if currentUser}}
            {{#if openAdmin}}
            <li> <input type="text" class="form-control " id="Company" placeholder="Nombre de compañía"><a style="color:white" class="btn btn-danger cancelAdd col-xs-6" href="#">Cancelar</a><a style="color:white" class="btn btn-default addNewCompany col-xs-6" href="#">Añadir</a></li>
            {{/if}}
-          <li><a href="#" class="addInfo">AÑADIR COMPAÑIA</a></li>
+          <li><a href="{{pathFor 'newCompany'}}" class="#">AÑADIR STARTUP</a></li>
           {{/if}}
           <!--<li>{{>loginButtons}}</li>-->
           {{#each thisUser currentUser.person_id}}
@@ -58,8 +58,8 @@
             </ul>
           </li>
           {{else}}
-          <li><a href="{{pathFor 'newUserForm'}}">QUIERO APARECER</a></li>
-          <li><a href="{{pathFor 'loginForm'}}">INGRESAR</a></li>
+          <!--<li><a href="{{pathFor 'newUserForm'}}">COLABORAR</a></li>-->
+          <li><a href="{{pathFor 'loginForm'}}">AÑADIR STARTUP</a></li>
           {{/each}}
         </ul>
         </div><!--/.nav-collapse -->
