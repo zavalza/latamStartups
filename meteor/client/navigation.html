@@ -11,7 +11,7 @@
         <span class="icon-bar"></span>
         </button>
        
-        <a href="{{pathFor 'welcome'}}"><img class="btn img-responsive" width="100" src="latam.png"></a>
+        <a href="{{pathFor 'startups'}}"><img class="btn img-responsive" width="100" src="latam.png"></a>
         
     </div>
     <div class="hidden-xs">
@@ -34,7 +34,7 @@
           <li><a href="/blog">BLOG</a></li>
            {{#if isAdmin currentUser.person_id}}
            {{#if openAdmin}}
-           <li> <input type="text" class="form-control " id="Company" placeholder="Nombre de compañía"><a class="btn btn-lg btn-default addNewCompany" href="#">Añadir</a></li>
+           <li> <input type="text" class="form-control " id="Company" placeholder="Nombre de compañía"><a style="color:white" class="btn btn-danger cancelAdd col-xs-6" href="#">Cancelar</a><a style="color:white" class="btn btn-default addNewCompany col-xs-6" href="#">Añadir</a></li>
            {{/if}}
           <li><a href="#" class="addInfo">AÑADIR COMPAÑIA</a></li>
           {{/if}}

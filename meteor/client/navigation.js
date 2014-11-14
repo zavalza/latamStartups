@@ -20,6 +20,10 @@ Template.navigation.events({
     Session.set('openAdmin', true);
   },
 
+  'click .cancelAdd':function(evt, tmpl){
+    Session.set('openAdmin', false);
+  },
+
   'click .addNewCompany':function(evt, tmpl){
                     Session.set('openAdmin', false);
                     var companyName = tmpl.find('#Company').value.trim();

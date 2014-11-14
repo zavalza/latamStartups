@@ -29,7 +29,7 @@ Router.configure({
 Router.onBeforeAction('loading');
 
 Router.map(function() {
-  this.route('welcome', {path: '/'});
+  this.route('welcome', {path: '/welcome'});
   this.route('loginForm', {path: '/entrar'});
   this.route('newUserForm', {path: '/registro'});
   this.route('newImpulse',{path:'/nuevoImpulso',
@@ -58,7 +58,7 @@ Router.map(function() {
     Session.set('filters',[]);
     return Meteor.subscribe('allImpulses')},
   });
-  this.route('startups', {path: '/startups',
+  this.route('startups', {path: '/',
     waitOn: function() 
   { 
     Session.set('filters',[]);
