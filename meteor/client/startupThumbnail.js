@@ -19,7 +19,7 @@ Template.startupThumbnail.events({
 
   'click .companyLink': function(evt, tmpl)
   {
-    ga("send", "event", 'external_link', 'click', 'companyUrl', 1);
+    ga("send", "event", 'external_link', 'click', 'companyUrl', 0);
     var date = new Date();
     var dateString = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate();
      if(Meteor.user())

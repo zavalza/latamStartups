@@ -12,6 +12,10 @@ Template.navigation.events({
         return false
       },
 
+  'mousedown #retention':function(evt, tmpl){
+    ga("send", "event", 'retention', 'click', 'socialNetworks', 0);
+  },
+
   'click .closeNew': function(evt, tmpl){
     Session.set('openNew', false);
   },

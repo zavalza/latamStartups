@@ -39,3 +39,10 @@ Template.headerwrap.pathValue = function()
   {
     return People.find({_id:personId});
   }
+
+  Template.newsletter.events({
+
+    'mousedown .subscribe': function(evt, tmp){
+      ga("send", "event", 'retention', 'click', 'mailChimp', 0);
+    }
+  })
