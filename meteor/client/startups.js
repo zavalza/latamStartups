@@ -13,6 +13,24 @@
     }
     Session.set('filters', filtersArray);
   },
+
+  'change #city' : function(evt, tmpl){
+  var value = tmpl.find('#city').value;
+  //alert(value);
+  var filtersArray = Session.get("filters");
+  //alert(this._id);
+  if (value != '')
+  {
+    filtersArray=[value];
+    Session.set('filters', filtersArray);
+  }
+  else
+  {
+    Session.set('filters', []);
+  }
+
+  
+},
   'keyup #City,#Market' : function(evt, tmpl){
       //busca todo el string y no palabra por palabra
       //alert(evt.keyCode);
@@ -130,6 +148,12 @@
             return Companies.find({types:'Startup', isPublic:true, tag_ids:{$all:Session.get('filters')}},{sort: {timestamp: -1}});
   },
 
+   selected:function()
+        {
+          var filtersArray = Session.get("filters");
+          return (filtersArray.indexOf(this._id) != -1);
+        },
+
   cities: function(tagsArray)
     {
          return Tags.find({_id:{$in:tagsArray}, type:'City'});
@@ -166,7 +190,7 @@
         },
     cityOption: function()
         {
-            return Tags.find({"type": "City","counter.companies":{$gt:0}});
+            return Tags.find({"type": "City","counter.companies":{$gt:0}},{sort: {'name': 1}});
         },
 
     marketOption: function()

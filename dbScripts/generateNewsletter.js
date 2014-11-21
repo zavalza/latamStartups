@@ -11,7 +11,7 @@ var db = connection.getDB( "latstartups" );
  
 // Authorize this connection.
 //db.auth("user", "password");
-db.auth( "xxxx", "xxxx" );
+db.auth( "paul", "Rojinegro51" );
 
 //roles, city, skill, college
 
@@ -22,7 +22,7 @@ db.companies.find({types:'Startup',isPublic:true}).sort({'timestamp':-1}).limit(
 db.companies.find({types:'Startup',isPublic:true}).sort({'timestamp':1}).forEach(function(doc){
 	var clicks = 0;
 	var views = 0;
-	var timestamp= new Date(2014, 10, 5);
+	var timestamp= new Date(2014, 10, 12);
 	db.records.find({
 		'profile_id':doc._id,
 		 "views": {

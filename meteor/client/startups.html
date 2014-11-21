@@ -3,45 +3,19 @@
 	{{>newsletter}}
 </div>
 	<div class="row">
-		<div class="col-xs-3">
-			<form name="stage" role="form" class="form-inline col-md-6 col-xs-10 col-md-offset-3 col-xs-offset-1">
-			<div class="form-group">
-				<h4><b>Etapa Alcanzada</b></h4>
-				{{#each companyStageOption}}
-				<label>
-					<input class="form-control" type="checkbox" id="stages" value="{{_id}}">
-					{{name}}
-				</label>
-				{{/each}}
-			</div>
-			</form>
-			<div class="row">
-			<div class="col-md-6 col-xs-10 col-md-offset-3 col-xs-offset-1">
-			<h4><b>Ubicación</b></h4>
-			<div class="row">
-			<input type="text" class="form-control dropdown-toggle" id="City" placeholder="Añadir Ubicación" data-toggle="dropdown">
-			<ul class="dropdown-menu" style="display: none;" id="CityOptions">
-			    {{#each cityOption}}
-			    <a href="#"><li style=" display: none;" class="City" id="{{_id}}">{{name}}</li></a>
-			    {{/each}}
-			  </ul>
-
-			{{#each filters}}
-                {{#each city this}}
-                <div class="input-group">
-                  <input type="text" class="form-control " id="city" value="{{name}}" disabled>
-                  <span class="input-group-btn">
-                  <button id="{{_id}}" name="City" class="btn btn-danger pullFilter" type="button">x</button>
-                  </span>
-                </div>
+		<div class="col-xs-offset-2 col-xs-8">
+				<h2 class="name">Startups en</h2>
+				<select id="city" class="form-control" style="font-size:15px;">
+                <option value="">Toda Latinoamérica</option>
+                {{#each cityOption}}
+                {{#if selected}}
+                <option id="{{_id}}" value="{{_id}}" selected>{{name}}</option>
+                {{else}}
+                <option id="{{_id}}" value="{{_id}}">{{name}}</option>
+                {{/if}}
                 {{/each}}
-             {{/each}}
-			 </div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6 col-xs-10 col-md-offset-3 col-xs-offset-1">
-			<h4><b>Mercado</b></h4>
+              </select>
+			<h2 class="name">Palabras Clave</h2>
 			<div class="row">
 			<input type="text" class="form-control dropdown-toggle" id="Market" placeholder="Añadir Mercado" data-toggle="dropdown">
 			<ul class="dropdown-menu" style="display: none;" id="MarketOptions">
@@ -63,10 +37,9 @@
 			 </div>
 			</div>
 		</div>
-		<br/>
-		<br/>
-		</div>
-		<div class="col-xs-8">
+
+	<div class="row">
+		<div class="col-xs-offset-2 col-xs-8">
 			<br/>
 			{{#each company}}
 			<div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1">
