@@ -1,9 +1,24 @@
 <template name="companies">
 	<div class="wrap row">
-		<div class="col-xs-3">
+		<div class="col-md-3">
+			<div class="row">
+				<div class="col-md-8 col-xs-10 col-md-offset-2 col-xs-offset-1">
+				<h3 class="name">Ciudad</h3>
+				<select id="city" class="form-control" style="font-size:15px;">
+                <option value="">Toda Latinoamérica</option>
+                {{#each cityOption}}
+                {{#if selected}}
+                <option id="{{_id}}" value="{{_id}}" selected>{{name}}</option>
+                {{else}}
+                <option id="{{_id}}" value="{{_id}}">{{name}}</option>
+                {{/if}}
+                {{/each}}
+              </select>
+          </div>
+			</div>
 			<form name="roles" role="form" class="form-inline col-md-6 col-xs-10 col-md-offset-3 col-xs-offset-1">
 			<div class="form-group">
-				<h4><b>Tipo</b></h4>
+				<h3 class="name">Tipo</h3>
 				{{#each typeOfCompanyOption}}
 				<label>
 					<input class="form-control" type="checkbox" id="types" value="{{_id}}">
@@ -12,33 +27,10 @@
 				{{/each}}
 			</div>
 			</form>
-			<div class="row">
-			<div class="col-md-6 col-xs-10 col-md-offset-3 col-xs-offset-1">
-			<h4><b>Ubicación</b></h4>
-			<div class="row">
-			<input type="text" class="form-control dropdown-toggle" id="City" placeholder="Añadir Ubicación" data-toggle="dropdown">
-			<ul class="dropdown-menu" style="display: none;" id="CityOptions">
-			    {{#each cityOption}}
-			    <a href="#"><li style=" display: none;" class="City" id="{{_id}}">{{name}}</li></a>
-			    {{/each}}
-			  </ul>
 
-			{{#each filters}}
-                {{#each city this}}
-                <div class="input-group">
-                  <input type="text" class="form-control " id="city" value="{{name}}" disabled>
-                  <span class="input-group-btn">
-                  <button id="{{_id}}" name="City" class="btn btn-danger pullFilter" type="button">x</button>
-                  </span>
-                </div>
-                {{/each}}
-             {{/each}}
-			 </div>
-			</div>
-		</div>
 		<div class="row">
-			<div class="col-md-6 col-xs-10 col-md-offset-3 col-xs-offset-1">
-			<h4><b>Mercado</b></h4>
+			<div class="col-md-8 col-xs-10 col-md-offset-2 col-xs-offset-1">
+			<h3 class='name'>Palabras claves</h3>
 			<div class="row">
 			<input type="text" class="form-control dropdown-toggle" id="Market" placeholder="Añadir Mercado" data-toggle="dropdown">
 			<ul class="dropdown-menu" style="display: none;" id="MarketOptions">
@@ -61,7 +53,7 @@
 			</div>
 		</div>
 		</div>
-		<div class="col-xs-8">
+		<div class="col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-0">
 				
 		<br/>
 			{{#each company}}

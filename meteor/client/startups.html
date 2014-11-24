@@ -2,9 +2,11 @@
 	<div class="wrap">
 	{{>newsletter}}
 </div>
+
 	<div class="row">
-		<div class="col-xs-offset-2 col-xs-8">
-				<h2 class="name">Startups en</h2>
+		<div class="col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
+			<div class="row">
+				<h3 class="name">Ciudad</h3>
 				<select id="city" class="form-control" style="font-size:15px;">
                 <option value="">Toda Latinoamérica</option>
                 {{#each cityOption}}
@@ -15,7 +17,8 @@
                 {{/if}}
                 {{/each}}
               </select>
-			<h2 class="name">Palabras Clave</h2>
+		</div>
+			<h3 class="name">Palabras Clave</h3>
 			<div class="row">
 			<input type="text" class="form-control dropdown-toggle" id="Market" placeholder="Añadir Mercado" data-toggle="dropdown">
 			<ul class="dropdown-menu" style="display: none;" id="MarketOptions">
@@ -35,11 +38,8 @@
                 {{/each}}
              {{/each}}
 			 </div>
-			</div>
 		</div>
-
-	<div class="row">
-		<div class="col-xs-offset-2 col-xs-8">
+		<div class="col-md-8 col-md-offset-0 col-xs-8 col-xs-offset-2">
 			<br/>
 			{{#each company}}
 			<div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1">

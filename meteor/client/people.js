@@ -1,4 +1,31 @@
 Template.people.events({
+  'change #city' : function(evt, tmpl){
+  var value = tmpl.find('#city').value;
+  //alert(value);
+  var filtersArray = Session.get("filters");
+  //alert(this._id);
+  if (value != '')
+  {
+    filtersArray=[value];
+    Session.set('filters', filtersArray);
+  }
+  else
+  {
+    Session.set('filters', []);
+  }
+
+  var inputs = new Array();
+  inputs = document.getElementsByTagName('input');
+ 
+  for (var i=0; i<inputs.length; i++)  {
+    if (inputs[i].type == 'checkbox')   {
+      inputs[i].checked = false;
+    }
+  }
+
+},
+
+
   'change #roles': function(evt, tmpl){
     //alert(evt.target.value);
     var filtersArray = Session.get("filters");
@@ -123,7 +150,7 @@ Template.people.helpers({
         },
   cityOption: function()
         {
-            return Tags.find({"type": "City","counter.people":{$gt:0}});
+            return Tags.find({"type": "City","counter.people":{$gt:0}},{sort: {'name': 1}});
         },
   city: function(tagsArray)
     {

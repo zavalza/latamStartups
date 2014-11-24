@@ -1,20 +1,36 @@
 <template name="people">
 <div class="wrap row">
 	<div class="col-md-3">
-		<form name="roles" role="form" class="form-inline col-md-6 col-xs-10 col-md-offset-3 col-xs-offset-1">
+		<div class="row">
+			<div class="col-md-8 col-xs-10 col-md-offset-2 col-xs-offset-1">
+				<h3 class="name">Ciudad</h3>
+				<select id="city" class="form-control" style="font-size:15px;">
+                <option value="">Toda Latinoamérica</option>
+                {{#each cityOption}}
+                {{#if selected}}
+                <option id="{{_id}}" value="{{_id}}" selected>{{name}}</option>
+                {{else}}
+                <option id="{{_id}}" value="{{_id}}">{{name}}</option>
+                {{/if}}
+                {{/each}}
+              </select>
+             </div>
+		</div>
+		<form name="roles" role="form" class="form-inline col-md-8 col-xs-10 col-md-offset-2 col-xs-offset-1">
 			<div class="form-group">
-				<h4><b>Roles</b></h4>
+				<h3 class="name">Roles</h3>
 				{{#each roleOption}}
 				<label>
 					<input class="form-control" type="checkbox" id="roles" value="{{_id}}">
 					{{name}}
 				</label>
+				<div class="hidden-xs"><br/></div>
 				{{/each}}
 			</div>
 		</form>
 		<div class="row">
-			<div class="col-md-6 col-xs-5 col-md-offset-3 col-xs-offset-1">
-			<h4><b>Habilidades</b></h4>
+			<div class="col-md-8 col-xs-10 col-md-offset-2 col-xs-offset-1">
+			<h3 class="name">Habilidades</h3>
 			<div class="row">
 			<div class="input-group">
 			<input type="text" class="form-control dropdown-toggle" id="Skill" placeholder="Añadir habilidad" data-toggle="dropdown">
@@ -37,30 +53,6 @@
 			 </div>
 			</div>
 			 <br/>
-			 <div class="col-md-6 col-xs-5 col-md-offset-3 col-xs-offset-1">
-			 <h4><b>Ubicación</b></h4>
-			<div class="row">
-			<div class="input-group">
-			<input type="text" class="form-control dropdown-toggle" id="City" placeholder="Añadir Ubicación" data-toggle="dropdown">
-			<ul class="dropdown-menu" style="display: none;" id="CityOptions">
-			    {{#each cityOption}}
-			    <a href="#"><li style=" display: none;" class="City" id="{{_id}}">{{name}}</li></a>
-			    {{/each}}
-			  </ul>
-			 </div>
-
-			{{#each filters}}
-                {{#each city this}}
-                <div class="input-group">
-                  <input type="text" class="form-control " id="city" value="{{name}}" disabled>
-                  <span class="input-group-btn">
-                  <button id="{{_id}}" name="City" class="btn btn-danger pullFilter" type="button">x</button>
-                  </span>
-                </div>
-                {{/each}}
-             {{/each}}
-			 </div>
-			</div>
 		</div>
 	</div>
 	<div class="col-md-8 col-md-offset-0 col-xs-10 col-xs-offset-1">
