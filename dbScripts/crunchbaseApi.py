@@ -13,17 +13,12 @@ def getTagId():
     		print 'No tags. Got an error code:', e
 
 try:
-	tagId = getTagId()
-	startupRequest = Request('https://api.angel.co/1/tags/'+str(tagId)+'/startups')
-	response = urlopen(startupRequest)
+	#tagId = getTagId()
+	#mexico and monterrey
+	companyRequest = Request('http://api.crunchbase.com/v/2/organizations?organization_types=company&location_uuids=7268daaa389dc194116579bac2ff0617%2C308f292714b4d2d6be551d9ccab8426e&user_key=bea61d6448dc45d818b1648d7df25a79&page=1')
+	response = urlopen(companyRequest)
 	startups = response.read()
-	print startups[0:]
-	out_file = open("startups.json","w")
-
-	out_file.write(startups[0:])                                 
-
-	# Close the file
-	out_file.close()
+	print startups[0:5000]
 
 except URLError, e:
     print 'No results. Got an error code:', e

@@ -67,7 +67,7 @@ Template.newCompany.events({
 
       Session.set('logo', null);
       Meteor.call('addNewCompany', newStartup);
-      alert('los datos serán revisados y la startup será pública tras la revisión');
+      alert('Los datos serán revisados y la compañía será pública tras la revisión');
       //go to new idea profile
       //alert(EJSON.stringify(impulseDoc));
       window.history.back();
