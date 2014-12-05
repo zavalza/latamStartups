@@ -2,7 +2,7 @@
 from urllib2 import Request, urlopen, URLError
 import json
 def getTagId():
-	searchRequest = Request('https://api.angel.co/1/search/slugs?query=monterrey')
+	searchRequest = Request('https://api.angel.co/1/search/slugs?query=bogota')
 	try:
 		response = urlopen(searchRequest)
 		tag = response.read()

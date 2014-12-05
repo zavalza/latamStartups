@@ -22,7 +22,7 @@ db.companies.find({types:'Startup',isPublic:true}).sort({'timestamp':-1}).limit(
 db.companies.find({types:'Startup',isPublic:true}).sort({'timestamp':1}).forEach(function(doc){
 	var clicks = 0;
 	var views = 0;
-	var timestamp= new Date(2014, 10, 20);
+	var timestamp= new Date(2014, 10, 27);
 	db.records.find({
 		'profile_id':doc._id,
 		 "views": {
