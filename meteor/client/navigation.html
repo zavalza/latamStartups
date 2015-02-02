@@ -28,9 +28,9 @@
         <ul class="nav navbar-nav">
 
           <li><a href="{{pathFor 'startups'}}">STARTUPS</a></li>
-          <li><a href="{{pathFor 'people'}}">PERSONAS</a></li>
-          <li><a href="{{pathFor 'companies'}}">ORGANIZACIONES</a></li>
-          <li><a href="/blog">BLOG</a></li>
+          <!--<li><a href="{{pathFor 'people'}}">PERSONAS</a></li>
+          <<li><a href="{{pathFor 'companies'}}">ORGANIZACIONES</a></li>
+          <li><a href="/blog">BLOG</a></li>-->
            {{#if currentUser}}
            {{#if openAdmin}}
            <li> <input type="text" class="form-control " id="Company" placeholder="Nombre de compañía"><a style="color:white" class="btn btn-danger cancelAdd col-xs-6" href="#">Cancelar</a><a style="color:white" class="btn btn-default addNewCompany col-xs-6" href="#">Añadir</a></li>
@@ -67,7 +67,7 @@
     <div id="explanation" class="row news">
       {{#if openNew}}
       {{#each unpublicCompany currentUser.person_id}}
-      <h4>El perfil de <a href="{{pathFor 'profile'}}"> {{name}} </a> todavía no es público, complétalo y espera a que lo revisemos para que aparezca a los demás usuarios
+      <h4>El perfil de <a href="{{pathFor 'profile'}}"> {{name}} </a> todavía no es público, asegúrate de que tenga perfil de startup
       <span class="btn badge closeNew">x</span>
       </h4>
       {{/each}}
