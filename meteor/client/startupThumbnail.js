@@ -70,6 +70,10 @@ Template.startupThumbnail.helpers({
     {
          return Tags.find({_id:{$in:tagsArray}, type:'City'});
     },
+  countries:function(tagsArray)
+    {
+         return Tags.find({_id:{$in:tagsArray}, type:'Country'});
+    },
   markets: function(tagsArray)
     {
          return Tags.find({_id:{$in:tagsArray}, type:'Market'},{limit:4});

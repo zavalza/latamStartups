@@ -47,9 +47,17 @@
               <input type="text" class="form-control col-md-5 " id="highConcept" placeholder="Describe tu compañía en menos de 10 palabras" value="{{highConcept}}">
             </div>
             <div class="col-md-8">
-              <label>Mercados</label>
+              <label>Palabras clave</label>
               {{>marketInput}}
               {{#each tag_ids}}
+               {{#each city this}}
+                <div class="input-group">
+                  <input type="text" class="form-control " id="city" value="{{name}}" disabled>
+                  <span class="input-group-btn">
+                  <button name="City" class="btn btn-danger pullCompanyTag" type="button">x</button>
+                  </span>
+                </div>
+              {{/each}}
               {{#each market this}}
                 <div class="input-group">
                   <input type="text" class="form-control " id="market" value="{{name}}" disabled>
@@ -61,14 +69,14 @@
               {{/each}}
             </div>
             <div class="col-md-8">
-              <label>Ubicación</label>
-              {{>locationInput}}
+              <label>País</label>
+              {{>countryInput}}
               {{#each tag_ids}}
-                {{#each city this}}
+                {{#each country this}}
                 <div class="input-group">
-                  <input type="text" class="form-control " id="city" value="{{name}}" disabled>
+                  <input type="text" class="form-control " id="country" value="{{name}}" disabled>
                   <span class="input-group-btn">
-                  <button name="City" class="btn btn-danger pullCompanyTag" type="button">x</button>
+                  <button name="Country" class="btn btn-danger pullCompanyTag" type="button">x</button>
                   </span>
                 </div>
                 {{/each}}

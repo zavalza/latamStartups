@@ -167,7 +167,10 @@ Template.companyProfile.helpers ({
         'experience':{$elemMatch:{'company_id': Session.get('currentCompanyId')}}}).count() > 0);
       }
     },
-
+       country: function(tagsArray)
+      {
+        return Tags.find({_id:{$in:tagsArray}, type:'Country'});
+      },
       city: function(tagsArray)
       {
         return Tags.find({_id:{$in:tagsArray}, type:'City'});

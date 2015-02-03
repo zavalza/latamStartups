@@ -15,7 +15,10 @@
           <h2 class="name">{{name}}</h2>
           <i><h4>{{highConcept}}</h4></i>
           <div class="row">
-            {{#each typeOfCompany tag_ids}}
+            <!--{{#each typeOfCompany tag_ids}}
+            <div class="btn tag btn-xs">{{name}}</div>
+            {{/each}}-->
+            {{#each country tag_ids}}
             <div class="btn tag btn-xs">{{name}}</div>
             {{/each}}
             {{#each city tag_ids}}

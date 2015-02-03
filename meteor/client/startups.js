@@ -14,8 +14,8 @@
     Session.set('filters', filtersArray);
   },
 
-  'change #city' : function(evt, tmpl){
-  var value = tmpl.find('#city').value;
+  'change #country' : function(evt, tmpl){
+  var value = tmpl.find('#country').value;
   //alert(value);
   var filtersArray = Session.get("filters");
   //alert(this._id);
@@ -31,7 +31,7 @@
 
   
 },
-  'keyup #City,#Market' : function(evt, tmpl){
+  'keyup #City,#Market,#Country' : function(evt, tmpl){
       //busca todo el string y no palabra por palabra
       //alert(evt.keyCode);
 
@@ -106,7 +106,7 @@
       //alert(selection);
     },
 
-    'blur #City,#Market' : function(evt, tmpl){
+    'blur #City,#Market,#Country' : function(evt, tmpl){
       var targetId = evt.target.id;
       //alert(evt.currentTarget.id);
       Session.set('keyControl', -1);
@@ -115,7 +115,7 @@
       
     },
 
-    'mousedown .City,.Market' : function (evt, tmpl){
+    'mousedown .City,.Market,.Country' : function (evt, tmpl){
       //alert(this._id);
       var targetClass = evt.target.getAttribute('class');
       var filtersArray = Session.get("filters");
@@ -167,6 +167,11 @@
     return Tags.find({_id:tagId, type:'City'});
   },
 
+   country: function(tagId)
+  {
+    return Tags.find({_id:tagId, type:'Country'});
+  },
+
   market: function(tagId)
   {
     return Tags.find({_id:tagId, type:'Market'});
@@ -192,10 +197,14 @@
         {
             return Tags.find({"type": "City","counter.companies":{$gt:0}},{sort: {'name': 1}});
         },
-
-    marketOption: function()
+    countryOption: function()
         {
-            return Tags.find({"type": "Market","counter.companies":{$gt:0}});
+            return Tags.find({"type": "Country","counter.companies":{$gt:0}},{sort: {'name': 1}});
+        },
+
+    keywordOption: function()
+        {
+            return Tags.find({"type":{$in:["Market","City"]} ,"counter.companies":{$gt:0}});
         },
 
  })

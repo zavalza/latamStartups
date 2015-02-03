@@ -25,7 +25,9 @@
 </div>
 </a>
 </span>
-
+{{#each countries tag_ids}}
+							<div id="{{_id}}" style="font-size: 10px;" class="btn tag btn-xs">{{name}}</div>
+						{{/each}}
 {{#each cities tag_ids}}
 							<div id="{{_id}}" style="font-size: 10px;" class="btn tag btn-xs">{{name}}</div>
 						{{/each}}
