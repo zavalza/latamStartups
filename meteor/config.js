@@ -17,8 +17,19 @@ Images = new FS.Collection("images", {
 });
 
 //Iron Router configuration, specify which templates are loaded under which path
+//It is better to use the global Iron Router configuration to specify a notFoundTemplate, a layoutTemplate and the loadingTemplate rather than doing this in a route itself:
+
+Router.configure({
+  //layoutTemplate: 'layout',
+  //notFoundTemplate: 'notFound',
+  loadingTemplate: 'loading',
+  trackPageView: true
+});
+
+Router.onBeforeAction('loading');
+
 Router.map(function() {
-  this.route('welcome', {path: '/'});
+  this.route('welcome', {path: '/welcome'});
   this.route('loginForm', {path: '/entrar'});
   this.route('newUserForm', {path: '/registro'});
   this.route('newImpulse',{path:'/nuevoImpulso',
@@ -47,7 +58,7 @@ Router.map(function() {
     Session.set('filters',[]);
     return Meteor.subscribe('allImpulses')},
   });
-  this.route('startups', {path: '/startups',
+  this.route('startups', {path: '/',
     waitOn: function() 
   { 
     Session.set('filters',[]);
@@ -61,6 +72,7 @@ Router.map(function() {
     return Meteor.subscribe('allRegistredPeople')},
   });
   this.route('editCompany', {path: '/editarCompania'});
+  this.route('newCompany', {path: '/nueva'});
   this.route('editProfile', {path: '/editarPerfil'});
   this.route('profile', 
     {path: '/:url',
@@ -84,14 +96,10 @@ Router.map(function() {
         profile = Companies.findOne({
         url: this.params.url
       });
-        image = Images.findOne({
-          _id:profile.logo
-        })
       }
 
       return {
         profile: profile,
-        image : image
       };
     },
     onAfterAction: function() {
@@ -102,7 +110,9 @@ Router.map(function() {
         return;
       }
       profile = this.data().profile;
-      image = this.data().image;
+      var image = Images.findOne({
+          _id:profile.logo
+        })
       var imageUrl;
       if(image == null)
       {
@@ -110,18 +120,17 @@ Router.map(function() {
       }
       else
       {
-        imageUrl = "http://latamstartups.org"+image.url;
+        imageUrl = "http://latamstartups.org/cfs/files/images/"+image._id+"/"+image.original.name;
       }
 
       //alert(profile.name);
-      //
-      SEO.set({
+        SEO.set({
         title: profile.name + ' | LatamStartups',
-        meta: {
+        meta:{
           'description': profile.description
         },
         og: {
-          'title': profile.name,
+          'title': profile.name + ' | LatamStartups',
           'description': profile.description,
           'image': imageUrl,
           'url': "http://latamstartups.org/"+profile.url

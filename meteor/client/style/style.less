@@ -26,6 +26,11 @@ background-color:  #fff;
 border-color:  @brand;
 }
 
+.brandBackground{
+background-color: @brand;
+margin:5px;
+}
+
 body {
 	//default char color
 	color: #474242;
@@ -63,8 +68,7 @@ a {
 }
 a:hover,
 a:focus {
-  color:#ff4526;
-  text-decoration: underline;
+ color: @brand;
 }
 
 .centered {
@@ -75,16 +79,21 @@ a:focus {
 	color: @brand
 }
 
+//Fix to horizontal scroll
+.row { margin: 0; padding: 0 }
+
+.offset-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .box {
         position:                   relative;
         display:                    block;
-        width:                      244px;
-        height:                     7em;
+        height:                     5em;
         overflow:                   hidden;
     }
     .box .text {
-        width:                      244px;
         overflow:                   hidden;
         font-size:                  .95em;
         line-height:                1;
@@ -150,7 +159,7 @@ a:focus {
 ################################################################# */
 
 .wrap{
-	padding-top: 80px;
+	//padding-top: 110px;
 }
 
 /* Footer */

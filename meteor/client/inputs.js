@@ -98,10 +98,17 @@
         }
     });
 
+    Template.countryInput.helpers({
+      countryOptions: function()
+      {
+        return Tags.find({type:'Country'})
+      }
+    })
+
     Template.marketInput.helpers({
-       marketOptions: function()
+       keywordOptions: function()
        {
-        return Tags.find({type:'Market'});
+        return Tags.find({type:{$in:['Market','City']}});
        }
     });
 

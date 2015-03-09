@@ -1,52 +1,74 @@
 <template name="startupThumbnail">
 <div class="thumbnail">
-
+		<a target="_newtab" class="companyLink" href="{{externalLink company_url}}">
 		{{#if logo}}
-				
-				<a href="{{pathFor 'profile'}}">
-					{{#each image logo}}
+     
+      			
+				{{#each image logo}}
 					<img class="img-responsive" width="150" style="height: 150px;" src="{{url}}">
 					{{/each}}
-				</a>
 		{{else}}
-			<a href="{{pathFor 'profile'}}">
+			 
 				<img class="img-responsive" width="150" style="height: 150px;" src="companyLogo.png">
-			</a>
-			
 		{{/if}}
+	</a>
 	<span class="thumbText " style="display:inline-block;">
-		<h4 class="text-center"><a  href="{{pathFor 'profile'}}"><b>{{name}}</b></a>
+		<h4 class="text-center">
+			<b>{{name}}</b>
 		</h4>
-	
+		<span>
+	<a target="_newtab" class="companyLink" href="{{externalLink company_url}}">
 		<div class="box">
 		<div class="text">
-		<h5 style="margin: 8px; font-size:16px;" class="text-justify">{{description}}</h5>
+		<h5 style="margin: 8px; font-size:16px; color:gray;" class="text-justify">{{highConcept}}</h5>
 	</div>
 </div>
+</a>
+</span>
+{{#each countries tag_ids}}
+							<div id="{{_id}}" style="font-size: 10px;" class="btn tag btn-xs">{{name}}</div>
+						{{/each}}
+{{#each cities tag_ids}}
+							<div id="{{_id}}" style="font-size: 10px;" class="btn tag btn-xs">{{name}}</div>
+						{{/each}}
+						{{#each markets tag_ids}}
+							<div id="{{_id}}" style="font-size: 10px;" class="btn tag btn-xs">{{name}}</div>
+						{{/each}}
 	</span>
-	<div class="row">
-		<div class="col-md-6">
+
+
+	<!--div class="row">
+		<div class="col-xs-4 offset-0 text-center">
 			<span title="Vistas del perfil">
-	<img class="img-responsive" width="50" style="height: 50px; display:inline;" src="viewIcon.png">
+			<img class="img-responsive" width="50" style="height: 50px; display:inline;" src="viewIcon.png">
+			</span>
+		</div>
+		<div class="col-xs-1 offset-0">
+			<br/>
 	{{#if views}}
 		{{views}}
 	{{else}}
 		0
 	{{/if}}
 
-</span>
-
 </div>
-<div class="col-md-6">
+<div class="col-xs-4 offset-0 text-center">
 	<span title="Salidas a sitios oficiales">
 	<img class="img-responsive" width="50" style="height: 50px; display:inline;" src="clickIcon.png">
+	</span>
+</div>
+	<div class="col-xs-1 offset-0">
+		<br/>
 	{{#if clicks}}
 		{{clicks}}
 	{{else}}
 		0
 	{{/if}}
-	</span>
-</div>
+	</div>
+</div-->
+<div class="row brandBackground text-center">
+	<a style="color: white;" href="{{pathFor 'profile'}}">Ver datos de compañía</a>
+	<br/>
 </div>
 </div>
 

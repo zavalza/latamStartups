@@ -1,6 +1,6 @@
 <template name="locationInput">
 <div class="input-group">
-  <input type="text" class="form-control dropdown-toggle" id="City" placeholder="Nueva ciudad" data-toggle="dropdown">
+  <input type="text" class="form-control dropdown-toggle" id="City" placeholder="Nueva cuidad" data-toggle="dropdown">
   <span class="input-group-btn">
   <button name="City" class="btn btn-info saveTag" type="button">+</button>
   </span>
@@ -11,14 +11,27 @@
   </ul>
 </div>
 </template>
+<template name="countryInput">
+<div class="input-group">
+  <input type="text" class="form-control dropdown-toggle" id="Country" placeholder="Nuevo país" data-toggle="dropdown">
+  <span class="input-group-btn">
+  <button name="Country" class="btn btn-info saveTag" type="button">+</button>
+  </span>
+  <ul class="dropdown-menu" style="display: none;" id="CountryOptions">
+    {{#each countryOptions}}
+    <a href="#"><li style="display: none;" class="Country list-group-item" id="{{name}}" name="{{_id}}">{{name}}</li></a>
+    {{/each}}
+  </ul>
+</div>
+</template>
 <template name="marketInput">
 <div class="input-group">
-  <input type="text" class="form-control dropdown-toggle" id="Market" placeholder="Nuevo mercado" data-toggle="dropdown">
+  <input type="text" class="form-control dropdown-toggle" id="Market" placeholder="Nueva palabra clave" data-toggle="dropdown">
   <span class="input-group-btn">
   <button name="Market" class="btn btn-info saveTag" type="button">+</button>
   </span>
   <ul class="dropdown-menu" style="display: none;" id="MarketOptions">
-    {{#each marketOptions}}
+    {{#each keywordOptions}}
     <a href="#"><li style="display: none;" class="Market list-group-item" id="{{name}}" name="{{_id}}">{{name}}</li></a>
     {{/each}}
   </ul>

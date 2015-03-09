@@ -13,7 +13,25 @@
     }
     Session.set('filters', filtersArray);
   },
-  'keyup #City,#Market' : function(evt, tmpl){
+
+  'change #country' : function(evt, tmpl){
+  var value = tmpl.find('#country').value;
+  //alert(value);
+  var filtersArray = Session.get("filters");
+  //alert(this._id);
+  if (value != '')
+  {
+    filtersArray=[value];
+    Session.set('filters', filtersArray);
+  }
+  else
+  {
+    Session.set('filters', []);
+  }
+
+  
+},
+  'keyup #City,#Market,#Country' : function(evt, tmpl){
       //busca todo el string y no palabra por palabra
       //alert(evt.keyCode);
 
@@ -88,7 +106,7 @@
       //alert(selection);
     },
 
-    'blur #City,#Market' : function(evt, tmpl){
+    'blur #City,#Market,#Country' : function(evt, tmpl){
       var targetId = evt.target.id;
       //alert(evt.currentTarget.id);
       Session.set('keyControl', -1);
@@ -97,7 +115,7 @@
       
     },
 
-    'mousedown .City,.Market' : function (evt, tmpl){
+    'mousedown .City,.Market,.Country' : function (evt, tmpl){
       //alert(this._id);
       var targetClass = evt.target.getAttribute('class');
       var filtersArray = Session.get("filters");
@@ -125,10 +143,16 @@
   company: function()
   {
         if (Session.get('filters').length == 0)
-            return Companies.find({types:'Startup', isPublic:true});
+            return Companies.find({types:'Startup', isPublic:true},{sort: {timestamp: -1}});
            else
-            return Companies.find({types:'Startup', isPublic:true, tag_ids:{$all:Session.get('filters')}});
+            return Companies.find({types:'Startup', isPublic:true, tag_ids:{$all:Session.get('filters')}},{sort: {timestamp: -1}});
   },
+
+   selected:function()
+        {
+          var filtersArray = Session.get("filters");
+          return (filtersArray.indexOf(this._id) != -1);
+        },
 
   cities: function(tagsArray)
     {
@@ -141,6 +165,11 @@
   city: function(tagId)
   {
     return Tags.find({_id:tagId, type:'City'});
+  },
+
+   country: function(tagId)
+  {
+    return Tags.find({_id:tagId, type:'Country'});
   },
 
   market: function(tagId)
@@ -166,12 +195,16 @@
         },
     cityOption: function()
         {
-            return Tags.find({"type": "City","counter.companies":{$gt:0}});
+            return Tags.find({"type": "City","counter.companies":{$gt:0}},{sort: {'name': 1}});
+        },
+    countryOption: function()
+        {
+            return Tags.find({"type": "Country","counter.companies":{$gt:0}},{sort: {'name': 1}});
         },
 
-    marketOption: function()
+    keywordOption: function()
         {
-            return Tags.find({"type": "Market","counter.companies":{$gt:0}});
+            return Tags.find({"type":{$in:["Market","City"]} ,"counter.companies":{$gt:0}});
         },
 
  })

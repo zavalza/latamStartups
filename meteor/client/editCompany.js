@@ -202,7 +202,7 @@ else
   Meteor.call('deleteCompanyLogo', Session.get('url'), this._id);
 },
 
-'keyup #City,#User,#Market' : function(evt, tmpl){
+'keyup #City,#User,#Market,#Country' : function(evt, tmpl){
       //busca todo el string y no palabra por palabra
       var targetId = evt.target.id;
       //alert(targetId)
@@ -341,7 +341,7 @@ else
     },
 
 
-    'blur #City,#User,#Market' : function(evt, tmpl){
+    'blur #City,#User,#Market,#Country' : function(evt, tmpl){
       var targetId = evt.target.id;
       //alert(evt.currentTarget.id);
       Session.set('keyControl', -1);
@@ -350,7 +350,7 @@ else
       
     },
 
-    'mousedown .City,.Market' : function (evt, tmpl){
+    'mousedown .City,.Market,.Country' : function (evt, tmpl){
       //alert(this._id);
       //alert (targetClass);
       //Meteor.call('pushTag', Meteor.userId(), this._id);
@@ -358,9 +358,9 @@ else
       //return true;
     },
     
-    /*'click .pullCompanyTag' : function(evt, tmpl){
+    'click .pullCompanyTag' : function(evt, tmpl){
        Meteor.call('pullCompanyTag', Session.get('url'), this._id);
-    }*/
+    }
   });
 
   Template.addMember.events({
@@ -447,6 +447,11 @@ Template.member.helpers({
         city: function(tagId)
         {
           return Tags.find({_id:tagId, type:'City'});
+        },
+
+        country: function(tagId)
+        {
+          return Tags.find({_id:tagId, type:'Country'});
         },
 
         market: function(tagId)

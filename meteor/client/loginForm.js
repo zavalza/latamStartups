@@ -34,7 +34,7 @@ Template.loginForm.events({
                 if(!error){
                   Session.set('userToShow', result);
                   //alert(result);
-                  Router.go('welcome');
+                  Router.go('startups');
                 }
               });
             }
@@ -79,7 +79,7 @@ Template.loginForm.events({
                 if(!error){
                   Session.set('userToShow', result);
                   //alert(result);
-                  Router.go('welcome');
+                  Router.go('startups');
                 }
               });
             }

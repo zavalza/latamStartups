@@ -1,68 +1,60 @@
 <template name="startups">
-	<div class="wrap row">
-		<div class="col-md-3">
-			<form name="stage" role="form" class="form-inline col-md-6 col-xs-10 col-md-offset-3 col-xs-offset-1">
-			<div class="form-group">
-				<h4><b>Etapa Alcanzada</b></h4>
-				{{#each companyStageOption}}
-				<label>
-					{{name}}
-					<input class="form-control" type="checkbox" id="stages" value="{{_id}}">
-				</label>
-				{{/each}}
-			</div>
-			</form>
-			<div class="row">
-			<div class="col-md-6 col-xs-6 col-md-offset-3 col-xs-offset-3">
-			<h4><b>Ubicación</b></h4>
-			<div class="row">
-			<input type="text" class="form-control dropdown-toggle" id="City" placeholder="Añadir Ubicación" data-toggle="dropdown">
-			<ul class="dropdown-menu" style="display: none;" id="CityOptions">
-			    {{#each cityOption}}
-			    <a href="#"><li style=" display: none;" class="City" id="{{_id}}">{{name}}</li></a>
-			    {{/each}}
-			  </ul>
+	<div class="wrap">
+	<!--{{>newsletter}}-->
+</div>
 
-			{{#each filters}}
-                {{#each city this}}
-                <div class="input-group">
-                  <input type="text" class="form-control " id="city" value="{{name}}" disabled>
-                  <span class="input-group-btn">
-                  <button id="{{_id}}" name="City" class="btn btn-danger pullFilter" type="button">x</button>
-                  </span>
-                </div>
-                {{/each}}
-             {{/each}}
-			 </div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6 col-xs-6 col-md-offset-3 col-xs-offset-3">
-			<h4><b>Mercado</b></h4>
+	<div class="row">
+		<div class="col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
 			<div class="row">
-			<input type="text" class="form-control dropdown-toggle" id="Market" placeholder="Añadir Mercado" data-toggle="dropdown">
+				<h3 class="name">País</h3>
+				<select id="country" class="form-control" style="font-size:15px;">
+                <option value="">Toda Latinoamérica</option>
+                {{#each countryOption}}
+                {{#if selected}}
+                <option id="{{_id}}" value="{{_id}}" selected>{{name}}</option>
+                {{else}}
+                <option id="{{_id}}" value="{{_id}}">{{name}}</option>
+                {{/if}}
+                {{/each}}
+              </select>
+		</div>
+			<h3 class="name">Palabras Clave</h3>
+			<div class="row">
+			<input type="text" class="form-control dropdown-toggle" id="Market" placeholder="Filtrar por palabra clave" data-toggle="dropdown">
 			<ul class="dropdown-menu" style="display: none;" id="MarketOptions">
-			    {{#each marketOption}}
+			    {{#each keywordOption}}
 			    <a href="#"><li style=" display: none;" class="Market" id="{{_id}}">{{name}}</li></a>
 			    {{/each}}
 			  </ul>
 
 			{{#each filters}}
+				{{#each city this}}
+	                <div class="input-group">
+	                  <input type="text" class="form-control " id="city" value="{{name}}" disabled>
+	                  <span class="input-group-btn">
+	                  <button id="{{_id}}" name="City" class="btn btn-danger pullFilter" type="button">x</button>
+	                  </span>
+	                </div>
+	            {{/each}}
                 {{#each market this}}
                 <div class="input-group">
                   <input type="text" class="form-control " id="city" value="{{name}}" disabled>
                   <span class="input-group-btn">
-                  <button id="{{_id}}" name="City" class="btn btn-danger pullFilter" type="button">x</button>
+                  <button id="{{_id}}" name="Market" class="btn btn-danger pullFilter" type="button">x</button>
                   </span>
                 </div>
                 {{/each}}
              {{/each}}
 			 </div>
-			</div>
 		</div>
-		</div>
-		<div class="col-md-8 col-md-offset-0 col-xs-10 col-xs-offset-1">
+		<div class="col-md-8 col-md-offset-0 col-xs-8 col-xs-offset-2">
+			<br/>
 			{{#each company}}
+			<div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1">
+			{{>startupThumbnail}}
+		</div>
+		<!--
+		{{#each company}}
 				<div class="row center-block">
 					<div class="col-md-2 col-xs-3">
 						<a href="{{pathFor 'profile'}}">
@@ -88,6 +80,7 @@
 					</div>
 		 		</div>
 		 		<br/>
+		 	-->
 			{{/each}}
 		</div>
 	</div>

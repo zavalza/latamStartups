@@ -22,7 +22,7 @@
 	<br/>
 	<div class="row">
 		<div style="background:orange" class="col-md-4 col-md-offset-2">
-		<h3 style="color:white">Creemos que estos proyectos son la esperanza de innovación en Latinoamérica y nos esforzamos porque alcancen a más personas y logren un mayor impacto.</h3>
+		<h3 style="color:white">Descubre servicios y productos innovadores, contacta a sus fundadores</h3>
 		</div>
 	</div>
 </div>
@@ -41,8 +41,10 @@
 				<h4>Redes Sociales</h4>
 				<div class="hline-w"></div>
 				<p>
-				<a target="_newtab" href="https://www.facebook.com/latamStartupsWeb"><img class="img-responsive icon" width="30" src="fbIcon.png"></a>
+				<a target="_newtab" href="https://www.facebook.com/latStartups"><img class="img-responsive icon" width="30" src="fbIcon.png"></a>
+				<a target="_newtab" href="https://www.twitter.com/latStartups"><img class="img-responsive icon" width="30" src="twitterIcon.png"></a>
 				</p>
+
 			</div>
 			<div class="col-md-3 col-md-offset-1">
 				<h4>Contacto</h4>
@@ -74,9 +76,8 @@
 
 <template name="newsletter">
 <div id="definition" class="row">
-	<br/>
 	<div class="col-md-5 col-md-offset-2">
-		<h2 style="color:white;">Recibe las startups más destacadas de tu ciudad y de Latinoamérica en nuestro boletín</h2>
+		<h2 style="color:white;">Recibe los proyectos más destacados de Latinoamérica en nuestro boletín</h2>
 	</div>
 	<div class="col-md-3 col-xs-offset-1">
 		<div class="row">
@@ -94,13 +95,12 @@
 				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Correo Electrónico" required>
 				<!--real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 				<div style="position: absolute; left: -5000px;"><input type="text" name="b_b684681ee9158ae251187e80d_abff8b62a4" tabindex="-1" value=""></div>
-				<div class="clear"><input type="submit" value="Suscribirme" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				<div class="clear"><input type="submit" value="Suscribirme" name="subscribe" id="mc-embedded-subscribe" class="button subscribe"></div>
 			</div>
 		</form>
 	</div>
 	<!--End mailchimp -->
 	</div>
-	<br/>
 	</div>
 	
 </div>
@@ -113,7 +113,7 @@
 		<br/>
 		<h2 class="name text-center">Nuevas Startups</h2>
 		{{#each newStartup}}
-		<div class="col-md-4">
+		<div class="col-md-4 col-md-offset-0 col-xs-8 col-xs-offset-2">
 			{{>startupThumbnail}}
 		</div>
 		{{/each}}
@@ -129,7 +129,7 @@
 	<div class="col-md-8 col-md-offset-2">
 		<h2 class="name text-center">Startups recomedadas hoy </h2>
 		{{#each trendingStartup}}
-		<div class="col-md-4">
+		<div class="col-md-4 col-md-offset-0 col-xs-8 col-xs-offset-2">
 			{{>startupThumbnail}}
 		</div>
 		{{/each}}
@@ -158,7 +158,7 @@
 	<h2 class="name">Contacta personas en tu comunidad</h2>
 	{{#each newUser}}
 		{{#each person person_id}}
-		<div class="col-md-4">
+		<div class="col-md-4 col-md-offset-0 col-xs-8 col-xs-offset-2">
 			{{>profileThumbnail}}
 		</div>
 		{{/each}}

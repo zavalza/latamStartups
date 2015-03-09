@@ -1,0 +1,2373 @@
+{
+  "startups": [
+    {
+      "id": 549417,
+      "hidden": true
+    },
+    {
+      "id": 549227,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Cuponidad",
+      "angellist_url": "https://angel.co/cuponidad",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/549227-ae090c31c12044dda97c2e7f797c72fa-medium_jpg.jpg?buster=1417626080",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/549227-ae090c31c12044dda97c2e7f797c72fa-thumb_jpg.jpg?buster=1417626080",
+      "quality": 3,
+      "product_desc": null,
+      "high_concept": "A daily deal company",
+      "follower_count": 1,
+      "company_url": "http://www.cuponidad.com",
+      "created_at": "2014-12-03T16:48:17Z",
+      "updated_at": "2014-12-03T17:01:24Z",
+      "crunchbase_url": null,
+      "twitter_url": "https://twitter.com/cuponidad",
+      "blog_url": "",
+      "facebook_url": "https://www.facebook.com/cuponidad",
+      "linkedin_url": "https://www.linkedin.com/company/cuponidad?trk=top_nav_home",
+      "video_url": null,
+      "markets": [
+        {
+          "id": 29,
+          "tag_type": "MarketTag",
+          "name": "e-commerce",
+          "display_name": "E-Commerce",
+          "angellist_url": "https://angel.co/e-commerce"
+        },
+        {
+          "id": 424,
+          "tag_type": "MarketTag",
+          "name": "deals",
+          "display_name": "Deals",
+          "angellist_url": "https://angel.co/deals"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "51-200",
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 548570,
+      "hidden": true
+    },
+    {
+      "id": 542904,
+      "hidden": true
+    },
+    {
+      "id": 539841,
+      "hidden": true
+    },
+    {
+      "id": 538276,
+      "hidden": true
+    },
+    {
+      "id": 534548,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Nativo Digital",
+      "angellist_url": "https://angel.co/nativo-digital",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/534548-4237a3f229cd2f3c25b75ed51651c3e9-medium_jpg.jpg?buster=1416009484",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/534548-4237a3f229cd2f3c25b75ed51651c3e9-thumb_jpg.jpg?buster=1416009484",
+      "quality": 3,
+      "product_desc": "After launching the first on-site, beginner-focused coding bootcamps in Latin America through World Tech Makers, we decided to scale our passion in a fun way - through education and video games.\n\nWe launched Nativo Digital's Alpha and after 3 weeks, we had over 2,700 users testing our platform. We are launching the Beta within the next months.\n\nWe use artificial intelligence, leverage gamification and trends like mobile and web technology in a region that is emerging and has enormous potential: the Americas. We focus on Portuguese, Spanish and English speaking populations aged between 5 and 40 years old. Our platform is adaptive: it adapts to the user by identifying strengths, weaknesses and preferences through gamified concepts, stories and processes. We teach highly valuable skills - coding skills - and aspire to allow our users to become technology creators.",
+      "high_concept": "Nativo Digital is a web and mobile adaptive and gamified technology education platform.",
+      "follower_count": 4,
+      "company_url": "http://www.nativo.digital",
+      "created_at": "2014-11-14T23:58:09Z",
+      "updated_at": "2014-11-16T02:24:37Z",
+      "crunchbase_url": null,
+      "twitter_url": "https://twitter.com/soynativo",
+      "blog_url": "",
+      "facebook_url": "https://www.facebook.com/nativodigital618",
+      "linkedin_url": "",
+      "video_url": null,
+      "markets": [
+        {
+          "id": 100,
+          "tag_type": "MarketTag",
+          "name": "video games",
+          "display_name": "Video Games",
+          "angellist_url": "https://angel.co/video-games"
+        },
+        {
+          "id": 200,
+          "tag_type": "MarketTag",
+          "name": "artificial intelligence",
+          "display_name": "Artificial Intelligence",
+          "angellist_url": "https://angel.co/artificial-intelligence"
+        },
+        {
+          "id": 490,
+          "tag_type": "MarketTag",
+          "name": "mobile games",
+          "display_name": "Mobile Games",
+          "angellist_url": "https://angel.co/mobile-games-1"
+        },
+        {
+          "id": 152246,
+          "tag_type": "MarketTag",
+          "name": "Education Technology",
+          "display_name": "Education Technology",
+          "angellist_url": "https://angel.co/education-technology-2"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "1-10",
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 532809,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Minpto",
+      "angellist_url": "https://angel.co/minpto",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/532809-c2bc9ed8c88fef973bd297a47eb90290-medium_jpg.jpg?buster=1415845474",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/532809-c2bc9ed8c88fef973bd297a47eb90290-thumb_jpg.jpg?buster=1415845474",
+      "quality": 2,
+      "product_desc": "Minpto is a platform based on crypto wallets that provide massive access infraestructure to adquire different cryptocurrencies like Bitcoin, Dogecoin and Litecoin making it easy to consumers without bank account or credit card initially in Colombia and then in South America region. Intermediary service between exchanges and final costumer.\n\nCryptocurrency is a medium of exchange and in some cases a digital assets with value all of this using cryptography to secure the transactions and to control the creation of new units. Ex: Bitcoin, Dogecoin.",
+      "high_concept": "Access crypto without bank account or credit card.",
+      "follower_count": 1,
+      "company_url": "http://www.minpto.com",
+      "created_at": "2014-11-13T02:24:38Z",
+      "updated_at": "2014-11-25T06:56:37Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": "",
+      "markets": [
+        {
+          "id": 71,
+          "tag_type": "MarketTag",
+          "name": "payments",
+          "display_name": "Payments",
+          "angellist_url": "https://angel.co/payments"
+        },
+        {
+          "id": 2777,
+          "tag_type": "MarketTag",
+          "name": "virtual currency",
+          "display_name": "Virtual Currency",
+          "angellist_url": "https://angel.co/virtual-currency"
+        },
+        {
+          "id": 9116,
+          "tag_type": "MarketTag",
+          "name": "brokers",
+          "display_name": "Brokers",
+          "angellist_url": "https://angel.co/brokers"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "1-10",
+      "company_type": [],
+      "status": null,
+      "screenshots": [
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/429/875/429875-846cc24617470830d4b6334e74535984b4b538d1.jpg?1415885264",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/429/875/429875-4d3b180a4ad92a433f86e7a01b1c78392153ddc3.png?1415885264"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/429/878/429878-903284d2c4e10b178a3852355a0c9a1121eb4826.jpg?1415885289",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/429/878/429878-703727aa24dcf56d0ba38c2a520139efc698ba55.png?1415885289"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/429/879/429879-3a512501652842e8d35fa933fcf661f0c7d97433.jpg?1415885305",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/429/879/429879-c07c161e20e1f6b7abc94056dc0ec2d9245fd134.png?1415885305"
+        }
+      ]
+    },
+    {
+      "id": 529419,
+      "hidden": false,
+      "community_profile": false,
+      "name": "FitClub",
+      "angellist_url": "https://angel.co/fitclub",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/529419-2c179c4a1d97b84f2bcc90fac802941a-medium_jpg.jpg?buster=1415381496",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/529419-2c179c4a1d97b84f2bcc90fac802941a-thumb_jpg.jpg?buster=1415381496",
+      "quality": 2,
+      "product_desc": "FitClub Is the first Colombian ecommerce platform that sells product, training programs, and ingredients for for the fitness segment with a few partners in natural food, free recipes and professional advisors.",
+      "high_concept": "Fit equals Health",
+      "follower_count": 1,
+      "company_url": "http://www.fitclub.com.co",
+      "created_at": "2014-11-07T17:31:39Z",
+      "updated_at": "2014-11-07T17:34:40Z",
+      "crunchbase_url": null,
+      "twitter_url": null,
+      "blog_url": null,
+      "facebook_url": null,
+      "linkedin_url": null,
+      "video_url": null,
+      "markets": [
+        {
+          "id": 13,
+          "tag_type": "MarketTag",
+          "name": "health care",
+          "display_name": "Health Care",
+          "angellist_url": "https://angel.co/health-care"
+        },
+        {
+          "id": 107,
+          "tag_type": "MarketTag",
+          "name": "fitness",
+          "display_name": "Fitness",
+          "angellist_url": "https://angel.co/fitness"
+        },
+        {
+          "id": 10974,
+          "tag_type": "MarketTag",
+          "name": "nutrition",
+          "display_name": "Nutrition",
+          "angellist_url": "https://angel.co/nutrition"
+        },
+        {
+          "id": 157339,
+          "tag_type": "MarketTag",
+          "name": "Colombia ",
+          "display_name": "Colombia ",
+          "angellist_url": "https://angel.co/colombia-1"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": null,
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 526843,
+      "hidden": true
+    },
+    {
+      "id": 523714,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Publicart.me",
+      "angellist_url": "https://angel.co/publicart-me",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/523714-3a85afe7e40534588f3ce2ba9a5b0165-medium_jpg.jpg?buster=1414721872",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/523714-3a85afe7e40534588f3ce2ba9a5b0165-thumb_jpg.jpg?buster=1414721872",
+      "quality": 2,
+      "product_desc": "Publicart.me, allows global enterprises, small businesses, and startups connect with audio visual freelancers for their projects; generating business opportunities to grow in experience and expand their careers to new levels; in a safety place to hire or work, all covered by our escrow system, which shall be paid only to the freelancer once the project is completed successfully, ensuring quality in the development of projects and timely payments.\n\nHow it Works?\n\n1.\tPost a project for free. \n2.\tReceive offers, compare and hire the best talent. \n3.\tRelease the payment when the project is completed successfully.\n\nWhat are the benefits?\n\n1.\tAnyone can post a project and manage the development online.\n2.\tCompare and choose the right freelancer or project.\n3.\tFreelancers satisfied with timely payments.\n\nPublicart.me will get a small commission for each project, which will be deducted according to membership.",
+      "high_concept": "Connecting audio visual freelancers with projects (freelancer.com)",
+      "follower_count": 2,
+      "company_url": "http://publicart.me/",
+      "created_at": "2014-10-31T02:17:56Z",
+      "updated_at": "2014-10-31T05:19:27Z",
+      "crunchbase_url": null,
+      "twitter_url": null,
+      "blog_url": null,
+      "facebook_url": null,
+      "linkedin_url": null,
+      "video_url": "",
+      "markets": [
+        {
+          "id": 340,
+          "tag_type": "MarketTag",
+          "name": "small and medium businesses",
+          "display_name": "Small and Medium Businesses",
+          "angellist_url": "https://angel.co/small-and-medium-businesses"
+        },
+        {
+          "id": 9847,
+          "tag_type": "MarketTag",
+          "name": "freelancers",
+          "display_name": "Freelancers",
+          "angellist_url": "https://angel.co/freelancers"
+        },
+        {
+          "id": 156264,
+          "tag_type": "MarketTag",
+          "name": "global",
+          "display_name": "Global",
+          "angellist_url": "https://angel.co/global-7"
+        },
+        {
+          "id": 157266,
+          "tag_type": "MarketTag",
+          "name": "audiovisual",
+          "display_name": "Audiovisual",
+          "angellist_url": "https://angel.co/audiovisual-1"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": null,
+      "company_type": [],
+      "status": null,
+      "screenshots": [
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/423/821/423821-43457126b743aa9db80a70f8b9f6d1b07454a5bd.jpg?1414733316",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/423/821/423821-040ae2b9f3cd938bd0e0fcd604689402ee0077ba.png?1414733316"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/423/822/423822-ef42d8d17c607e4103b07903d60c45a464872938.jpg?1414733360",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/423/822/423822-b6c1fc2b8e226e34095383d6e33fd51e2dcfcced.png?1414733360"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/423/823/423823-c8977b175637d68cf4a3e1450dbec6b95b954a7b.jpg?1414733403",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/423/823/423823-2893292aca0b965553b50a91dc85a52957efe326.png?1414733403"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/423/824/423824-b781d32bc929e6ef5fa6c4b4967e4fa9147e9670.jpg?1414733421",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/423/824/423824-adce531db9af3378c98eb949e12f9c5a72d17b3f.png?1414733421"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/423/825/423825-9c0b85c7912dac2d1b0abc3267947925864f9326.jpg?1414733460",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/423/825/423825-bdeb33c83bde338fc50f8f85a6c9b05ffcbc9bcc.png?1414733460"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/423/826/423826-41fb93217b2f4680b3c07c9e7538eca8cedc6774.jpg?1414733481",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/423/826/423826-6407b9df9c4283f137e57c5b90c5b4a252f0aa8f.png?1414733481"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/423/827/423827-a3ed4b70104a6516cb1d5c6228db2da776526bb0.jpg?1414733502",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/423/827/423827-dbdd7fefe81b338bc3691bc433c29273cc733eec.png?1414733502"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/423/828/423828-7f615837e1005fd820fa350df2bf3ce24f299cda.jpg?1414733521",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/423/828/423828-ddbcc22733cb38546447f04c77dda7b4f6c3b2be.png?1414733521"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/423/829/423829-62ef2b23ca815d64a9014e0a231ae715b37fa84f.jpg?1414733538",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/423/829/423829-25d2dd4e55d2a0ebb04e6f1760d56b843d2bc6c5.png?1414733538"
+        }
+      ]
+    },
+    {
+      "id": 522921,
+      "hidden": true
+    },
+    {
+      "id": 521907,
+      "hidden": false,
+      "community_profile": false,
+      "name": "ARTIC MEDIA",
+      "angellist_url": "https://angel.co/artic-media",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/521907-6d9470b884398fd61aa785cedefb0a12-medium_jpg.jpg?buster=1414554239",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/521907-6d9470b884398fd61aa785cedefb0a12-thumb_jpg.jpg?buster=1414554239",
+      "quality": 1,
+      "product_desc": "Integrating hardware and software augmented reality solutions to transform every industrial sector. Our main market will be oil&gas industry in Latinamerica, providing cost savings, increased productivity and better safety conditions.\n\nProviding consulting services, Planning and implementation, Custom solutions.\n\nBenefits: Instant expert capabilities, Intuitive on-site step-by-step instructions, Training applications and Reference materials, Maintenance and repairs on critical equipment, Increases safety and  environmental risk conditions, Visualization of business intelligence & Real-time operational data.",
+      "high_concept": "Industrial augmented reality solutions.",
+      "follower_count": 4,
+      "company_url": "http://www.artic.com.co/",
+      "created_at": "2014-10-29T03:44:03Z",
+      "updated_at": "2014-10-29T21:08:05Z",
+      "crunchbase_url": null,
+      "twitter_url": null,
+      "blog_url": null,
+      "facebook_url": null,
+      "linkedin_url": null,
+      "video_url": "http://youtu.be/_Jn7dS4wlwI",
+      "markets": [
+        {
+          "id": 13,
+          "tag_type": "MarketTag",
+          "name": "health care",
+          "display_name": "Health Care",
+          "angellist_url": "https://angel.co/health-care"
+        },
+        {
+          "id": 48,
+          "tag_type": "MarketTag",
+          "name": "manufacturing",
+          "display_name": "Manufacturing",
+          "angellist_url": "https://angel.co/manufacturing-2"
+        },
+        {
+          "id": 72,
+          "tag_type": "MarketTag",
+          "name": "food and beverages",
+          "display_name": "Food and Beverages",
+          "angellist_url": "https://angel.co/food-and-beverages"
+        },
+        {
+          "id": 2401,
+          "tag_type": "MarketTag",
+          "name": "oil and gas",
+          "display_name": "Oil and Gas",
+          "angellist_url": "https://angel.co/oil-and-gas"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": null,
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 520352,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Tribyt",
+      "angellist_url": "https://angel.co/tribyt-1",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/520352-076fd7f1ee0cfd6df122cdfded4a9186-medium_jpg.jpg?buster=1414429025",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/520352-076fd7f1ee0cfd6df122cdfded4a9186-thumb_jpg.jpg?buster=1414429025",
+      "quality": 1,
+      "product_desc": "Tribyt.com will be a social network focused on quality content to bring something positive to the users.\n\nInTribyt.com will be published:\n\n•\tValuable articles from magazines and newspapers\n•\tTraining courses, academic and professional training\n•\tResearch, contributions from independent authors\n•\tNewspaper articles, news, articles of interest\n•\tTopicality, recommended books\n•\tVideos\n\nTribyt.com will have four sections :\n\n\n1.\tQuality content (as described above),\n2.\tEntrepreneurship: The ideas of users in the creation of new enterprises or business  will will have the opportunity to publicize them and find a partner for the project.\n3.\tEntertainment: Moods, videos, leisure\n4.\tWebshop: The social network will have a virtual store as the style as the web site www.linio.com.co with items of all kinds, but the main feature is that the producer or manufacturer will be  a micro entrepreneur, small business or medium business, in this way our social network will contribute to a social value.",
+      "high_concept": "Social network, quality content. Example: (facebook).",
+      "follower_count": 3,
+      "company_url": "http://www.tribyt.com",
+      "created_at": "2014-10-27T16:57:10Z",
+      "updated_at": "2014-10-27T17:26:57Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": null,
+      "markets": [
+        {
+          "id": 6,
+          "tag_type": "MarketTag",
+          "name": "social media",
+          "display_name": "Social Media",
+          "angellist_url": "https://angel.co/social-media"
+        },
+        {
+          "id": 230,
+          "tag_type": "MarketTag",
+          "name": "social commerce",
+          "display_name": "Social Commerce",
+          "angellist_url": "https://angel.co/social-commerce"
+        },
+        {
+          "id": 1432,
+          "tag_type": "MarketTag",
+          "name": "online shopping",
+          "display_name": "Online Shopping",
+          "angellist_url": "https://angel.co/online-shopping"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "1-10",
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 516985,
+      "hidden": false,
+      "community_profile": false,
+      "name": "CamFi",
+      "angellist_url": "https://angel.co/camfi",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/516985-5cd208f8223635501a4ca32dd9d05aef-medium_jpg.jpg?buster=1413988470",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/516985-5cd208f8223635501a4ca32dd9d05aef-thumb_jpg.jpg?buster=1413988470",
+      "quality": 1,
+      "product_desc": "It's a camera that capture HQ video using different types of DSLR lenses, compress it and send it (live) to your computer using thunderbolt, firewire, HDMI, USB, or WIFI. should be cheap (U$300) body only.\n\nThe camera most have\n\nDifferent types of mount: nikon cannon olympus sony mounts.\nMic connector, whit levels controls\nManual Control for ISO, Aperture, and shutter speed\nYou will be able to plug as many ports you have\n\n(The video is from the profile is to demonstrate most of the problems)",
+      "high_concept": "DSLR Camera for streaming videos over the internet",
+      "follower_count": 1,
+      "company_url": "http://pulsar.la",
+      "created_at": "2014-10-22T14:34:35Z",
+      "updated_at": "2014-10-22T22:54:56Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": "https://www.youtube.com/watch?v=3ArnTRbTIw4",
+      "markets": [
+        {
+          "id": 4,
+          "tag_type": "MarketTag",
+          "name": "digital media",
+          "display_name": "Digital Media",
+          "angellist_url": "https://angel.co/digital-media"
+        },
+        {
+          "id": 290,
+          "tag_type": "MarketTag",
+          "name": "video streaming",
+          "display_name": "Video Streaming",
+          "angellist_url": "https://angel.co/video-streaming"
+        },
+        {
+          "id": 151980,
+          "tag_type": "MarketTag",
+          "name": "Latin America",
+          "display_name": "Latin America",
+          "angellist_url": "https://angel.co/latin-america"
+        },
+        {
+          "id": 152439,
+          "tag_type": "MarketTag",
+          "name": "North America - english for now",
+          "display_name": "North America   English For Now",
+          "angellist_url": "https://angel.co/north-america-english-for-now"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "",
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 516739,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Marimba Marketing & Comunications",
+      "angellist_url": "https://angel.co/marimba-marketing-comunications",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/516739-9868e8d6ea759b165ea657d358bdf824-medium_jpg.jpg?buster=1413958890",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/516739-9868e8d6ea759b165ea657d358bdf824-thumb_jpg.jpg?buster=1413958890",
+      "quality": 3,
+      "product_desc": "Marketing Digital Online: We work digitally everything related to marketing , achieving a capacity of direct contact between the brands, products or sevices and their clients to enter a competitive market by leveraging the internet as a direct tool for high impact and powerful global.Use general purpose tools for mass public consumption, bearing in mind that any type of negotiation can be done by ineternet . advise us via internet to all companies looking to cover a wider market and its expansion processes .",
+      "high_concept": "Marketing Digital, Social Media and Consulting",
+      "follower_count": 1,
+      "company_url": "https://www.facebook.com/marimbaproducciones",
+      "created_at": "2014-10-22T06:21:35Z",
+      "updated_at": "2014-10-22T06:26:08Z",
+      "crunchbase_url": null,
+      "twitter_url": null,
+      "blog_url": null,
+      "facebook_url": null,
+      "linkedin_url": null,
+      "video_url": null,
+      "markets": [
+        {
+          "id": 6,
+          "tag_type": "MarketTag",
+          "name": "social media",
+          "display_name": "Social Media",
+          "angellist_url": "https://angel.co/social-media"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": null,
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 514584,
+      "hidden": false,
+      "community_profile": true,
+      "name": "Mi Kit",
+      "angellist_url": "https://angel.co/mi-kit",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/514584-e7d9e4c7fbb7847bbdc02617295140a7-medium_jpg.jpg?buster=1413740431",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/514584-e7d9e4c7fbb7847bbdc02617295140a7-thumb_jpg.jpg?buster=1413740431",
+      "quality": 1,
+      "product_desc": "Each period cycle, women deal with the hassle of buying feminine care products: lines at the store, not finding what they are looking for, traffic, stress, missing important work or personal events, etc.\n\nMi Kit is a subscription-based online retailer of feminine care products based in Colombia. We offer a new shopper experience to help our customers buy the products they need in a convenient, discrete and personalized way. Our value proposition:\n\n1) Convenient: We remind you when to re-order. You receive your kit at home, no need to go to the store.\n\n2) Discrete: Your kit arrives in a beautiful discrete box.\n\n3) Personalized: You can build your own kit according to your needs.\n\n4) Trustworthy: You can order an emergency kit anytime, we'll deliver it within 40 minutes (in available locations)\n\n5) Easy to use: USer-friendly website, easy to build/modify your kit and to reorder. Mobile app also available.\n\n6) Surprise gifts with your kit every month",
+      "high_concept": "Online retailer of feminine care products",
+      "follower_count": 4,
+      "company_url": "http://www.mikit.co",
+      "created_at": "2014-10-19T17:40:35Z",
+      "updated_at": "2014-12-03T21:14:01Z",
+      "crunchbase_url": null,
+      "twitter_url": "https://twitter.com/MiKit_colombia",
+      "blog_url": "",
+      "facebook_url": "https://www.facebook.com/MiKit.Colombia",
+      "linkedin_url": "",
+      "video_url": null,
+      "markets": [
+        {
+          "id": 418,
+          "tag_type": "MarketTag",
+          "name": "personal health",
+          "display_name": "Personal Health",
+          "angellist_url": "https://angel.co/personal-health"
+        },
+        {
+          "id": 553,
+          "tag_type": "MarketTag",
+          "name": "women-focused",
+          "display_name": "Women-Focused",
+          "angellist_url": "https://angel.co/women-focused"
+        },
+        {
+          "id": 1891,
+          "tag_type": "MarketTag",
+          "name": "subscription businesses",
+          "display_name": "Subscription Businesses",
+          "angellist_url": "https://angel.co/subscription-businesses"
+        },
+        {
+          "id": 157339,
+          "tag_type": "MarketTag",
+          "name": "Colombia ",
+          "display_name": "Colombia ",
+          "angellist_url": "https://angel.co/colombia-1"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "",
+      "company_type": [
+        {
+          "id": 94212,
+          "tag_type": "CompanyTypeTag",
+          "name": "startup",
+          "display_name": "Startup",
+          "angellist_url": "https://angel.co/startup"
+        },
+        {
+          "id": 125202,
+          "tag_type": "CompanyTypeTag",
+          "name": "Early Stage",
+          "display_name": "Early Stage",
+          "angellist_url": "https://angel.co/early-stage"
+        },
+        {
+          "id": 144581,
+          "tag_type": "CompanyTypeTag",
+          "name": "E-Commerce",
+          "display_name": "E Commerce",
+          "angellist_url": "https://angel.co/e-commerce-4"
+        }
+      ],
+      "status": {
+        "id": 157758,
+        "message": "Ecommerce Startup in Colombia",
+        "created_at": "2014-10-19T18:12:17Z"
+      },
+      "screenshots": []
+    },
+    {
+      "id": 513850,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Notebuc",
+      "angellist_url": "https://angel.co/notebuc",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/513850-7bfbe3429a3fed175bfb7e07a4ee8f65-medium_jpg.jpg?buster=1413608438",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/513850-7bfbe3429a3fed175bfb7e07a4ee8f65-thumb_jpg.jpg?buster=1413608438",
+      "quality": 2,
+      "product_desc": "Notebuc is an e-commerce company that allows students to post their homework and other academic resources so that people can purchase them. Documents are categorized by institution, program, class and even teacher. \n\nPeople can also use the portal to buy and sell different products with a completely new and personalized delivery experience.",
+      "high_concept": "Ultimate shopping experience for students",
+      "follower_count": 3,
+      "company_url": "http://www.notebuc.com",
+      "created_at": "2014-10-18T00:20:48Z",
+      "updated_at": "2014-10-27T04:52:41Z",
+      "crunchbase_url": null,
+      "twitter_url": "http://www.twitter.com/notebuc",
+      "blog_url": "",
+      "facebook_url": "http://www.facebook.com/notebuc",
+      "linkedin_url": "",
+      "video_url": "http://youtu.be/FiMf0-0icqo",
+      "markets": [
+        {
+          "id": 29,
+          "tag_type": "MarketTag",
+          "name": "e-commerce",
+          "display_name": "E-Commerce",
+          "angellist_url": "https://angel.co/e-commerce"
+        },
+        {
+          "id": 269,
+          "tag_type": "MarketTag",
+          "name": "social media platforms",
+          "display_name": "Social Media Platforms",
+          "angellist_url": "https://angel.co/social-media-platforms"
+        },
+        {
+          "id": 912,
+          "tag_type": "MarketTag",
+          "name": "teenagers",
+          "display_name": "Teenagers",
+          "angellist_url": "https://angel.co/teenagers"
+        },
+        {
+          "id": 2613,
+          "tag_type": "MarketTag",
+          "name": "university students",
+          "display_name": "University Students",
+          "angellist_url": "https://angel.co/university-students"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "",
+      "company_type": [
+        {
+          "id": 143833,
+          "tag_type": "CompanyTypeTag",
+          "name": "Internet",
+          "display_name": "Internet",
+          "angellist_url": "https://angel.co/internet-4"
+        },
+        {
+          "id": 144581,
+          "tag_type": "CompanyTypeTag",
+          "name": "E-Commerce",
+          "display_name": "E Commerce",
+          "angellist_url": "https://angel.co/e-commerce-4"
+        }
+      ],
+      "status": null,
+      "screenshots": [
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/416/960/416960-b4898e013e7d04c1e595a4f569cb3e5722076899.jpg?1413601204",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/416/960/416960-591839a7b5cefe7a2b1791f50a83318dde3ed075.png?1413601204"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/416/961/416961-650502bc67346ff8993a27c96f64e8d653ddec2f.jpg?1413601263",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/416/961/416961-9df62403315ebd79aee3e0f43a34a31e0f0542e0.png?1413601263"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/416/964/416964-9a20ebd996a3cad5e4becd6dabba97604927cf21.jpg?1413601573",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/416/964/416964-a943f017efa02fa643cf3975a6dac03850915ae9.png?1413601573"
+        }
+      ]
+    },
+    {
+      "id": 513775,
+      "hidden": false,
+      "community_profile": false,
+      "name": "SACRED EDEN S.A.S.",
+      "angellist_url": "https://angel.co/sacred-eden-s-a-s",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/513775-35b2e72500ece11503e0abad411948bc-medium_jpg.jpg?buster=1413582184",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/513775-35b2e72500ece11503e0abad411948bc-thumb_jpg.jpg?buster=1413582184",
+      "quality": 1,
+      "product_desc": "Multinational with over 100 people in Colombia. We specialize in web services, such as design, programming, call center and business development.",
+      "high_concept": "Niwali",
+      "follower_count": 2,
+      "company_url": "http://www.sacrededen.co",
+      "created_at": "2014-10-17T21:43:07Z",
+      "updated_at": "2014-10-20T22:43:45Z",
+      "crunchbase_url": null,
+      "twitter_url": null,
+      "blog_url": null,
+      "facebook_url": null,
+      "linkedin_url": null,
+      "video_url": null,
+      "markets": [
+        {
+          "id": 29,
+          "tag_type": "MarketTag",
+          "name": "e-commerce",
+          "display_name": "E-Commerce",
+          "angellist_url": "https://angel.co/e-commerce"
+        },
+        {
+          "id": 51,
+          "tag_type": "MarketTag",
+          "name": "sales and marketing",
+          "display_name": "Sales and Marketing",
+          "angellist_url": "https://angel.co/sales-and-marketing-1"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "51-200",
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 512750,
+      "hidden": false,
+      "community_profile": false,
+      "name": "ESCANDIGITAL",
+      "angellist_url": "https://angel.co/escandigital",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/512750-3ea3c9496ba170b824fb71b3076cbe2b-medium_jpg.jpg?buster=1413476117",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/512750-3ea3c9496ba170b824fb71b3076cbe2b-thumb_jpg.jpg?buster=1413476117",
+      "quality": 1,
+      "product_desc": "Quattro Meal is an interactive smart system for self service to restaurant customers through a TabletKiosk or an interactive display on the table and/or a kiosk in the entrance as well as by cellphone, with menu items separated by categories, with dynamic pictures, ingredients information, suggested accompaniments according to each menu, dish of the month, promotions, most recommended by previous customers,  Likes and shares on Facebook, interactive games while waiting for the order, a digital bell for the waiter and a social connection to other customers present in the restaurant. In addition: Set up the order with different ingredients interactively, register personal info through a loyalty program with virtual point card, check the approximate time of receiving the order, watching movies or listening to music or simply read a digital book (requires headset) and more features on the way. \n\nThe restaurant can recieve the orders on the kitchen and be confirmed or not by the waitress.",
+      "high_concept": "Smart order system for restaurants",
+      "follower_count": 2,
+      "company_url": "http://www.escandigital.com",
+      "created_at": "2014-10-16T16:15:24Z",
+      "updated_at": "2014-10-16T17:43:35Z",
+      "crunchbase_url": null,
+      "twitter_url": null,
+      "blog_url": null,
+      "facebook_url": null,
+      "linkedin_url": null,
+      "video_url": "",
+      "markets": [
+        {
+          "id": 263,
+          "tag_type": "MarketTag",
+          "name": "restaurants",
+          "display_name": "Restaurants",
+          "angellist_url": "https://angel.co/restaurants-1"
+        },
+        {
+          "id": 355,
+          "tag_type": "MarketTag",
+          "name": "hotels",
+          "display_name": "Hotels",
+          "angellist_url": "https://angel.co/hotels"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": null,
+      "company_type": [],
+      "status": null,
+      "screenshots": [
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/416/298/416298-e04f14b7754b8e4548a012684ccec82bbedd9e7f.jpg?1413477049",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/416/298/416298-6088b6e24709df91dde06d1673ca5b76e68df632.png?1413477049"
+        }
+      ]
+    },
+    {
+      "id": 511031,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Pikabook",
+      "angellist_url": "https://angel.co/pikabook",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/511031-bd36d5f0388454e477a02b2a86eee8b4-medium_jpg.jpg?buster=1413320765",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/511031-bd36d5f0388454e477a02b2a86eee8b4-thumb_jpg.jpg?buster=1413320765",
+      "quality": 2,
+      "product_desc": "Pikabook gives higher education students access to every book they are asked for during their studies through their pc, laptop and smartphone. It's easy, affordable and legal.\n\nAcademic books face a big problem in Latin America. They are expensive and students almost always need only a few chapters of them. This leads them to go for the easiest solution: photocopies.\n\nBoth governments and publishers have tried to fight against book piracy, unsuccessfully. It has proven to be a problem very hard to control in Latam. We believe the solution is not trying to end with illegal photocopying, but to give students an alternative. This is how Pikabook is born.\n\nPikabook goes with the promise \"forget about photocopies\", offering students an option to pay a monthly fee for complete access to the digital academic books of their need.\n\nProduct: Digital platform for academic books.\nCustomer: Higher education students.\nHelps: To have access to their academic readings without the need of photocopying.",
+      "high_concept": "Digital academic books",
+      "follower_count": 3,
+      "company_url": "http://www.pikabook.com",
+      "created_at": "2014-10-14T21:06:10Z",
+      "updated_at": "2014-10-15T02:39:32Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": null,
+      "markets": [
+        {
+          "id": 498,
+          "tag_type": "MarketTag",
+          "name": "e books",
+          "display_name": "E-Books",
+          "angellist_url": "https://angel.co/e-books"
+        },
+        {
+          "id": 2613,
+          "tag_type": "MarketTag",
+          "name": "university students",
+          "display_name": "University Students",
+          "angellist_url": "https://angel.co/university-students"
+        },
+        {
+          "id": 152028,
+          "tag_type": "MarketTag",
+          "name": "Higher Education",
+          "display_name": "Higher Education",
+          "angellist_url": "https://angel.co/higher-education-2"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "1-10",
+      "company_type": [
+        {
+          "id": 94212,
+          "tag_type": "CompanyTypeTag",
+          "name": "startup",
+          "display_name": "Startup",
+          "angellist_url": "https://angel.co/startup"
+        }
+      ],
+      "status": null,
+      "screenshots": [
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/401/415401-9bcf8be927c2d01d623eec2234c347aa6779f0cb.jpg?1413332165",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/401/415401-c43862fa3caea609c500802e7883c19e66e9da89.jpg?1413332165"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/430/415430-15aad6c909d7d1bcf3f88f4a6787f98c7505d1d7.jpg?1413335318",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/430/415430-9506caada20b1b61be15ddc283d9893f58574e7c.jpg?1413335318"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/432/415432-c88ec1026957af8637f88db15750c5d15a7b7cbc.jpg?1413335336",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/432/415432-de919f9cb2318e24375e0d9b1f1511a2b74887a3.jpg?1413335336"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/434/415434-9168b3dd067e79989c1e915dc30eeda119b9320c.jpg?1413335412",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/434/415434-1a4abb6223b1a18380bffd6ef23f6b30482297f2.jpg?1413335412"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/435/415435-5fbab1234968568e845cc5840ba418d43bb4bdfd.jpg?1413335429",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/435/415435-58c628d8ec1914d9526b6a67ab668291e730d5a4.jpg?1413335429"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/436/415436-90245958d645742bfe8cb49f8053d3fda62e606f.jpg?1413335444",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/436/415436-14c63bb85124f9c0ad966be841b8d53851cb1b45.jpg?1413335444"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/438/415438-54d3402de89c5f4d737fb60fe88def70c93b365b.jpg?1413335624",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/438/415438-b064636785371fdf9e6e5dfb66b609027de7ded1.jpg?1413335624"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/443/415443-71bd8a216535ce9f0ca884a8abcc28780fd54334.jpg?1413335873",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/443/415443-f31f5dc58b95e148f80494bdb48df4a1a39a348b.jpg?1413335873"
+        }
+      ]
+    },
+    {
+      "id": 510741,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Big Media Consulting",
+      "angellist_url": "https://angel.co/big-media-consulting",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/510741-ae11457f6e094d805d0f4736c645d3c4-medium_jpg.jpg?buster=1413302981",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/510741-ae11457f6e094d805d0f4736c645d3c4-thumb_jpg.jpg?buster=1413302981",
+      "quality": 2,
+      "product_desc": "Con el surgimiento de nuevas tecnologías nace el Big data como una forma de conocer el comportamiento del consumidor digital. Es de esta manera que notamos una necesidad puntual dentro del mercado Latinoamericano donde las marcas no saben aprovechar todo el potencial que se obtiene a través del análisis de datos, ni crear estrategias basadas en el comportamiento del consumidor digital (de hecho siempre se crean estrategias para obtener datos y no al revés), es ahí donde aparece lo que nosotros llamamos Big Media. Esto no es precisamente ningún avance tecnológico, en cambio se convierte la manera en la que trabajamos para dar a nuestros clientes soluciones reales para las necesidades de su target, creando estrategias basadas en métricas reales que permitan dar ejecución y solución a necesidades puntuales de los consumidores.",
+      "high_concept": "Del Big Data al Big Media sí hay mucha diferencia. ",
+      "follower_count": 3,
+      "company_url": "http://www.bigmediaconsulting.com",
+      "created_at": "2014-10-14T16:06:31Z",
+      "updated_at": "2014-10-14T16:09:49Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": null,
+      "markets": [
+        {
+          "id": 4,
+          "tag_type": "MarketTag",
+          "name": "digital media",
+          "display_name": "Digital Media",
+          "angellist_url": "https://angel.co/digital-media"
+        },
+        {
+          "id": 6,
+          "tag_type": "MarketTag",
+          "name": "social media",
+          "display_name": "Social Media",
+          "angellist_url": "https://angel.co/social-media"
+        },
+        {
+          "id": 52,
+          "tag_type": "MarketTag",
+          "name": "analytics",
+          "display_name": "Analytics",
+          "angellist_url": "https://angel.co/analytics"
+        },
+        {
+          "id": 340,
+          "tag_type": "MarketTag",
+          "name": "small and medium businesses",
+          "display_name": "Small and Medium Businesses",
+          "angellist_url": "https://angel.co/small-and-medium-businesses"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "",
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 509890,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Mennino",
+      "angellist_url": "https://angel.co/mennino",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/509890-8cc4720412d39b897b402bdc37a08321-medium_jpg.jpg?buster=1413229723",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/509890-8cc4720412d39b897b402bdc37a08321-thumb_jpg.jpg?buster=1413229723",
+      "quality": 2,
+      "product_desc": "Mennino is an Internet of Things pet feeder and waterer for cats and up to medium size dogs, to help busy work life pet owners have a better control of their pet's nutrition and well being by means of a mobile app that allows access to feeding insights and nearby pet/vet services.",
+      "high_concept": "Internet enabled pet feeder and waterer",
+      "follower_count": 3,
+      "company_url": "http://www.mennino.com",
+      "created_at": "2014-10-13T19:48:47Z",
+      "updated_at": "2014-10-28T02:52:44Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": "https://www.youtube.com/watch?v=AhhF9QslrRg",
+      "markets": [
+        {
+          "id": 675,
+          "tag_type": "MarketTag",
+          "name": "pets",
+          "display_name": "Pets",
+          "angellist_url": "https://angel.co/pets"
+        },
+        {
+          "id": 153807,
+          "tag_type": "MarketTag",
+          "name": "Pet Care",
+          "display_name": "Pet Care",
+          "angellist_url": "https://angel.co/pet-care"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "",
+      "company_type": [],
+      "status": null,
+      "screenshots": [
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/421/951/421951-667662bca0100e50f568bfdf104b9754fcb080aa.jpg?1414464509",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/421/951/421951-3b19b97b9101b0b0c0a337a17a7d4dd852199056.jpg?1414464509"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/421/959/421959-2437f3c62dda9068d659ce128b0b1ccedfffcba4.jpg?1414465722",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/421/959/421959-aacdaf75fae03631345cc41e4909cec2a3ea6c6b.jpg?1414465722"
+        }
+      ]
+    },
+    {
+      "id": 509238,
+      "hidden": false,
+      "community_profile": false,
+      "name": "farma.social",
+      "angellist_url": "https://angel.co/farma-social",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/509238-35eb704e46084e8cdfcdde43da38f9e9-medium_jpg.jpg?buster=1413572816",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/509238-35eb704e46084e8cdfcdde43da38f9e9-thumb_jpg.jpg?buster=1413572816",
+      "quality": 2,
+      "product_desc": "FARMA.SOCIAL: \"The right medication in the right place at the right price\". Is a set of tools to enable patients/customers, retailers and pharmaceuticals to interact and provide the best services and price to patients/customers in the right place at the right price.\n\nIn the pharma (for OTC and prescription drugs ) business there is a big opportunity for end customers and retailers and also pharmaceuticals. For the first ones Farma.Social help them to locate the better price/service deals (related to location, price, and also to service in the point of sale). For retailers, opens a new opportunity to compete in the market being open about service and pricing so the customers can decide. Finally for pharmaceuticals, our solutions provides new and effective means to be more attached or close to their customer's needs, to know them better by compliment their supply/distribution chains and marketing strategies towards the right locations and markets.",
+      "high_concept": "Yelp for medication ",
+      "follower_count": 7,
+      "company_url": "http://www.farma.social",
+      "created_at": "2014-10-12T23:25:37Z",
+      "updated_at": "2014-10-17T19:07:00Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": "",
+      "markets": [
+        {
+          "id": 23,
+          "tag_type": "MarketTag",
+          "name": "pharmaceuticals",
+          "display_name": "Pharmaceuticals",
+          "angellist_url": "https://angel.co/pharmaceuticals"
+        },
+        {
+          "id": 223,
+          "tag_type": "MarketTag",
+          "name": "doctors",
+          "display_name": "Doctors",
+          "angellist_url": "https://angel.co/doctors"
+        },
+        {
+          "id": 251,
+          "tag_type": "MarketTag",
+          "name": "governments",
+          "display_name": "Governments",
+          "angellist_url": "https://angel.co/governments"
+        },
+        {
+          "id": 153002,
+          "tag_type": "MarketTag",
+          "name": "Patient management",
+          "display_name": "Patient Management",
+          "angellist_url": "https://angel.co/patient-management"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "",
+      "company_type": [],
+      "status": null,
+      "screenshots": [
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/320/415320-d0c4ed32cd930770dd93eb6963513410d6433fa3.jpg?1413320372",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/320/415320-820845fe6694a9fa5782c947dcaeed2634ee7606.png?1413320372"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/321/415321-9564c5179d720024f11c55729a65ccc5e11bc369.jpg?1413320394",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/321/415321-e365a4f9a7b28cb1131654641e8470ed5ca91e15.png?1413320394"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/322/415322-7c53da203dd137769d53635b73b84d10067c0675.jpg?1413320419",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/322/415322-d6fbd2f2a3599d9f608c72419a6540c72390402d.png?1413320419"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/323/415323-9046f09341e3ed6b0ee1ec991bf2c8cdf02f0fa5.jpg?1413320436",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/323/415323-7e01c682b106b1844e797609421c18f48b2133a5.png?1413320436"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/324/415324-cef606c00da1e8365fa5ca33b13e2a9d318f2196.jpg?1413320458",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/324/415324-742af6f45d5ee8cab7e2c61e780783dbc90eeb2a.png?1413320458"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/325/415325-32414c1cfa3001967a2fec1670cf74b14b169b30.jpg?1413320473",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/325/415325-6a1f71c834908b56d4d7e1e48eac43faa824d248.png?1413320473"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/415/326/415326-6f5ff524eccb2a539e1a1628ddc7a77f39eed231.jpg?1413320488",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/415/326/415326-20aa747672206ff35a5e9b8fae947c2e15c8f764.png?1413320488"
+        }
+      ]
+    },
+    {
+      "id": 507198,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Whooptag",
+      "angellist_url": "https://angel.co/whooptag",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/507198-aedea3c9ea114ab1cc0135eb8c3f4005-medium_jpg.jpg?buster=1412880250",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/507198-aedea3c9ea114ab1cc0135eb8c3f4005-thumb_jpg.jpg?buster=1412880250",
+      "quality": 2,
+      "product_desc": "http://whooptag.com\n\nWhooptag is a free service that lets you feel and experience shared moments in social networks as if they were yours, as if you were there.\n\nThrough Whooptag's social search engine, search for words, people, or topics of interest, and, quickly and in real-time, discover moments related to your search captured by other people on various social networks, and immerse yourself into a complete experience, in one place.\n\nWith Whooptag you can :\n\n- Search the content you want in real time, without having to be a user of the selected social network, and without being a follower of the person you search for.\n\n- Experience shared moments in different social networks in one place.\n\n- Find similar content to what you search for through related tags.\n\nSee what your favorite artist, player or celebrity is chatting about in different social networks, or what fans are saying about them. Discover whatever you want at Whooptag.\n\nShows results from twitter , instagram and youtube.",
+      "high_concept": "Social search look experiences",
+      "follower_count": 4,
+      "company_url": "http://whooptag.com",
+      "created_at": "2014-10-09T18:44:14Z",
+      "updated_at": "2014-10-30T16:50:25Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": null,
+      "markets": [
+        {
+          "id": 4,
+          "tag_type": "MarketTag",
+          "name": "digital media",
+          "display_name": "Digital Media",
+          "angellist_url": "https://angel.co/digital-media"
+        },
+        {
+          "id": 556,
+          "tag_type": "MarketTag",
+          "name": "events",
+          "display_name": "Events",
+          "angellist_url": "https://angel.co/events"
+        },
+        {
+          "id": 686,
+          "tag_type": "MarketTag",
+          "name": "brand marketing",
+          "display_name": "Brand Marketing",
+          "angellist_url": "https://angel.co/brand-marketing"
+        },
+        {
+          "id": 1429,
+          "tag_type": "MarketTag",
+          "name": "digital entertainment",
+          "display_name": "Digital Entertainment",
+          "angellist_url": "https://angel.co/digital-entertainment"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "",
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 506280,
+      "hidden": true
+    },
+    {
+      "id": 505824,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Prisma Y Media",
+      "angellist_url": "https://angel.co/prisma-y-media",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/505824-3c840b12f4f723717d9bce04bcf4b1a1-medium_jpg.jpg?buster=1412741033",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/505824-3c840b12f4f723717d9bce04bcf4b1a1-thumb_jpg.jpg?buster=1412741033",
+      "quality": 1,
+      "product_desc": "That education is all Unib arrives, the platform for schools to improve communication between teachers, students, and teachers to involve everyone in the process of training and improving the quality of education. \nUnib helps educational institutions manage the incorporation of learning material always on hand with constant retoralimentación of their teachers and a full statistics report student interactivity. \nUnib creates self-learning culture through its many courses of interest such as programming, video games, ect where people will see learning not as a duty but as a great experience that allows them to undertake projects.",
+      "high_concept": "Simple software",
+      "follower_count": 1,
+      "company_url": "http://www.prismaymedia.com",
+      "created_at": "2014-10-08T04:03:57Z",
+      "updated_at": "2014-10-08T04:06:16Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": null,
+      "markets": [
+        {
+          "id": 3,
+          "tag_type": "MarketTag",
+          "name": "mobile",
+          "display_name": "Mobile",
+          "angellist_url": "https://angel.co/mobile-2"
+        },
+        {
+          "id": 12,
+          "tag_type": "MarketTag",
+          "name": "enterprise software",
+          "display_name": "Enterprise Software",
+          "angellist_url": "https://angel.co/enterprise-software"
+        },
+        {
+          "id": 43,
+          "tag_type": "MarketTag",
+          "name": "education",
+          "display_name": "Education",
+          "angellist_url": "https://angel.co/education"
+        },
+        {
+          "id": 100,
+          "tag_type": "MarketTag",
+          "name": "video games",
+          "display_name": "Video Games",
+          "angellist_url": "https://angel.co/video-games"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "",
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 505631,
+      "hidden": false,
+      "community_profile": false,
+      "name": "nutrio",
+      "angellist_url": "https://angel.co/nutrio-1",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/505631-6223dfe7433c01fb34682e87d0f4523f-medium_jpg.jpg?buster=1412724372",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/505631-6223dfe7433c01fb34682e87d0f4523f-thumb_jpg.jpg?buster=1412724372",
+      "quality": 2,
+      "product_desc": "Our big choice is to develop a platform named NUTRIO, using technology and the help of caregivers, mainly teachers and family members, to register and geolocalize malnutrition data of the 12 million kids between 0 and 12 years old and improve their eating habits. These caregivers are our target users. We plan to have a pool of partners like, doctors, NGOs, government institutions and the private sector, who produce children related services.\n\nNUTRIO makes it easier and more attractive for caregivers to register and record the nutritional and vaccine data of the kids under their protection. We are also thrilled about the chance to achieve a geolicalized national data base for decision makers to make best nutritional policies for children, and achieve goals like the Millennium Development Goals.\n\nParents of all over the world would be able to track their sons nutritional and vaccine data, supporting the use of Nutrio in development countries.",
+      "high_concept": "Fitbit for hunger and malnutrition ",
+      "follower_count": 4,
+      "company_url": "http://olinguito.com.co",
+      "created_at": "2014-10-07T23:26:16Z",
+      "updated_at": "2014-10-07T23:55:42Z",
+      "crunchbase_url": null,
+      "twitter_url": null,
+      "blog_url": null,
+      "facebook_url": null,
+      "linkedin_url": null,
+      "video_url": null,
+      "markets": [
+        {
+          "id": 151980,
+          "tag_type": "MarketTag",
+          "name": "Latin America",
+          "display_name": "Latin America",
+          "angellist_url": "https://angel.co/latin-america"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": null,
+      "company_type": [],
+      "status": null,
+      "screenshots": [
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/411/874/411874-5b063ee90aeabdcc9d85b0cd9817bb1e3746aafa.jpg?1412725369",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/411/874/411874-209dcacf4215d20b93db8c944a0ca851e75a1507.png?1412725369"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/411/875/411875-456ff4d4a85257f376551d8a715fefa6c8d3b270.jpg?1412725473",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/411/875/411875-c2fb4f8f3324e3024e1601063ab857f89ec8dfde.png?1412725473"
+        }
+      ]
+    },
+    {
+      "id": 504392,
+      "hidden": false,
+      "community_profile": false,
+      "name": "ZakazApp",
+      "angellist_url": "https://angel.co/zakazapp",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/504392-b77d880cf80c500e847ba6b74bfc790e-medium_jpg.jpg?buster=1412632786",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/504392-b77d880cf80c500e847ba6b74bfc790e-thumb_jpg.jpg?buster=1412632786",
+      "quality": 3,
+      "product_desc": "An administrator for restaurants and bars, including an application for orders, printer and two tablets, all connected by wifi, not need internet to work and does not need a computer.",
+      "high_concept": "Perfect device to manage restaurants and bars",
+      "follower_count": 4,
+      "company_url": "http://zakazapp.co",
+      "created_at": "2014-10-06T21:59:50Z",
+      "updated_at": "2014-10-14T23:33:28Z",
+      "crunchbase_url": null,
+      "twitter_url": "https://twitter.com/ZakazApp",
+      "blog_url": "http://zakazapp.co/blog/",
+      "facebook_url": "https://www.facebook.com/zakazapp",
+      "linkedin_url": "",
+      "video_url": "http://youtu.be/H_uduVsJUK4",
+      "markets": [
+        {
+          "id": 263,
+          "tag_type": "MarketTag",
+          "name": "restaurants",
+          "display_name": "Restaurants",
+          "angellist_url": "https://angel.co/restaurants-1"
+        },
+        {
+          "id": 12088,
+          "tag_type": "MarketTag",
+          "name": "cooking",
+          "display_name": "Cooking",
+          "angellist_url": "https://angel.co/cooking"
+        },
+        {
+          "id": 153044,
+          "tag_type": "MarketTag",
+          "name": "Bars",
+          "display_name": "Bars",
+          "angellist_url": "https://angel.co/bars-2"
+        },
+        {
+          "id": 154066,
+          "tag_type": "MarketTag",
+          "name": "Inventory management systems",
+          "display_name": "Inventory Management Systems",
+          "angellist_url": "https://angel.co/inventory-management-systems"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "1-10",
+      "company_type": [],
+      "status": null,
+      "screenshots": [
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/412/546/412546-8fa3481acd8abc2a57cda8554a98f4e20e57a391.jpg?1412832056",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/412/546/412546-4f90cbf73b6ebaa402b5cd80bb686176a6136ab1.jpg?1412832056"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/412/547/412547-9dfce2547e8c9022b0431470ecfa0df3815aa148.jpg?1412832083",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/412/547/412547-27da35485ae874e763c84ff4a4b276a17481495d.jpg?1412832083"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/412/548/412548-dc08971b60ebb30069ad4f2a85f9d5bf38178846.jpg?1412832102",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/412/548/412548-c7aa0e9532f96c9032cf3151cb4e0f85f611076e.jpg?1412832102"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/412/549/412549-907c770db3a47e9967cef51e37de6d7ca741623a.jpg?1412832146",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/412/549/412549-8d5394938d82368647400d08aadfec1787ea94b6.png?1412832146"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/412/550/412550-a1f6c2f43bb911249dbde104fa8cb349b0b9a9a7.jpg?1412832161",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/412/550/412550-48e6d2bcb5e3ebd6b87d4606c1a26ed4c250730b.png?1412832161"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/412/552/412552-73c4bc4f68fec09a039334ec6605b01d275a419e.jpg?1412832849",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/412/552/412552-e6bbbf614538a2a306496dab68fa6d8cf886adb1.png?1412832849"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/412/554/412554-8162f512104cf068ab8ef94461ab19b5a87759ea.jpg?1412832902",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/412/554/412554-3f3b8302493d922cfcf549515bd4c2ca32a6f8d4.png?1412832902"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/412/556/412556-3df1f9555705f9f64f5985b5625458909ff128f1.jpg?1412832949",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/412/556/412556-3017c19d920838d19148089ea47d39f11465566c.png?1412832949"
+        }
+      ]
+    },
+    {
+      "id": 504018,
+      "hidden": false,
+      "community_profile": false,
+      "name": "gogobitcoins",
+      "angellist_url": "https://angel.co/gogobitcoins",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/504018-aa99bab045cc1974d5f9d7c4223d04d7-medium_jpg.jpg?buster=1412615535",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/504018-aa99bab045cc1974d5f9d7c4223d04d7-thumb_jpg.jpg?buster=1412615535",
+      "quality": 2,
+      "product_desc": "gogobitcoins allows users to post and search listings of products and services in which the price is given in bitcoins.",
+      "high_concept": "Olx Bitcoins",
+      "follower_count": 6,
+      "company_url": "https://angel.co/gogobitcoins",
+      "created_at": "2014-10-06T17:12:18Z",
+      "updated_at": "2014-10-07T16:19:29Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": null,
+      "markets": [
+        {
+          "id": 29,
+          "tag_type": "MarketTag",
+          "name": "e-commerce",
+          "display_name": "E-Commerce",
+          "angellist_url": "https://angel.co/e-commerce"
+        },
+        {
+          "id": 34,
+          "tag_type": "MarketTag",
+          "name": "advertising",
+          "display_name": "Advertising",
+          "angellist_url": "https://angel.co/advertising"
+        },
+        {
+          "id": 162,
+          "tag_type": "MarketTag",
+          "name": "marketplaces",
+          "display_name": "Marketplaces",
+          "angellist_url": "https://angel.co/marketplaces"
+        },
+        {
+          "id": 93839,
+          "tag_type": "MarketTag",
+          "name": "bitcoin",
+          "display_name": "Bitcoin",
+          "angellist_url": "https://angel.co/bitcoin"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "1-10",
+      "company_type": [
+        {
+          "id": 142214,
+          "tag_type": "CompanyTypeTag",
+          "name": "Marketplace ",
+          "display_name": "Marketplace ",
+          "angellist_url": "https://angel.co/marketplace-2"
+        },
+        {
+          "id": 143833,
+          "tag_type": "CompanyTypeTag",
+          "name": "Internet",
+          "display_name": "Internet",
+          "angellist_url": "https://angel.co/internet-4"
+        },
+        {
+          "id": 144581,
+          "tag_type": "CompanyTypeTag",
+          "name": "E-Commerce",
+          "display_name": "E Commerce",
+          "angellist_url": "https://angel.co/e-commerce-4"
+        },
+        {
+          "id": 149176,
+          "tag_type": "CompanyTypeTag",
+          "name": "Advertising platform",
+          "display_name": "Advertising Platform",
+          "angellist_url": "https://angel.co/advertising-platform-2"
+        }
+      ],
+      "status": {
+        "id": 155374,
+        "message": "gogobitcoins new bitcoins based advertising plataform.",
+        "created_at": "2014-10-06T17:15:08Z"
+      },
+      "screenshots": []
+    },
+    {
+      "id": 500898,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Paramo Eventos",
+      "angellist_url": "https://angel.co/paramo-eventos",
+      "logo_url": "https://angel.co/images/shared/nopic_startup.png",
+      "thumb_url": "https://angel.co/images/shared/nopic_startup.png",
+      "quality": 3,
+      "product_desc": null,
+      "high_concept": null,
+      "follower_count": 1,
+      "company_url": null,
+      "created_at": "2014-10-02T05:16:22Z",
+      "updated_at": "2014-10-02T05:16:23Z",
+      "crunchbase_url": null,
+      "twitter_url": null,
+      "blog_url": null,
+      "facebook_url": null,
+      "linkedin_url": null,
+      "video_url": null,
+      "markets": [
+        {
+          "id": 556,
+          "tag_type": "MarketTag",
+          "name": "events",
+          "display_name": "Events",
+          "angellist_url": "https://angel.co/events"
+        },
+        {
+          "id": 152526,
+          "tag_type": "MarketTag",
+          "name": "Conference makers",
+          "display_name": "Conference Makers",
+          "angellist_url": "https://angel.co/conference-makers"
+        },
+        {
+          "id": 156283,
+          "tag_type": "MarketTag",
+          "name": "Entrepreneurs",
+          "display_name": "Entrepreneurs",
+          "angellist_url": "https://angel.co/entrepreneurs-1"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": null,
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 499791,
+      "hidden": false,
+      "community_profile": true,
+      "name": "Credivalores-Crediservicios",
+      "angellist_url": "https://angel.co/credivalores-crediservicios",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/499791-35408fa09d6a2fe7603464b6b28eae1a-medium_jpg.jpg?buster=1412114895",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/499791-35408fa09d6a2fe7603464b6b28eae1a-thumb_jpg.jpg?buster=1412114895",
+      "quality": 1,
+      "product_desc": null,
+      "high_concept": null,
+      "follower_count": 0,
+      "company_url": "https://www.credivalores.com.co",
+      "created_at": "2014-09-30T22:08:14Z",
+      "updated_at": "2014-09-30T22:08:19Z",
+      "crunchbase_url": "http://www.crunchbase.com/company/credivalores-crediservicios",
+      "twitter_url": null,
+      "blog_url": null,
+      "facebook_url": null,
+      "linkedin_url": null,
+      "video_url": null,
+      "markets": [
+        {
+          "id": 321,
+          "tag_type": "MarketTag",
+          "name": "finance",
+          "display_name": "Finance",
+          "angellist_url": "https://angel.co/finance"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": null,
+      "company_type": [],
+      "status": null,
+      "screenshots": [
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/407/945/407945-79fc82853733d999a3521a69640b6ee1fa5f451f.jpg?1412115508",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/407/945/407945-001246f3fb1b51530a9111eb8f44686cefb3de2a.?1412115508"
+        }
+      ]
+    },
+    {
+      "id": 498551,
+      "hidden": true
+    },
+    {
+      "id": 498316,
+      "hidden": true
+    },
+    {
+      "id": 497553,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Fut5App",
+      "angellist_url": "https://angel.co/fut5app",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/497553-52e58c0e71a65cc9970cdb2b337dfddd-medium_jpg.jpg?buster=1413658253",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/497553-52e58c0e71a65cc9970cdb2b337dfddd-thumb_jpg.jpg?buster=1413658253",
+      "quality": 3,
+      "product_desc": "Fut5App is a platform that reunites soccer players, pitches, and sports sponsors. It’s a platform that seeks to solve symmetry of information and reduce transaction cost in the sports market of soccer pitches. By locating an available and near pitch in the city map and letting the user to book a pitch in advance. \n\nAs well, Fut5App through a gamification process tries to create a unique experience and promotes competence that motivates soccer players and users to interact, this by creating teams, promoting and participating in leagues and tournaments.  Fut5App is a club. On the other hand, Fut5App helps the owner of the pitch to manage his/her income by counting daily, weekly and monthly bookings with its price into charts and web reports. It is very useful to manage pitch's commercial and accounting strategy. To sum up, Fut5App responds to the soccer fans requirements for playing, by booking in pitches managed by their owner, in a easier, more convenient way for satisfy both needs.",
+      "high_concept": "Easy booking soccer league",
+      "follower_count": 6,
+      "company_url": "http://www.fut5app.com",
+      "created_at": "2014-09-28T14:55:19Z",
+      "updated_at": "2014-10-30T04:39:03Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": "https://www.youtube.com/watch?v=pZlc0qQfHSY",
+      "markets": [
+        {
+          "id": 73,
+          "tag_type": "MarketTag",
+          "name": "sports",
+          "display_name": "Sports",
+          "angellist_url": "https://angel.co/sports"
+        },
+        {
+          "id": 1433,
+          "tag_type": "MarketTag",
+          "name": "soccer",
+          "display_name": "Soccer",
+          "angellist_url": "https://angel.co/soccer"
+        },
+        {
+          "id": 11126,
+          "tag_type": "MarketTag",
+          "name": "sponsorship",
+          "display_name": "Sponsorship",
+          "angellist_url": "https://angel.co/sponsorship"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "1-10",
+      "company_type": [],
+      "status": null,
+      "screenshots": [
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/423/216/423216-8d931d4401fe7a6846f7e53e03ac88897e7c327b.jpg?1414639528",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/423/216/423216-4112b408ebe4c27779d9cd5deafbccf6a8d0d6d9.PNG?1414639528"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/423/217/423217-07c68bb5b005ea6df03ffd7d67a9ca17a6eb85ec.jpg?1414639548",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/423/217/423217-69e347e28286b2556d72cb358d232b375065cdbb.PNG?1414639548"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/423/218/423218-8598117944cb5b2ddd27c9865825f85cc960f2a7.jpg?1414639603",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/423/218/423218-96e7898d3f960b9d9b89c76099532a35d44020bc.PNG?1414639603"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/423/219/423219-501ca5e0126ecbaa85c51d5e4fb5edf4613322f3.jpg?1414639636",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/423/219/423219-a6e0cba9791b86cbfe3b311a2e04add609726834.PNG?1414639636"
+        }
+      ]
+    },
+    {
+      "id": 496138,
+      "hidden": false,
+      "community_profile": false,
+      "name": "HOMENERGY SOLAR & LED",
+      "angellist_url": "https://angel.co/homenergy-solar-led",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/496138-0ac56f0e532eaeeb795e644d9ac27d34-medium_jpg.jpg?buster=1411696020",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/496138-0ac56f0e532eaeeb795e644d9ac27d34-thumb_jpg.jpg?buster=1411696020",
+      "quality": 1,
+      "product_desc": "Sistema solar fv ( dimensionamiento y asesoramiento on  grid  y off grid)\nIluminacion Led \nCalentadores térmicos solares \nBaterias \nFiltros se agua ( recolección de aguas lluvias )",
+      "high_concept": "Asesoramiento en tecnologias de energía renovable",
+      "follower_count": 1,
+      "company_url": "http://www.eco-renergy.wix.com/eco-renergy",
+      "created_at": "2014-09-26T01:47:04Z",
+      "updated_at": "2014-09-26T01:51:16Z",
+      "crunchbase_url": null,
+      "twitter_url": null,
+      "blog_url": null,
+      "facebook_url": null,
+      "linkedin_url": null,
+      "video_url": null,
+      "markets": [
+        {
+          "id": 29,
+          "tag_type": "MarketTag",
+          "name": "e-commerce",
+          "display_name": "E-Commerce",
+          "angellist_url": "https://angel.co/e-commerce"
+        },
+        {
+          "id": 142,
+          "tag_type": "MarketTag",
+          "name": "batteries",
+          "display_name": "Batteries",
+          "angellist_url": "https://angel.co/batteries"
+        },
+        {
+          "id": 1280,
+          "tag_type": "MarketTag",
+          "name": "home renovation",
+          "display_name": "Home Renovation",
+          "angellist_url": "https://angel.co/home-renovation"
+        },
+        {
+          "id": 2763,
+          "tag_type": "MarketTag",
+          "name": "concentrated solar power",
+          "display_name": "Concentrated Solar Power",
+          "angellist_url": "https://angel.co/concentrated-solar-power"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": null,
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 496121,
+      "hidden": true
+    },
+    {
+      "id": 495468,
+      "hidden": true
+    },
+    {
+      "id": 495254,
+      "hidden": true
+    },
+    {
+      "id": 495179,
+      "hidden": false,
+      "community_profile": false,
+      "name": "SEDI Solutions S.A.S",
+      "angellist_url": "https://angel.co/sedi-solutions-s-a-s",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/495179-6c7c977b1acd9b64fcd32b209f78cad0-medium_jpg.jpg?buster=1411610012",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/495179-6c7c977b1acd9b64fcd32b209f78cad0-thumb_jpg.jpg?buster=1411610012",
+      "quality": 1,
+      "product_desc": "Crear una aplicación móvil para mercar en línea, la idea es centralizar varios proveedores y brindarle al usuario los mejores precios y evitarle las largas filas a la hora de mercar",
+      "high_concept": "Centro Comercial de Canasta Familiar",
+      "follower_count": 1,
+      "company_url": "http://sedisolutions.com/",
+      "created_at": "2014-09-25T01:53:37Z",
+      "updated_at": "2014-09-25T01:57:45Z",
+      "crunchbase_url": null,
+      "twitter_url": null,
+      "blog_url": null,
+      "facebook_url": null,
+      "linkedin_url": null,
+      "video_url": null,
+      "markets": [
+        {
+          "id": 51,
+          "tag_type": "MarketTag",
+          "name": "sales and marketing",
+          "display_name": "Sales and Marketing",
+          "angellist_url": "https://angel.co/sales-and-marketing-1"
+        },
+        {
+          "id": 94,
+          "tag_type": "MarketTag",
+          "name": "mobile commerce",
+          "display_name": "Mobile Commerce",
+          "angellist_url": "https://angel.co/mobile-commerce-1"
+        },
+        {
+          "id": 230,
+          "tag_type": "MarketTag",
+          "name": "social commerce",
+          "display_name": "Social Commerce",
+          "angellist_url": "https://angel.co/social-commerce"
+        },
+        {
+          "id": 155788,
+          "tag_type": "MarketTag",
+          "name": "Sales",
+          "display_name": "Sales",
+          "angellist_url": "https://angel.co/sales-8"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": null,
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 494810,
+      "hidden": true
+    },
+    {
+      "id": 493281,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Blissky",
+      "angellist_url": "https://angel.co/blissky",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/493281-f8ceb2b25b3258898d61786befe642d2-medium_jpg.jpg?buster=1414605435",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/493281-f8ceb2b25b3258898d61786befe642d2-thumb_jpg.jpg?buster=1414605435",
+      "quality": 2,
+      "product_desc": "Blissky is a 3D social network audio-visually disruptive, that allows user to share content creatively and in a fun way.",
+      "high_concept": "A social network that can be 3D printed ",
+      "follower_count": 3,
+      "company_url": "http://www.crazyqubits.com/projects/",
+      "created_at": "2014-09-23T05:13:58Z",
+      "updated_at": "2014-10-29T17:57:30Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": "https://www.youtube.com/watch?v=25X_QVZ7g7w&feature=youtu.be",
+      "markets": [
+        {
+          "id": 368,
+          "tag_type": "MarketTag",
+          "name": "product design",
+          "display_name": "Product Design",
+          "angellist_url": "https://angel.co/product-design"
+        },
+        {
+          "id": 912,
+          "tag_type": "MarketTag",
+          "name": "teenagers",
+          "display_name": "Teenagers",
+          "angellist_url": "https://angel.co/teenagers"
+        },
+        {
+          "id": 1153,
+          "tag_type": "MarketTag",
+          "name": "young adults",
+          "display_name": "Young Adults",
+          "angellist_url": "https://angel.co/young-adults"
+        },
+        {
+          "id": 1262,
+          "tag_type": "MarketTag",
+          "name": "creative industries",
+          "display_name": "Creative Industries",
+          "angellist_url": "https://angel.co/creative-industries"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "",
+      "company_type": [],
+      "status": null,
+      "screenshots": [
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/422/883/422883-3545300e8fdd6aa5993bd66ba2af6c9f8ebad8f3.jpg?1414604063",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/422/883/422883-b698304d4355aeb582ce611babbbb3fbb0f2e300.png?1414604063"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/422/884/422884-d61415a5e36156f160d68e3906bad209e02c0310.jpg?1414604104",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/422/884/422884-d52f34a881fdd4ad162ff5b01d70329be3403ba0.png?1414604104"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/422/886/422886-ff3e04de66ffc066d8fbf18d79225ae9db4067cc.jpg?1414604171",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/422/886/422886-769d621b235de250d2c70ab1e42f059aa0d3c70a.png?1414604171"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/422/888/422888-364eb8aaeab940c8b507f219d9d9466035f370dc.jpg?1414604195",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/422/888/422888-00aea241dfad37301eb3c2b1fe3c18d6823ad5a8.png?1414604195"
+        },
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/422/890/422890-cd92d093f718d165d818395365fc4fb911310a09.jpg?1414604231",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/422/890/422890-a8000c7dad420d3b9e331a4ad05184b3b8521609.png?1414604231"
+        }
+      ]
+    },
+    {
+      "id": 492972,
+      "hidden": true
+    },
+    {
+      "id": 492273,
+      "hidden": false,
+      "community_profile": false,
+      "name": "INSTCOM TECHNOLOGY",
+      "angellist_url": "https://angel.co/instcom-technology-2",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/492273-5ba4db0a208485bc7141614e9576141a-medium_jpg.jpg?buster=1411532452",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/492273-5ba4db0a208485bc7141614e9576141a-thumb_jpg.jpg?buster=1411532452",
+      "quality": 1,
+      "product_desc": "Solutions Information Technology and Communications to improve productivity and competitiveness of companies in the country, with the automation of processes and use of resources, which will allow to adapt to the changing trends and requirements of the market and are used as through social and cultural development worldwide.",
+      "high_concept": "Innovation and development in solutions of technology",
+      "follower_count": 1,
+      "company_url": "http://www.instcomtechnology.com",
+      "created_at": "2014-09-22T03:03:44Z",
+      "updated_at": "2014-09-28T20:52:44Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": null,
+      "markets": [
+        {
+          "id": 12,
+          "tag_type": "MarketTag",
+          "name": "enterprise software",
+          "display_name": "Enterprise Software",
+          "angellist_url": "https://angel.co/enterprise-software"
+        },
+        {
+          "id": 29,
+          "tag_type": "MarketTag",
+          "name": "e-commerce",
+          "display_name": "E-Commerce",
+          "angellist_url": "https://angel.co/e-commerce"
+        },
+        {
+          "id": 521,
+          "tag_type": "MarketTag",
+          "name": "knowledge management",
+          "display_name": "Knowledge Management",
+          "angellist_url": "https://angel.co/knowledge-management"
+        },
+        {
+          "id": 13197,
+          "tag_type": "MarketTag",
+          "name": "big data analytics",
+          "display_name": "Big Data Analytics",
+          "angellist_url": "https://angel.co/big-data-analytics"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "",
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 491409,
+      "hidden": true
+    },
+    {
+      "id": 488342,
+      "hidden": false,
+      "community_profile": false,
+      "name": "BackStartup",
+      "angellist_url": "https://angel.co/backstartup",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/488342-bb8afdda97be7da9d5c935e77153f023-medium_jpg.jpg?buster=1410859151",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/488342-bb8afdda97be7da9d5c935e77153f023-thumb_jpg.jpg?buster=1410859151",
+      "quality": 3,
+      "product_desc": "BackStartup helps startups and small business to scale. BackStartup provides professional back office services including accounting, legal, HR and finance.",
+      "high_concept": "Professional back office for startups",
+      "follower_count": 7,
+      "company_url": "http://www.backstartup.com",
+      "created_at": "2014-09-16T09:19:14Z",
+      "updated_at": "2014-09-16T09:35:41Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": null,
+      "markets": [
+        {
+          "id": 17,
+          "tag_type": "MarketTag",
+          "name": "financial services",
+          "display_name": "Financial Services",
+          "angellist_url": "https://angel.co/financial-services-1"
+        },
+        {
+          "id": 340,
+          "tag_type": "MarketTag",
+          "name": "small and medium businesses",
+          "display_name": "Small and Medium Businesses",
+          "angellist_url": "https://angel.co/small-and-medium-businesses"
+        },
+        {
+          "id": 448,
+          "tag_type": "MarketTag",
+          "name": "startups",
+          "display_name": "Startups",
+          "angellist_url": "https://angel.co/startups-1"
+        },
+        {
+          "id": 1145,
+          "tag_type": "MarketTag",
+          "name": "legal",
+          "display_name": "Legal",
+          "angellist_url": "https://angel.co/legal"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "1-10",
+      "company_type": [
+        {
+          "id": 94212,
+          "tag_type": "CompanyTypeTag",
+          "name": "startup",
+          "display_name": "Startup",
+          "angellist_url": "https://angel.co/startup"
+        }
+      ],
+      "status": null,
+      "screenshots": [
+        {
+          "thumb": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/thumb/000/400/571/400571-6d584de3b162091f4f0f572493378a74994350e6.jpg?1410859928",
+          "original": "https://d2gn4xht817m0g.cloudfront.net/p/product_screenshots/images/original/000/400/571/400571-4d3a235dc18157f556fd91437abee4de32f7691c.png?1410859928"
+        }
+      ]
+    },
+    {
+      "id": 482565,
+      "hidden": true
+    },
+    {
+      "id": 480327,
+      "hidden": false,
+      "community_profile": false,
+      "name": "8 Rios",
+      "angellist_url": "https://angel.co/8-rios",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/480327-9f0af4987a8d3914a89f51057922683d-medium_jpg.jpg?buster=1409856524",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/480327-9f0af4987a8d3914a89f51057922683d-thumb_jpg.jpg?buster=1409856524",
+      "quality": 1,
+      "product_desc": "Plus game, is a simple a math game for mobile devices where you can challenge friends in the world, disponilbe en Apple Store y Google Play Store.",
+      "high_concept": "Casual and Social Games",
+      "follower_count": 1,
+      "company_url": "http://www.8rios.com/",
+      "created_at": "2014-09-04T18:48:48Z",
+      "updated_at": "2014-09-29T20:49:35Z",
+      "crunchbase_url": null,
+      "twitter_url": "",
+      "blog_url": "",
+      "facebook_url": "",
+      "linkedin_url": "",
+      "video_url": null,
+      "markets": [
+        {
+          "id": 3,
+          "tag_type": "MarketTag",
+          "name": "mobile",
+          "display_name": "Mobile",
+          "angellist_url": "https://angel.co/mobile-2"
+        },
+        {
+          "id": 408,
+          "tag_type": "MarketTag",
+          "name": "ios",
+          "display_name": "iOS",
+          "angellist_url": "https://angel.co/ios"
+        },
+        {
+          "id": 416,
+          "tag_type": "MarketTag",
+          "name": "android",
+          "display_name": "Android",
+          "angellist_url": "https://angel.co/android-2"
+        },
+        {
+          "id": 154469,
+          "tag_type": "MarketTag",
+          "name": "amazon",
+          "display_name": "Amazon",
+          "angellist_url": "https://angel.co/amazon-5"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "",
+      "company_type": [
+        {
+          "id": 142837,
+          "tag_type": "CompanyTypeTag",
+          "name": "mobile games ",
+          "display_name": "Mobile Games ",
+          "angellist_url": "https://angel.co/mobile-games-4"
+        }
+      ],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 477966,
+      "hidden": false,
+      "community_profile": false,
+      "name": "Systemasnet Ltda",
+      "angellist_url": "https://angel.co/systemasnet-ltda",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/477966-e534662e1dec7f0f94aa6e4628e2dff2-medium_jpg.jpg?buster=1409626190",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/477966-e534662e1dec7f0f94aa6e4628e2dff2-thumb_jpg.jpg?buster=1409626190",
+      "quality": 1,
+      "product_desc": "We have several venues around Bogota offer technical service for cell phones, computers and tablets our mission is to change the concept of poor technical service people have to bear the costs of technical service that is not constant every day in the portfolio offer all accessories for mobile phones and tablets becoming a company that turns 5 offering him the best services to our customers and we have at this time with 6 stores around Bogota",
+      "high_concept": "Accessories sales and technical service specialized for cell phones, computers and tablets",
+      "follower_count": 2,
+      "company_url": "http://www.systemasnet.com",
+      "created_at": "2014-09-02T02:49:54Z",
+      "updated_at": "2014-09-02T02:52:22Z",
+      "crunchbase_url": null,
+      "twitter_url": null,
+      "blog_url": null,
+      "facebook_url": null,
+      "linkedin_url": null,
+      "video_url": null,
+      "markets": [
+        {
+          "id": 3,
+          "tag_type": "MarketTag",
+          "name": "mobile",
+          "display_name": "Mobile",
+          "angellist_url": "https://angel.co/mobile-2"
+        },
+        {
+          "id": 29,
+          "tag_type": "MarketTag",
+          "name": "e-commerce",
+          "display_name": "E-Commerce",
+          "angellist_url": "https://angel.co/e-commerce"
+        },
+        {
+          "id": 230,
+          "tag_type": "MarketTag",
+          "name": "social commerce",
+          "display_name": "Social Commerce",
+          "angellist_url": "https://angel.co/social-commerce"
+        },
+        {
+          "id": 156512,
+          "tag_type": "MarketTag",
+          "name": "Maintenance",
+          "display_name": "Maintenance",
+          "angellist_url": "https://angel.co/maintenance-1"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": null,
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    },
+    {
+      "id": 477601,
+      "hidden": false,
+      "community_profile": false,
+      "name": "PlasticSurgeonsin",
+      "angellist_url": "https://angel.co/plasticsurgeonsin",
+      "logo_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/477601-554d973a0d3b9abb37cbbb32bdd143d8-medium_jpg.jpg?buster=1409588673",
+      "thumb_url": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/477601-554d973a0d3b9abb37cbbb32bdd143d8-thumb_jpg.jpg?buster=1409588673",
+      "quality": 3,
+      "product_desc": "Plasticsurgeonsin.com is the easies way to find, reviews and consults plastic surgeons online. all from the privacy and comfort of your home.\n\nVirtual Consultations are free and you can consult as many plastic surgeons as you like.\n\nWE: Bridges the gap between plastic surgeons and patients around the world.",
+      "high_concept": "Plastic Surgery Directory with Free Virtual Consultations",
+      "follower_count": 1,
+      "company_url": "http://www.plasticsurgeonsin.com",
+      "created_at": "2014-09-01T16:01:55Z",
+      "updated_at": "2014-09-01T16:24:37Z",
+      "crunchbase_url": null,
+      "twitter_url": "https://twitter.com/surgeonsin",
+      "blog_url": "",
+      "facebook_url": "https://www.facebook.com/PlasticSurgeonsIn",
+      "linkedin_url": "http://co.linkedin.com/pub/john-velasquez/4/7b9/6b6/",
+      "video_url": null,
+      "markets": [
+        {
+          "id": 34,
+          "tag_type": "MarketTag",
+          "name": "advertising",
+          "display_name": "Advertising",
+          "angellist_url": "https://angel.co/advertising"
+        }
+      ],
+      "locations": [
+        {
+          "id": 8836,
+          "tag_type": "LocationTag",
+          "name": "bogota",
+          "display_name": "Bogota",
+          "angellist_url": "https://angel.co/bogota"
+        }
+      ],
+      "company_size": "",
+      "company_type": [],
+      "status": null,
+      "screenshots": []
+    }
+  ],
+  "total": 279,
+  "per_page": 50,
+  "page": 1,
+  "last_page": 6
+}

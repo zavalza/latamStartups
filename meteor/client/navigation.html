@@ -1,6 +1,6 @@
 <template name="navigation">
 <!-- Fixed navbar -->
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="navbar navbar-default navbar-top" role="navigation">
   <div class="row">
     <div class=" col-md-10 col-md-offset-1">
       <div class="navbar-header">
@@ -10,15 +10,33 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         </button>
-        <a href="{{pathFor 'welcome'}}"><img class="btn img-responsive" width="100" src="latam.png"></a>
+       
+        <a href="{{pathFor 'startups'}}"><img class="btn img-responsive" width="100" src="latam.png"></a>
         
+    </div>
+    <div class="hidden-xs col-md-offset-2">
+           <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FlatStartups&amp;width&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=20&amp;appId=342181459289460" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:20px;" allowTransparency="true" width="75"></iframe>
+      
+      <iframe src="//platform.twitter.com/widgets/follow_button.html?screen_name=latStartups&lang=es&show_count=false"
+  style="width: 300px; height: 20px;"
+  allowtransparency="true"
+  frameborder="0"
+  scrolling="no">
+</iframe>
       </div>
       <div class="navbar-collapse collapse h navbar-right">
         <ul class="nav navbar-nav">
+
           <li><a href="{{pathFor 'startups'}}">STARTUPS</a></li>
-          <li><a href="{{pathFor 'people'}}">PERSONAS</a></li>
+          <!--<li><a href="{{pathFor 'people'}}">PERSONAS</a></li>
           <li><a href="{{pathFor 'companies'}}">ORGANIZACIONES</a></li>
-          <li><a href="{{pathFor 'impulses'}}">QUIERO APARECER</a></li>
+          <li><a href="/blog">BLOG</a></li>-->
+           {{#if currentUser}}
+           {{#if openAdmin}}
+           <li> <input type="text" class="form-control " id="Company" placeholder="Nombre de compañía"><a style="color:white" class="btn btn-danger cancelAdd col-xs-6" href="#">Cancelar</a><a style="color:white" class="btn btn-default addNewCompany col-xs-6" href="#">Añadir</a></li>
+           {{/if}}
+          <li><a href="{{pathFor 'newCompany'}}" class="#">AÑADIR COMPAÑIA</a></li>
+          {{/if}}
           <!--<li>{{>loginButtons}}</li>-->
           {{#each thisUser currentUser.person_id}}
           <li class="dropdown">
@@ -33,12 +51,14 @@
                     {{/each}}
               {{/each}}
               {{/if}}
+
               <li class="divider"></li>
               <li><a href="#" class="tryLogout">SALIR</a></li>
             </ul>
           </li>
           {{else}}
-          <li><a href="{{pathFor 'loginForm'}}">INGRESAR</a></li>
+          <!--<li><a href="{{pathFor 'newUserForm'}}">COLABORAR</a></li>-->
+          <li><a href="{{pathFor 'loginForm'}}">AÑADIR COMPAÑIA</a></li>
           {{/each}}
         </ul>
         </div><!--/.nav-collapse -->
@@ -47,7 +67,7 @@
     <div id="explanation" class="row news">
       {{#if openNew}}
       {{#each unpublicCompany currentUser.person_id}}
-      <h4>El perfil de <a href="{{pathFor 'profile'}}"> {{name}} </a> todavía no es público, complétalo y espera a que lo revisemos para que aparezca a los demás usuarios
+      <h4>El perfil de <a href="{{pathFor 'profile'}}"> {{name}} </a> todavía no es público, asegúrate de que tenga perfil de startup
       <span class="btn badge closeNew">x</span>
       </h4>
       {{/each}}

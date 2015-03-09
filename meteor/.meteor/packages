@@ -20,7 +20,8 @@ mrt:font-awesome-4-less
 rajit:bootstrap3-datepicker
 accounts-facebook
 http
-manuelschoebel:ms-seo
 spiderable
 dfischer:phantomjs
-
+konecty:meteor-seo
+ryw:blog
+reywood:iron-router-ga

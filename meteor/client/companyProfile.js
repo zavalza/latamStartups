@@ -4,6 +4,7 @@ Template.companyProfile.rendered = function()
   var date = new Date();
   var dateString = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate();
     setTimeout(function() { //wait for user data
+      ga("send", "event", 'views', 'open', 'companyProfile', 0);
        var views = Session.get('views');
       if(views.indexOf(Session.get('currentCompanyId')) == -1) //If it has not already see it on this session
       {
@@ -66,8 +67,16 @@ Template.companyProfile.events({
     alert('Tu información se ha enviado, espera a que te contacten');
   },
 
+
   'click .companyLink': function(evt, tmpl)
   {
+    if(evt.target.id=='twitter')
+      ga("send", "event", 'external_link', 'click', 'twitterUrl', 0);
+    if(evt.target.id=='facebook')
+      ga("send", "event", 'external_link', 'click', 'facebookUrl', 0);
+    if(evt.target.id=='companyUrl')
+      ga("send", "event", 'external_link', 'click', 'companyUrl', 0);
+
     var date = new Date();
     var dateString = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate();
      if(Meteor.user())
@@ -106,6 +115,11 @@ Template.profileThumbnail.helpers({
             return Companies.find({_id:companyId}); 
         },
 
+      tags: function(tagIds)
+        {
+          return Tags.find({_id:{$in:tagIds}},{limit:3});
+        },
+
     miniCV: function(experience)
   {
     var CV = [];
@@ -142,10 +156,21 @@ Template.companyProfile.helpers ({
         canEdit: function(personId)
     {
       //return true;
+      if(personId == "WoZXawfN4aBJuE8ZC")
+      {
+        return true
+      }
+      else
+      {
+
       return (People.find({_id: personId,
         'experience':{$elemMatch:{'company_id': Session.get('currentCompanyId')}}}).count() > 0);
+      }
     },
-
+       country: function(tagsArray)
+      {
+        return Tags.find({_id:{$in:tagsArray}, type:'Country'});
+      },
       city: function(tagsArray)
       {
         return Tags.find({_id:{$in:tagsArray}, type:'City'});

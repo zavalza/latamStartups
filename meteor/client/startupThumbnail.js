@@ -11,9 +11,31 @@ Template.startupThumbnail.rendered = function()
         }
     });
   $('.thumbText').each(function(){
-        $(this).css('height',maxHeight+2);
+        $(this).css('height',maxHeight);
     });
 }
+
+Template.startupThumbnail.events({
+
+  'click .companyLink': function(evt, tmpl)
+  {
+    ga("send", "event", 'external_link', 'click', 'companyUrl', 0);
+    var date = new Date();
+    var dateString = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate();
+     if(Meteor.user())
+        person_id = Meteor.user().person_id;
+      else
+        person_id = null;
+
+      var recordDoc = {
+                  profile_id: this._id,
+                  date:dateString,
+                  clicks:[person_id],
+                  timestamp: new Date(),
+         }  
+     Meteor.call('addClick', recordDoc);
+  }
+})
 
 Template.startupThumbnail.helpers({
 
@@ -48,10 +70,25 @@ Template.startupThumbnail.helpers({
     {
          return Tags.find({_id:{$in:tagsArray}, type:'City'});
     },
+  countries:function(tagsArray)
+    {
+         return Tags.find({_id:{$in:tagsArray}, type:'Country'});
+    },
   markets: function(tagsArray)
     {
-         return Tags.find({_id:{$in:tagsArray}, type:'Market'});
+         return Tags.find({_id:{$in:tagsArray}, type:'Market'},{limit:4});
     },
+      externalLink: function(url)
+        {
+          if(url.search('http') != -1)
+            {
+              return url;
+            }
+          else
+          {
+            return "http://"+url ;
+          }
+        },
 
 })
 

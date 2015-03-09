@@ -25,7 +25,8 @@ Template.headerwrap.pathValue = function()
 
   Template.trendingStartups.trendingStartup = function()
   {    //Use views for sorting just today, then change to score
-      return Companies.find({types:'Startup',isPublic:true},{sort:{views: -1},limit:3})
+      //bebe2go, playbusiness, tarefa
+      return Companies.find({_id:{$in:["tRKAKMjxcYvn9KyeE","CtFW3XrbC5qxjBk6E","Sb6SDe8MXNNsYXhcM"]},types:'Startup',isPublic:true},{sort:{clicks: -1},limit:3})
     }
 
   Template.peopleInCommunity.newUser = function()
@@ -38,3 +39,10 @@ Template.headerwrap.pathValue = function()
   {
     return People.find({_id:personId});
   }
+
+  Template.newsletter.events({
+
+    'mousedown .subscribe': function(evt, tmp){
+      ga("send", "event", 'retention', 'click', 'mailChimp', 0);
+    }
+  })
