@@ -5,8 +5,10 @@
 {{>peopleInCommunity}}
 {{>newsletter}}
 {{else}}
+{{>headerwrap}}
+{{>trendingStartups}}
+{{>moreStartups}}
 {{>newsletter}}
-{{>startups}}
 {{>footer}}
 {{/if}}
 </template>
@@ -39,7 +41,7 @@
 				<h4>Redes Sociales</h4>
 				<div class="hline-w"></div>
 				<p>
-				<a target="_newtab" href="https://www.facebook.com/latamStartupsWeb"><img class="img-responsive icon" width="30" src="fb.png"></a>
+				<a target="_newtab" href="https://www.facebook.com/latamStartupsWeb"><img class="img-responsive icon" width="30" src="fbIcon.png"></a>
 				</p>
 			</div>
 			<div class="col-md-3 col-md-offset-1">
@@ -71,7 +73,7 @@
 			</template>
 
 <template name="newsletter">
-<div id="definition" class="row wrap">
+<div id="definition" class="row">
 	<br/>
 	<div class="col-md-5 col-md-offset-2">
 		<h2 style="color:white;">Recibe las startups más destacadas de tu ciudad y de Latinoamérica en nuestro boletín</h2>
