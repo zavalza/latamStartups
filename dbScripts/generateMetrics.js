@@ -11,7 +11,7 @@ var db = connection.getDB( "latstartups" );
  
 // Authorize this connection.
 //db.auth("user", "password");
-db.auth( "paul", "Rojinegro51");
+db.auth( "xxxx", "xxxx");
 
 //roles, city, skill, college
 var date = null;
